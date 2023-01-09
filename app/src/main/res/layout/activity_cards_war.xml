@@ -5,180 +5,178 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_vertical|center_horizontal"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical"
-        android:orientation="vertical" >
-    
-                <TableLayout
-android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-        tools:ignore="UselessParent" >
-    
-    <TableRow>
-                   <Button
-            android:id="@+id/btCwBet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/views_paddings_in_table"
-            android:onClick="changeBet"
-            android:text="@string/cw_bet"
-            android:textSize="@dimen/buttons_size"
-            android:textStyle="bold"
-            tools:ignore="ButtonStyle" />
-        
-        <TextView
-            android:id="@+id/tvMyBet"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/views_paddings_in_table"
-                        android:gravity="center_vertical|left"
-            android:text="@string/my_bet"
-            android:textColor="#000000"
-            android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />
-        
-        <TextView
-            android:id="@+id/tvMyMoney"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/views_paddings_in_table"
-                        android:gravity="center_vertical|left"
-            android:text="@string/my_money"
-            android:textColor="#000000"
-            android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />
-            </TableRow>
-    
-    <TableRow>
-                    <Button
-            android:id="@+id/btCwNew"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="@dimen/views_paddings_in_table"
-            android:onClick="startNewWar"
-            android:text="@string/cw_new"
-            android:textSize="@dimen/buttons_size"
-            android:textStyle="bold"
-            tools:ignore="ButtonStyle" />
-            
-<TextView
-android:id="@+id/tvMyCwTotal"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:padding="@dimen/views_paddings_in_table"
-            android:gravity="center_vertical|left"
-android:text="@string/my_cw_total"
-android:textColor="#000000"
-android:textSize="@dimen/text_views_size"
-android:textStyle="bold" />
+        android:orientation="vertical">
 
-<TextView
-android:id="@+id/tvDealersCwTotal"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:padding="@dimen/views_paddings_in_table"
-            android:gravity="center_vertical|left"
-android:text="@string/dealers_cw_total"
-android:textColor="#000000"
-android:textSize="@dimen/text_views_size"
-android:textStyle="bold" />
-</TableRow>
-                            
-    </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:ignore="UselessParent">
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btCwBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="changeBet"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/cw_bet"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_bet"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMyMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_money"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btCwNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="startNewWar"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/cw_new"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyCwTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_cw_total"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDealersCwTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|start"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/dealers_cw_total"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
     </LinearLayout>
-        
+
     <LinearLayout
         android:id="@+id/llDealerCards"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical|center_horizontal"
-        android:orientation="horizontal" >
-    </LinearLayout>
-    
+        android:orientation="horizontal" />
+
     <LinearLayout
         android:id="@+id/llPlayerCards"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical|center_horizontal"
-        android:orientation="horizontal" >
-    </LinearLayout>
-    
+        android:orientation="horizontal" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_vertical|center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
-    
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|center_horizontal"
-                android:gravity="center_horizontal"
-        android:orientation="horizontal" >
 
-<TextView
-            android:id="@+id/tvCwStatus"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:gravity="center_vertical|center_horizontal"
-            android:text="@string/cw_status"
-            android:textColor="#000000"
-            android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />
- 
-    </LinearLayout>
-    
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|center_horizontal"
-                android:gravity="center_horizontal"
-        android:orientation="horizontal" >
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
 
-        <Button
-            android:id="@+id/btCwFire"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="startBattle"
-            android:text="@string/cw_fire"
-            android:textSize="@dimen/buttons_size"
-            android:textStyle="bold"
-            tools:ignore="ButtonStyle" />
+            <TextView
+                android:id="@+id/tvCwStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/cw_status"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btCwWithdraw"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="withdraw"
-            android:text="@string/cw_withdraw"
-            android:textSize="@dimen/buttons_size"
-            android:textStyle="bold"
-            tools:ignore="ButtonStyle" />
-        
-        <CheckBox android:id="@+id/cbtWarSounds"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-              android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-          android:text="@string/cbt_war_sounds"
-        android:onClick="onCheckboxClicked"/>
-    
-
-        
-
-       
         </LinearLayout>
-        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btCwFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startBattle"
+                android:text="@string/cw_fire"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btCwWithdraw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="withdraw"
+                android:text="@string/cw_withdraw"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <CheckBox
+                android:id="@+id/cbtWarSounds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked"
+                android:text="@string/cbt_war_sounds"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>

@@ -276,9 +276,9 @@
 
     <!-- About dialog: -->
     <string name="about">Informazioni</string>
-    <string name="app_version">Pontes GameZone, versione 1.5.1</string>
+    <string name="app_version">Pontes GameZone, versione 2.1</string>
     <string name="app_release_date">Rilasciato Lunedì 16 febbraio 2015</string>
-    <string name="app_last_update">Ultimo aggiornamento: Domenica 12 agosto 2018</string>
+    <string name="app_last_update">Ultimo aggiornamento: Martedì 10 Gennaio 2023</string>
     <string name="app_creator">Programmato da Emanuel Boboiu (Manu)</string>
     <string name="phone_number">Telefono: +40740203043</string>
     <string name="email_address">E-mail: android@pontes.ro</string>

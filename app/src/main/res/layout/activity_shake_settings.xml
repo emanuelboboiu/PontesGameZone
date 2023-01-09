@@ -3,74 +3,79 @@
     android:id="@+id/llShakeSettings"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     android:padding="@dimen/settings_paddings_layout">
-           
-            <CheckBox android:id="@+id/cbtOnshakeToggle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-              android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-          android:text="@string/cbt_onshake_toggle"
-        android:onClick="onCheckboxClicked"/>
-   
 
-      
-<TextView
-  android:id="@+id/tvOnshakeMagnitude"
-      android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:textStyle="bold"
-  android:textSize="@dimen/text_views_size"
-  android:text="@string/onshake_magnitude"
-  android:gravity="center_vertical|center_horizontal"
-  android:textColor="#000000" />
+    <CheckBox
+        android:id="@+id/cbtOnshakeToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/cbt_onshake_toggle"
+        android:textSize="@dimen/buttons_size"
+        android:textStyle="bold" />
 
-<RadioGroup 
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    
-    <RadioButton android:id="@+id/rbRadio1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/magnitude_very_easy"
-        android:onClick="onRadioButtonClicked"/>
 
-    <RadioButton android:id="@+id/rbRadio2"
+    <TextView
+        android:id="@+id/tvOnshakeMagnitude"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/magnitude_easy"
-        android:onClick="onRadioButtonClicked"/>
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/onshake_magnitude"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_views_size"
+        android:textStyle="bold" />
 
-    <RadioButton android:id="@+id/rbRadio3"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/magnitude_moderate"
-        android:onClick="onRadioButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadio4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/magnitude_hard"
-        android:onClick="onRadioButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadio5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/magnitude_very_hard"
-        android:onClick="onRadioButtonClicked"/>
-        
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbRadio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/magnitude_very_easy"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/magnitude_easy"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/magnitude_moderate"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/magnitude_hard"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/magnitude_very_hard"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
     </RadioGroup>
 
 

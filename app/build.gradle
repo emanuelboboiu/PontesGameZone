@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "ro.pontes.pontesgamezone"
-        minSdkVersion 16
-        targetSdkVersion 28
+        minSdkVersion 23
+        targetSdkVersion 33
     }
 
     buildTypes {

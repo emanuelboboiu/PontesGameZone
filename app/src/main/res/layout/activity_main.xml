@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/llMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvWelcomeMessage"
@@ -31,6 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true"
+            android:focusable="true"
             android:onClick="changeNickname"
             android:text="@string/nickname"
             android:textColor="#000000"
@@ -54,7 +54,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvChooseAGame"
@@ -75,18 +75,17 @@
             android:background="@android:drawable/btn_dropdown"
             android:gravity="center_horizontal"
             android:spinnerMode="dropdown"
-            android:textSize="@dimen/text_views_size" >
-        </Spinner>
-        
-                <TextView
+            android:textSize="@dimen/text_views_size"></Spinner>
+
+        <TextView
             android:id="@+id/tvLastVisit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-                                    android:text="@string/tv_last_visit"
+            android:text="@string/tv_last_visit"
             android:textColor="#000000"
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
-        
+
     </LinearLayout>
 
     <LinearLayout
@@ -94,7 +93,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="bottom|center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvCompanyName"

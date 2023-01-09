@@ -3,49 +3,52 @@
     android:id="@+id/llLanguageSettings"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" 
+    android:orientation="vertical"
     android:padding="@dimen/settings_paddings_layout">
 
-      
-<TextView
-  android:id="@+id/tvDiceLanguage"
-      android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:textStyle="bold"
-  android:textSize="@dimen/text_views_size"
-  android:text="@string/tv_choose_dice_language_settings"
-  android:gravity="center_vertical|center_horizontal"
-  android:textColor="#000000" />
 
-<RadioGroup 
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-    
-    <RadioButton android:id="@+id/rbRadio_en"
+    <TextView
+        android:id="@+id/tvDiceLanguage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/language_english"
-        android:onClick="onRadioButtonClicked"/>
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/tv_choose_dice_language_settings"
+        android:textColor="#000000"
+        android:textSize="@dimen/text_views_size"
+        android:textStyle="bold" />
 
-    <RadioButton android:id="@+id/rbRadio_it"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/language_italian"
-        android:onClick="onRadioButtonClicked"/>
+        android:orientation="vertical">
 
-    <RadioButton android:id="@+id/rbRadio_ro"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="@string/language_romanian"
-        android:onClick="onRadioButtonClicked"/>
-    
+        <RadioButton
+            android:id="@+id/rbRadio_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/language_english"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio_it"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/language_italian"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbRadio_ro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/language_romanian"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
     </RadioGroup>
 
 

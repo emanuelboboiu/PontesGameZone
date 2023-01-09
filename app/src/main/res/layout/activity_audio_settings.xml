@@ -1,188 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/llAudioSettings"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:orientation="vertical"
     android:padding="@dimen/settings_paddings_layout">
 
     <LinearLayout
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="2"
-android:gravity="left"
-android:orientation="vertical" >
-    
-        
-    <CheckBox android:id="@+id/cbtSoundsSetting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-              android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-          android:text="@string/cbt_sounds_setting"
-        android:onClick="onCheckboxClicked"/>
-    
-    <CheckBox android:id="@+id/cbtDiceSoundSetting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-              android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-          android:text="@string/cbt_dice_sound_setting"
-        android:onClick="onCheckboxClicked"/>
-    
-        <CheckBox android:id="@+id/cbtSpeechSetting"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-              android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-          android:text="@string/cbt_speech_setting"
-        android:onClick="onCheckboxClicked"/>
-    
-        
-        </LinearLayout>
-        
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="start"
+        android:orientation="vertical">
+
+
+        <CheckBox
+            android:id="@+id/cbtSoundsSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/cbt_sounds_setting"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbtDiceSoundSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/cbt_dice_sound_setting"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbtSpeechSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/cbt_speech_setting"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
     <LinearLayout
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:layout_weight="1"
-android:gravity="left"
-android:orientation="vertical" >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="start"
+        android:orientation="vertical">
 
-        <CheckBox android:id="@+id/cbtSoundsLoopedSetting"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:textStyle="bold"
-android:textSize="@dimen/buttons_size"
-android:text="@string/cbt_sounds_looped_setting"
-android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/cbtSoundsLoopedSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/cbt_sounds_looped_setting"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
 
-              
-<TextView
-  android:id="@+id/tvBackgroundPercentage"
-      android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:textStyle="bold"
-  android:textSize="@dimen/text_views_size"
-  android:text="@string/tv_background_volume_percentage"
-  android:gravity="center_horizontal"
-  android:textColor="#000000" />
-
-<RadioGroup 
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    
-    <RadioButton android:id="@+id/rbRadioB1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="15%"
-        android:onClick="onRadioBButtonClicked"/>
-
-    <RadioButton android:id="@+id/rbRadioB2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="30%"
-        android:onClick="onRadioBButtonClicked"/>
-
-    <RadioButton android:id="@+id/rbRadioB3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="50%"
-        android:onClick="onRadioBButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadioB4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="75%"
-        android:onClick="onRadioBButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadioB5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="100%"
-        android:onClick="onRadioBButtonClicked"/>
-        
-    </RadioGroup>
-        
-
-        
-        <CheckBox android:id="@+id/cbtSoundsMusicSetting"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:textStyle="bold"
-android:textSize="@dimen/buttons_size"
-android:text="@string/cbt_sounds_music_setting"
-android:onClick="onCheckboxClicked"/>
 
         <TextView
-  android:id="@+id/tvMusicPercentage"
-      android:layout_width="wrap_content"
-  android:layout_height="wrap_content"
-  android:textStyle="bold"
-  android:textSize="@dimen/text_views_size"
-  android:text="@string/tv_music_volume_percentage"
-  android:gravity="center_horizontal"
-  android:textColor="#000000" />
+            android:id="@+id/tvBackgroundPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/tv_background_volume_percentage"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
 
-<RadioGroup 
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal">
-    
-    <RadioButton android:id="@+id/rbRadioM1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="10%"
-        android:onClick="onRadioMButtonClicked"/>
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-    <RadioButton android:id="@+id/rbRadioM2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="20%"
-        android:onClick="onRadioMButtonClicked"/>
+            <RadioButton
+                android:id="@+id/rbRadioB1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioBButtonClicked"
+                android:text="15%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
 
-    <RadioButton android:id="@+id/rbRadioM3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="40%"
-        android:onClick="onRadioMButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadioM4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
-                android:text="70%"
-        android:onClick="onRadioMButtonClicked"/>
-    
-    <RadioButton android:id="@+id/rbRadioM5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"
-  android:textSize="@dimen/buttons_size"
+            <RadioButton
+                android:id="@+id/rbRadioB2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioBButtonClicked"
+                android:text="30%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioB3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioBButtonClicked"
+                android:text="50%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioB4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioBButtonClicked"
+                android:text="75%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioB5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioBButtonClicked"
                 android:text="100%"
-        android:onClick="onRadioMButtonClicked"/>
-        
-    </RadioGroup>
-        
-        
-        </LinearLayout>
-    
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+
+        <CheckBox
+            android:id="@+id/cbtSoundsMusicSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:text="@string/cbt_sounds_music_setting"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMusicPercentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/tv_music_volume_percentage"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbRadioM1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioMButtonClicked"
+                android:text="10%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioM2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioMButtonClicked"
+                android:text="20%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioM3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioMButtonClicked"
+                android:text="40%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioM4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioMButtonClicked"
+                android:text="70%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbRadioM5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onRadioMButtonClicked"
+                android:text="100%"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+
+    </LinearLayout>
+
 </LinearLayout>
 

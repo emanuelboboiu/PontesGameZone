@@ -4,17 +4,17 @@
     android:id="@+id/llBathroom"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-            
-        <LinearLayout
-            android:id="@+id/llBathroom1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llBathroom1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-                android:orientation="vertical" >
-            
-            <TextView
+        android:orientation="vertical">
+
+        <TextView
             android:id="@+id/tvWelcomeToBathroom"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +23,7 @@
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
 
-            <TextView
+        <TextView
             android:id="@+id/tvPassedDay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             android:textColor="#000000"
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
-                               
+
     </LinearLayout>
 
     <LinearLayout
@@ -40,7 +40,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvBathroomAction"
@@ -54,64 +54,64 @@
 
         <TableLayout
             android:id="@+id/tlBathActions"
-android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal" >
-    
-    <TableRow tools:ignore="UselessParent" >
-        
-            <ImageButton
-android:id="@+id/ibtBathroom1"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/bathroom1"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="bathAction1" />
-            
-            <ImageButton
-android:id="@+id/ibtBathroom2"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/bathroom2"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="bathAction2" />
-            
-            <ImageButton
-android:id="@+id/ibtBathroom3"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/bathroom3"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="bathAction3" />
-            
-            </TableRow>
-            </TableLayout>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
 
-        </LinearLayout>
-        
-        <LinearLayout
-            android:id="@+id/llBathroom3"
+            <TableRow tools:ignore="UselessParent">
+
+                <ImageButton
+                    android:id="@+id/ibtBathroom1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="bathAction1"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/bathroom1" />
+
+                <ImageButton
+                    android:id="@+id/ibtBathroom2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="bathAction2"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/bathroom2" />
+
+                <ImageButton
+                    android:id="@+id/ibtBathroom3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="bathAction3"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/bathroom3" />
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBathroom3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-android:layout_weight="1"
-android:gravity="center_vertical|center_horizontal"
-                        android:orientation="vertical" >
-            
-<TextView
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
             android:id="@+id/tvBathroomStatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
             android:padding="@dimen/views_paddings_in_table"
-                        android:gravity="center_vertical|center_horizontal"
             android:text="@string/bath_status"
             android:textColor="#000000"
             android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />            
-            
-        </LinearLayout>
-        
+            android:textStyle="bold" />
+
     </LinearLayout>
+
+</LinearLayout>
                         

@@ -1,36 +1,36 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ro.pontes.pontesgamezone.PokerActivity" >
+    tools:context="ro.pontes.pontesgamezone.PokerActivity">
 
-     
-<item
-android:id="@+id/mnuSaloon"
-android:orderInCategory="100"
-android:showAsAction="never"
-android:title="@string/mnu_saloon"/>
 
-<item
-android:id="@+id/mnuBathroom"
-android:orderInCategory="200"
-android:showAsAction="never"
-android:title="@string/mnu_bathroom"/>
-    
-<item
-android:id="@+id/mnuPawnshop"
-android:orderInCategory="300"
-android:showAsAction="never"
-android:title="@string/mnu_pawnshop"/>
+    <item
+        android:id="@+id/mnuSaloon"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/mnu_saloon" />
 
-<item
-android:id="@+id/mnuCasinoEntrance"
-android:orderInCategory="400"
-android:showAsAction="never"
-android:title="@string/mnu_casino_entrance"/>
+    <item
+        android:id="@+id/mnuBathroom"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/mnu_bathroom" />
 
-<item
-android:id="@+id/mnuGoBack"
-android:orderInCategory="500"
-android:showAsAction="never"
-android:title="@string/mnu_go_back"/>
+    <item
+        android:id="@+id/mnuPawnshop"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/mnu_pawnshop" />
+
+    <item
+        android:id="@+id/mnuCasinoEntrance"
+        android:orderInCategory="400"
+        android:showAsAction="never"
+        android:title="@string/mnu_casino_entrance" />
+
+    <item
+        android:id="@+id/mnuGoBack"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/mnu_go_back" />
 
 </menu>

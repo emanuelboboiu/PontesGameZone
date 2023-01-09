@@ -1,75 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="wrap_content"
-        android:orientation="vertical"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
     android:padding="@dimen/settings_paddings_layout">
- 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_version" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_release_date" />
- 
+        android:text="@string/app_version"
+        android:textSize="@dimen/text_views_size" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_last_update" />
- 
-       <TextView
+        android:text="@string/app_release_date"
+        android:textSize="@dimen/text_views_size" />
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_creator" />
- 
-     <TextView
+        android:text="@string/app_last_update"
+        android:textSize="@dimen/text_views_size" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_creator"
+        android:textSize="@dimen/text_views_size" />
+
+    <TextView
         android:id="@+id/tvPhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoLink="phone"
         android:paddingTop="20dp"
-        android:textSize="@dimen/text_views_size"
         android:text="@string/phone_number"
-        android:autoLink="phone" />
- 
+        android:textSize="@dimen/text_views_size" />
+
     <TextView
         android:id="@+id/tvEmailAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-                android:textSize="@dimen/text_views_size"
+        android:autoLink="email"
         android:text="@string/email_address"
-        android:autoLink="email" />
- 
+        android:textSize="@dimen/text_views_size" />
+
     <TextView
         android:id="@+id/tvWebAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:autoLink="web"
         android:paddingTop="20dp"
-        android:textSize="@dimen/text_views_size"
         android:text="@string/web_address"
-        android:autoLink="web" />
+        android:textSize="@dimen/text_views_size" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_credits2" />
-    
+        android:text="@string/app_credits2"
+        android:textSize="@dimen/text_views_size" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_credits_translation" />
-    
+        android:text="@string/app_credits_translation"
+        android:textSize="@dimen/text_views_size" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="@dimen/text_views_size"
-        android:text="@string/app_credits3" />
-    
+        android:text="@string/app_credits3"
+        android:textSize="@dimen/text_views_size" />
+
 </LinearLayout>
  

@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/llSaloon"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
-            
-        <LinearLayout
-            android:id="@+id/llPawnshop1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/llPawnshop1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-                android:orientation="vertical" >
-            
-            <TextView
+        android:orientation="vertical">
+
+        <TextView
             android:id="@+id/tvWelcomeToPawnshop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -23,7 +22,7 @@
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
 
-            <TextView
+        <TextView
             android:id="@+id/tvPassedDay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +30,7 @@
             android:textColor="#000000"
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
-                               
+
     </LinearLayout>
 
     <LinearLayout
@@ -40,7 +39,7 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:gravity="center_horizontal"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvPawnshopSell"
@@ -54,95 +53,95 @@
 
         <TableLayout
             android:id="@+id/tlProducts"
-android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center_horizontal" >
-    
-    <TableRow>
-        
-            <ImageButton
-android:id="@+id/ibtPawnshop1"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop1"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct1" />
-            
-            <ImageButton
-android:id="@+id/ibtPawnshop2"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop2"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct2" />
-            
-            <ImageButton
-android:id="@+id/ibtPawnshop3"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop3"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct3" />
-            
-            </TableRow>
-            
-    <TableRow>
-    
-        <ImageButton
-android:id="@+id/ibtPawnshop4"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop4"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct4" />
-        
-        <ImageButton
-android:id="@+id/ibtPawnshop5"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop5"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct5" />
-        
-        <ImageButton
-android:id="@+id/ibtPawnshop6"
-android:layout_width="wrap_content"
-android:layout_height="wrap_content"
-android:src="@drawable/pawnshop6"
-            android:contentDescription="@string/ellypsis"
-                        android:padding="@dimen/views_paddings_in_table"
-                                android:onClick="sellOrBuyProduct6" />
-        
-                        </TableRow>
-            </TableLayout>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
 
-        </LinearLayout>
-        
-        <LinearLayout
-            android:id="@+id/llPawnshop3"
+            <TableRow>
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct1"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop1" />
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct2"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop2" />
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct3"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop3" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct4"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop4" />
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct5"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop5" />
+
+                <ImageButton
+                    android:id="@+id/ibtPawnshop6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/ellypsis"
+                    android:onClick="sellOrBuyProduct6"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:src="@drawable/pawnshop6" />
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPawnshop3"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-android:layout_weight="1"
-android:gravity="center_vertical|center_horizontal"
-                        android:orientation="vertical" >
-            
-<TextView
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
             android:id="@+id/tvMyMoney"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
             android:padding="@dimen/views_paddings_in_table"
-                        android:gravity="center_vertical|center_horizontal"
             android:text="@string/my_money"
             android:textColor="#000000"
             android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />            
-            
-        </LinearLayout>
-        
+            android:textStyle="bold" />
+
     </LinearLayout>
+
+</LinearLayout>
                         
