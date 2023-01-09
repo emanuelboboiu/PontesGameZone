@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMiscellaneousSettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/settings_paddings_layout" >
+
+    <CheckBox
+        android:id="@+id/cbtKeepScreenAwake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/cbt_keep_screen_awake"
+        android:textSize="@dimen/buttons_size"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cbtIsVibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="@string/cbt_allow_vibration"
+        android:textSize="@dimen/buttons_size"
+        android:textStyle="bold" />
+
+</LinearLayout>

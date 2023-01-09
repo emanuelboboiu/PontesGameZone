@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+    <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Bine ai venit în GameZone!</string>
+    <string name="registered_message">Înregistrat pentru %1$s</string>
+    <string name="nickname">Numele tău este %1$s</string>
+    <string name="nickname_visitor">Vizitator</string>
+    <string name="no_nickname">Atinge pentru a-ți adăuga numele…</string>
+    <string name="visitor">Vizitator</string>
+    <string name="company_name">Pontes Apps by Manu</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Alege un joc:</string>
+    <string name="black_jack_game">Black Jack</string>
+    <string name="poker_game">Poker</string>
+    <string name="cards_war_game">Război</string>
+    <string name="who_is_greater_game">Marele și dubla</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Schimbare nume</string>
+    <string name="change_nickname_title">Nume</string>
+    <string name="change_nickname_message">Setează noul tău nume: </string>
+    <string name="change_nickname_hint">Scrie aici numele sau porecla…</string>
+    <string name="change_nickname_success">Salut %1$s!\nNumele tău a fost schimbat cu succes.</string>
+    <string name="change_nickname_error_short">Numele trebuie să conțină minim două litere.\nÎncearcă din nou!</string>
+    <string name="change_nickname_error_non_alphanumeric">Numele trebuie să conțină doar litere și cifre.\nTrebuie să fie scris într-un singur cuvânt.\nÎncearcă din nou!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">Pontes Black Jack</string>
+    <string name="bj_new">Mână nouă</string>
+    <string name="bj_bet">Miză</string>
+    <string name="bj_hit">Ia</string>
+    <string name="bj_stand">Stai</string>
+    <string name="bj_double">Dublare</string>
+    <string name="bj_surrender">Asigurare</string>
+    <string name="my_money">Portofel: $%1$s</string>
+    <string name="my_bet">Miză: $%1$s</string>
+    <string name="my_bj_total">Tu: %1$s</string>
+    <string name="dealers_bj_total">Dealer: %1$s</string>
+    <string name="bj_status">Status Blackjack</string>
+    <string name="not_enough_money_to_double">Nu ai suficienți bani pentru a dubla miza.\nAcum ai $%1$s în portofel.</string>
+    <string name="statistics_for_blackjack">Ai jucat %1$s mâini de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este $%4$s.\nMedia câștigurilor per mână este $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Pontes Five Card Draw Poker</string>
+    <string name="pk_new">Mână nouă</string>
+    <string name="pk_bet">Miză</string>
+    <string name="pk_discard">Trage</string>
+    <string name="pk_discard_x">Trage %1$s</string>
+    <string name="pk_stand">Arată</string>
+    <string name="pk_fold">Renunţă</string>
+    <string name="pk_raise">Plusează</string>
+    <string name="pk_sort_title">Sortare cărți</string>
+    <string name="pk_sort_by_value">După valoare</string>
+    <string name="pk_sort_by_color">După culoare</string>
+    <string name="pk_sort_by_nothing">Amestecate</string>
+    <string name="my_pk_hand">Tu: %1$s</string>
+    <string name="dealers_pk_hand">Dealer: %1$s</string>
+    <string name="pk_nothing">nimic</string>
+    <string name="pk_status">Status Poker</string>
+    <string name="pk_sort_not_allowed">Nu poți sorta cărțile când trebuie să decartezi.</string>
+    <string name="statistics_for_poker">Ai jucat %1$s mâini de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este $%4$s.\nMedia câștigurilor per mână este $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Kintă roială</item>
+        <item>Careu</item>
+        <item>Full</item>
+        <item>Culoare</item>
+        <item>Kintă</item>
+        <item>Trei</item>
+        <item>Perechi</item>
+        <item>Pereche</item>
+        <item>Nepereche</item>
+        <item>Nimic</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Pontes Război</string>
+    <string name="cw_new">Start</string>
+    <string name="cw_bet">Miză</string>
+    <string name="cw_fire">Trage!</string>
+    <string name="cw_withdraw">Retragere</string>
+    <string name="my_cw_total">Tu: %1$s</string>
+    <string name="dealers_cw_total">Dealer: %1$s</string>
+    <string name="cbt_war_sounds">Sunete război</string>
+    <string name="cw_status">Status Război</string>
+    <string name="statistics_for_cards_war">Ai luptat în %1$s războaie de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este $%4$s.\nMedia câștigurilor per război este $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Pontes Marele și Dubla</string>
+    <string name="gw_new">Set nou</string>
+    <string name="gw_bet">Miză</string>
+    <string name="gw_throw">Aruncă!</string>
+    <string name="gw_abandon">Abandon</string>
+    <string name="my_gw_total">Tu: %1$s</string>
+    <string name="dealers_gw_total">Dealer: %1$s</string>
+    <string name="gw_status">Status Marele și Dubla</string>
+    <string name="statistics_for_who_is_greater">Ai jucat %1$s seturi de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este $%4$s.\nMedia câștigurilor per set este $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>carte</item>
+        <item>Treflă</item>
+        <item>Romb</item>
+        <item>Inimă</item>
+        <item>Pică</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>Spate</item>
+        <item>As</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Valet</item>
+        <item>Damă</item>
+        <item>Popă</item>
+    </string-array>
+
+    <string name="card_name">%1$s de %2$s</string>
+    <string name="card_name_extended">%1$s %2$s</string>
+    <!-- Content description for a card image: Dealer's Ace of Diamonds or Your King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Dealer</item>
+        <item>Tu</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">Miză nouă!</string>
+    <string name="bet_dialog_body">Hei %1$s,\nscrie miza în dolari: </string>
+    <string name="not_enough_money_to_bet">Ne pare rău, %1$s!\nNu ai suficienți bani să mizezi $%2$s.\nTrebuie să schimbi miza!\nAi $%3$s în portofel.</string>
+    <string name="play_just_for_fun">Of %1$s, este o situație neplăcută!\nNu mai ai bani în portofel.\nPoți schimba miza la $0 pentru a juca doar pentru distracție.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Câștiguri bonus</string>
+    <string name="money_won_as_bonus_message">Hei %1$s,\nAi câștigat $%2$s ca bonus de la ultima intrare în casino.\nAi câștigat $%3$s ca bonus azi.\nAi câștigat $%4$s ca bonus de când ești clientul nostru.</string>
+    <string name="mnu_money_won_as_bonus">Statistici câștig din bonus</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Acțiune indisponibilă</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Audio</string>
+    <string name="cbt_sounds_setting">Redare sunete</string>
+    <string name="cbt_dice_sound_setting">Anunțare vocală a zarurilor</string>
+    <string name="cbt_speech_setting">Utilizare voce (TTS) pentru îmbunătățirea accesibilității</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Limbă</string>
+    <string name="tv_choose_dice_language_settings">Alege limba de anunțare vocală a zarurilor:</string>
+    <string name="language_english">Engleză (Giulia Guerra)</string>
+    <string name="language_italian">Italiană (Giulia Guerra)</string>
+    <string name="language_romanian">Română (Cristian Csetnek)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Scuturare</string>
+    <string name="cbt_onshake_toggle">Utilizare prin scuturare</string>
+    <string name="onshake_magnitude">Setare intensitate scuturare</string>
+    <string name="magnitude_very_easy">foarte ușoară</string>
+    <string name="magnitude_easy">ușoară</string>
+    <string name="magnitude_moderate">medie</string>
+    <string name="magnitude_hard">puternică</string>
+    <string name="magnitude_very_hard">foarte puternică</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Diverse</string>
+    <string name="cbt_keep_screen_awake">Menținere ecran activ</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Resetare Pontes GameZone</string>
+    <string name="body_default_settings">Salut %1$s!\nEști sigur că vrei să resetezi toate valorile?\nPontes GameZone va fi in starea lui inițială.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Zona de bar</string>
+    <string name="saloon_title">Bine ai venit, %1$s!\nEști acum în barul nostru!</string>
+    <string name="mnu_saloon">Mergi la bar</string>
+    <string name="saloon_spent_money">Ai cheltuit $%1$s azi.</string>
+    <string name="mnu_saloon_virtual_time">Arată ora virtuală</string>
+    <string name="saloon_virtual_time_title">Ceas</string>
+    <string name="saloon_passed_day">Ora virtuală este %1$s:%2$s</string>
+    <string name="saloon_order">Comandă ceva la bar</string>
+    <string name="saloon_not_enough_money">Ne pare rău %1$s,\nnu ai destui bani pentru a-ți achita nota!</string>
+    <string name="saloon_number_of_games_for_order">Ai jucat %1$s jocuri de la ultima comandă.</string>
+    <string name="saloon_you_must_play_more">Hei %1$s,\nTrebuie să mai joci de %2$s ori înainte de a face o altă comandă.</string>
+    <string name="saloon_actual_bonus_percentage">Ai un bonus de %1$s%%\n(de adăugat la câștiguri)</string>
+    <string name="saloon_new_order_title">Comandă</string>
+    <string name="saloon_new_order_message">Hei %1$s,\nDorești %2$s la un preț de $%3$s?</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Nimic</item>
+        <item>Cafea</item>
+        <item>Ceai</item>
+        <item>Suc</item>
+        <item>Bere</item>
+        <item>Whisky</item>
+        <item>Trabuc</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s la $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">Statistici</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI Elements: -->
+    <string name="msg_dealers_visible_card">Cartea vizibilă a dealer-ului este: %1$s</string>
+    <string name="msg_second_dealer_card">A doua carte a dealer-ului este: %1$s. Total %2$s.</string>
+    <string name="msg_drawing_cards">%1$s. Total %2$s.</string>
+    <string name="msg_dealer_has_busted">Dealer-ul a tropat!</string>
+    <string name="msg_you_have_busted">Tu ai tropat!</string>
+    <string name="msg_you_had_blackjack">Super! Ai avut un Blackjack!</string>
+    <string name="msg_blackjack_lost">Păcat! Ai pierdut $%1$s!</string>
+    <string name="msg_blackjack_won">Bun! Ai câștigat $%1$s!</string>
+    <string name="msg_blackjack_draw">Este egal!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI Elements: -->
+    <string name="pk_started">Mâna a început! Poți alege cărți pentru decartare!</string>
+    <string name="pk_discarded">Poți arăta cărțile!</string>
+    <string name="pk_card_discarded">%1$s este pregătită pentru decartare</string>
+    <string name="pk_card_not_discarded">%1$s este înapoi</string>
+    <string name="pk_raise_title">Raise</string>
+    <string name="pk_raise_message">Scrie cu câți dolari vrei să ridici miza</string>
+    <string name="pk_fold_message">Ți-ai pierdut interesul pentru această mână.</string>
+    <string name="pk_not_enough_raise">Trebuie să ridici miza cu cel puţin $%1$s.</string>
+    <string name="pk_you_won_the_hand">Bun! Ai câştigat această mână!\nAi câștigat $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Păcat! Ai pierdut această mână!\nAi pierdut $%1$s</string>
+    <string name="pk_draw_hand">Este egal!\nNimeni nu a câștigat această mână…</string>
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>Mâna dealer-ului: %1$s. %2$s</item>
+        <item>Mâna ta: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI Elements: -->
+    <string name="cw_started">Războiul a început, Poți trage!</string>
+    <string name="cw_battle_continues">Bătălia continuă…</string>
+    <string name="cw_you_won_battle">Ai câștigat bătălia!</string>
+    <string name="cw_dealer_won_battle">Ai pierdut bătălia!</string>
+    <string name="cw_you_won_the_war">Bun! Ai câștigat războiul!\nAi câștigat $%1$s</string>
+    <string name="cw_dealer_won_the_war">Păcat! Ai pierdut războiul!\nAi pierdut $%1$s</string>
+    <string name="cw_draw_war">Este egal!\nNimeni nu a câștigat acest război…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI Elements: -->
+    <string name="gw_started">Setul a început, poți arunca!</string>
+    <string name="gw_you_won_the_set">Bun! Ai câștigat acest set!\nAi câștigat $%1$s</string>
+    <string name="gw_dealer_won_the_set">Păcat! Ai pierdut acest set!\nAi pierdut $%1$s</string>
+    <string name="gw_draw_set">Este egal!\nNimeni nu a câștigat acest set…</string>
+    <string name="gw_actual_score">Scor: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Eroare!</string>
+    <string name="warning">Avertisment!</string>
+
+    <!-- About dialog: -->
+    <string name="about">Despre Pontes GameZone</string>
+    <string name="app_version">Pontes GameZone, versiunea 1.5.1</string>
+    <string name="app_release_date">Versiunea 1.0 finalizată luni, 16 februarie 2015</string>
+    <string name="app_last_update">Ultima actualizare: duminică, 12 august 2018</string>
+    <string name="app_creator">Programat de Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Telefon: +40740203043</string>
+    <string name="email_address">E-mail: android@pontes.ro</string>
+    <string name="web_address">Web: www.android.pontes.ro</string>
+    <string name="app_credits2">Ștefan Halus a creat imagini: cărți, zaruri, iconițe</string>
+    <string name="app_credits_translation">Traducere în română de Emanuel Boboiu</string>
+    <string name="app_credits3">Testeri versiune beta:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Ajutor</string>
+    <string name="hello_world">Salut lume!</string>
+    <string name="action_settings">Setări</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">Pontes Conectează 4</string>
+    <string name="cf_game_name">Conectează 4</string>
+    <string name="cf_bet">Miză</string>
+    <string name="cf_new">Start</string>
+    <string name="cf_status">Status Conectează 4</string>
+    <string name="cf_abandon_game">Abandon</string>
+    <string name="cf_game_type0">Contra dealer</string>
+    <string name="cf_game_type1">Contra partener</string>
+    <string name="cf_cell_already_used">%1$s este deja ocupată</string>
+    <string name="cf_cell_forbidden">%1$s interzisă! Nu este nimic sub.</string>
+    <string name="dealer">Dealer</string>
+    <string name="partner">Partener</string>
+    <string name="my_cf_total">Tu: %1$s</string>
+    <string name="dealers_cf_total">Dealer: %1$s</string>
+    <string name="partners_cf_total">Partener: %1$s</string>
+    <string name="cf_started">A fost creată o tablă nouă</string>
+    <string name="cf_current_move">Mutarea numărul %1$s - %2$s</string>
+    <string name="cf_win">Felicitări! Ai câștigat acest joc!</string>
+    <string name="cf_lose">Păcat! Ai pierdut acest joc…</string>
+    <string name="cf_draw">S-a terminat cu egalitate…</string>
+    <string name="statistics_for_connectfour">Ai jucat %1$s jocuri de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este de $%4$s.\nMedia câștigurilor per joc este $%5$s.</string>
+    <string name="mnu_difficulty_level">Dificultate</string>
+    <string name="cf_choose_level">Alege nivelul de dificultate</string>
+    <string name="cf_easy">Ușor</string>
+    <string name="cf_medium">Mediu</string>
+    <string name="cf_hard">Greu</string>
+    <string name="cf_impossible">Aproape imposibil</string>
+
+    <!-- Other places in casino, like pawnshop -->
+    <string name="mnu_go_to">Mergi la…</string>
+    <string name="mnu_pawnshop">Mergi la amanet</string>
+    <string name="title_activity_pawnshop">Amanet</string>
+    <string name="ps_title">Bine ai venit, %1$s!\nAcum ești în amanet!</string>
+    <string name="ps_sell">Alege ce vrei sa amanetezi</string>
+    <string name="ps_new_sell_title">Amanetare</string>
+    <string name="ps_new_sell_message">Hei %1$s,\nVrei sa amanetezi %2$s pentru $%3$s?</string>
+    <string name="ps_content_description_for_products">Amanetează %1$s pentru $%2$s</string>
+    <string name="ps_old_sell_title">Răscumpărare</string>
+    <string name="ps_old_sell_message">Hei %1$s,\nVrei să răscumperi %2$s plătind $%3$s?</string>
+    <string name="ps_content_description_for_sold_products">Răscumpără %1$s cu $%2$s</string>
+    <string name="ps_not_enough_money_to_take_product_back">Hei %1$s!\nNu ai destui bani pentru a-ți răscumpăra obiectul.\nAi $%2$s în portofel.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>Nimic</item>
+        <item>ceasul</item>
+        <item>telefonul</item>
+        <item>laptop-ul</item>
+        <item>brățara</item>
+        <item>motocicleta</item>
+        <item>mașina</item>
+    </string-array>
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">Ei na!…</string>
+    <string name="saloon_bottles_moved">Te rugăm mai multă atenție! Să nu spargi ceva pe aici…</string>
+    <string name="saloon_bottles_broken">Hei %1$s!\nAi spart niște sticle!\nDe ce te miști atât de tare?\nAcum trebuie să plătești $%2$s pagubă…</string>
+    <string name="saloon_not_enough_money_for_compensation">Hei %1$s!\nAi spart niște sticle!\nNu ai bani să plătești paguba.\nTe rugăm să ieși afară din bar!</string>
+    <string name="saloon_not_allowed">hei %1$s!\nNu ai bani în portofel!\nCe vrei să faci pe aici?\nEventual mergi la amanet să vinzi ceva.\nLa revedere!</string>
+    <string name="tv_clock_is_unavailable">Oră necunoscută…</string>
+    <string name="ps_clock_is_unavailable">Oră necunoscută…\nMergi la amanet să îți răscumperi ceasul…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Baie</string>
+    <string name="mnu_bathroom">Mergi la baie</string>
+    <string name="bath_title">Ești în baie</string>
+    <string name="bath_action">Alege ce vrei să faci</string>
+    <string name="bath_status">Status baie</string>
+    <string name="bath_use_objects">Folosește %1$s</string>
+    <string name="bath_wrong_action_chosen">Hei %1$s,\nNu ai ales să folosești obiectul potrivit.\nTe rugăm să verifici statusul băii!\nStatusul este scris în partea de jos a zonei de baie.</string>
+    <string name="saloon_too_many_drinks">Hei %1$s,\nAi băut prea mult!\nTe rugăm să mergi la baie, altfel nu vei mai putea consuma!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>nimic</item>
+        <item>toaleta</item>
+        <item>chiuveta</item>
+        <item>uscătorul de mâini</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>Nu este necesară nicio acțiune în baie.</item>
+        <item>Trebuie să folosești toaleta pentru că ai băut cam mult.</item>
+        <item>Te rugăm să te speli pe mâini!</item>
+        <item>Mâinile îți sunt ude, nu uita să folosești uscătorul.</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Mergi la intrare</string>
+    <string name="mnu_go_back">Mergi înapoi</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">Ai $%1$s în portofel</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">Faliment</string>
+    <string name="tv_ins_congratulations">Felicitări!</string>
+    <string name="tv_ins_main_message">Cazinoul nostru a falimentat!</string>
+    <string name="tv_ins_explanations">Da %1$s,\nAi câștigat mai mult de $%2$s.\nNu putem plăti mai mult de atât.\nTe rugăm să revii și să începi din nou după ce ne refacem.</string>
+    <string name="tv_ins_play_sound_again">Redare sunet din nou!</string>
+    <string name="tv_ins_restart_game">Repornește jocul acum!</string>
+    <string name="tv_send_performance">Poți publica pe site această performanță:</string>
+    <string name="hint_write_a_name">Scrie aici un nume care să apară pe web…</string>
+    <string name="bt_ins_send_now">Trimite acum!</string>
+    <string name="name_not_written_correctly">Numele trebuie să aibă minim 3 litere.\nScrie din nou!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Redare sunete de fundal</string>
+    <string name="cbt_sounds_music_setting">Redare muzică în jocuri</string>
+    <string name="tv_background_volume_percentage">Procentaj volum sunet de fundal</string>
+    <string name="tv_music_volume_percentage">Procentaj volum muzică</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">Confirmare</string>
+    <string name="really_leave_page">Sigur vrei să părăsești această activitate?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+
+    <!-- Strings after 20 July 2015, version 1.3 -->
+
+
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Pontes Slot Machine</string>
+    <string name="sm_game_name">Slot Machine</string>
+    <string name="sm_one_coin">O monedă</string>
+    <string name="sm_two_coins">Două monede</string>
+    <string name="sm_three_coins">Trei monede</string>
+    <string name="sm_fire">Trage de manetă!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Cilindrii sunt pregătiți pentru a se învârti</string>
+    <string name="sm_you_won">Felicitări! Ai câștigat $%1$s!</string>
+    <string name="sm_dealer_won">Păcat! Ai pierdut $%1$s!</string>
+    <string name="sm_status">Status Slot Machine</string>
+    <string name="statistics_for_slot_machine">Ai învârtit cilindrii de %1$s ori de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este de $%4$s.\nCâștigul mediu per învârtire este de $%5$s.</string>
+    <string name="sm_cylinder_face">Fațeta</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Pontes Scopa</string>
+    <string name="ls_game_name">Scopa</string>
+    <string name="ls_bet">Miză</string>
+    <string name="ls_new">Nou</string>
+    <string name="ls_say_all">Spune cărțile</string>
+    <string name="ls_abandon">Abandon</string>
+    <string name="my_ls_score">Tu: %1$s</string>
+    <string name="dealers_ls_score">Dealer: %1$s</string>
+    <string name="ls_new_round">Rundă nouă! %1$s începe…</string>
+    <string name="ls_status">Status Scopa</string>
+    <string name="statistics_for_la_scopa">Ai jucat %1$s partide Scopa de la ultima pauză.\nAi câștigat $%2$s și ai pierdut $%3$s.\nBalanța pentru sesiunea curentă este de $%4$s.\nCâștigul mediu per partidă este de $%5$s.</string>
+    <string name="ls_mnu_limit_score">Scor limită pentru victorie</string>
+    <string name="ls_set_limit_score">Alege scorul limită pentru victorie:</string>
+    <string name="ls_change_limit_score_not_allowed">Nu poți schimba scorul limită pentru victorie în timp ce jocul este în desfășurare.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Partida a început</string>
+    <string name="ls_you_won">Felicitări! Ai câștigat $%1$s!</string>
+    <string name="ls_dealer_won_battle">Păcat! Ai pierdut $%1$s!</string>
+    <string name="ls_card_put_message">%1$s pune %2$s.</string>
+    <string name="ls_taken_cards_message">%1$s ia %2$s cu %3$s.</string>
+    <string name="ls_scopa_event">Scopa!</string>
+    <string name="ls_remained_cards_taken">%1$s a luat ce a rămas: %2$s.</string>
+    <string name="ls_point_number_of_cards">%1$s a capturat mai multe cărți (%2$s) și câștigă un punct.</string>
+    <string name="ls_same_number_of_cards">Amândoi au capturat câte 20 de cărți.</string>
+    <string name="ls_point_number_of_diamonds">%1$s a capturat mai multe romburi (%2$s) și câștigă un punct.</string>
+    <string name="ls_same_number_of_diamonds">Amândoi au capturat câte 5 romburi.</string>
+    <string name="ls_point_number_of_sevens">%1$s a capturat mai mulți șeptari (%2$s) și câștigă un punct.</string>
+    <string name="ls_same_number_of_sevens">Amândoi au capturat câte doi șeptari.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s a capturat șeptarul de Romb și câștigă un punct.</string>
+    <string name="ls_score">Scor: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s a câștigat partida.\nScor final: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>Pe masă: %1$s.</item>
+        <item>Cărțile tale: %1$s.</item>
+        <item>Cărțile dealer-ului: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Nimeni</item>
+        <item>Tu</item>
+        <item>Dealer-ul</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Alege aici</string>
+    <string name="cbt_allow_vibration">Permite ca dispozitivul să vibreze la anumite evenimente</string>
+    <string name="tv_last_visit">Ultima ta vizită:\n%1$s, %2$s %3$s %4$s, %5$s:%6$s</string>
+    <string name="tv_last_visit_not_known">Aceasta este prima ta vizită în cazinoul nostru.</string>
+    <string name="game_history">Istoric joc</string>
+    <string name="bt_history">Istoric</string>
+    <string name="bt_close">Închide</string>
+    <string name="congratulations">Felicitări</string>
+    <string name="sorry">Păcat</string>
+    <string name="today">azi</string>
+    <string name="yesterday">ieri</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Alege o variantă</string>
+    <string name="ls_scopa_variant">Scopa clasic</string>
+    <string name="ls_escoba_variant">Escoba</string>
+    <string name="ls_scopone_variant">Scopone</string>
+    <string name="ls_scopone_escoba_variant">Scopone Escoba</string>
+    <string name="ls_chosen_variant">Ai ales varianta %1$s.</string>
+    <string name="ls_choose_variant_not_allowed">Varianta nu poate fi schimbată în timp ce jocul este în desfășurare.</string>
+
+    <!-- String for permissions and others: -->
+    <string name="information">Informație</string>
+    <string name="info_when_permission_accounts_not_granted">Programul funcționează fără probleme chiar dacă alegeți să nu acordați nicio permisiune.\nAvem nevoie de acea permisiune doar pentru a obține numele dumneavoastră de utilizator Google, astfel încât unele din activitățile dumneavoastră să poată fi memorate de această aplicație.\nGarantăm că nu arătăm niciunde în mod public acel nume de utilizator Google.\nDacă nu doriți să aveți un istoric activităților sau să salvați bani în contul bancar virtual, data viitoare când deschideți programul puteți alege să nu mai fiți întrebat niciodată de permisiune.\nDe asemenea, dacă nevoile se schimbă în viitor, puteți acorda această permisiune în manager de Aplicații, în Setările dispozitivului.</string>
+    <string name="no_account_name_detected_because_permission">Nu vă cunoaștem numele de utilizator Google, astfel că nu putem să ținem pe server un istoric al activității dumneavoastră.\nCu ceva vreme în urmă ați ales să nu acordați programului permisiunea de a afla numele de utilizator Google.\nDacă în viitor ați dori să vedeți istoricul mai amănunțit al activității dumneavoastră, mergeți în Manager de aplicații, Pontes GameZone, iar acolo puteți acorda permisiunile necesare.\nGarantăm că nu vom afișa niciunde numele dumneavoastră Google real, dacă veți dori să apăreți public, veți putea seta orice nume / poreclă.\nDe asemenea, menționăm că puteți continua să utilizați aplicația și fără nicio acțiune, fără să acordați permisiunile cerute.</string>
+
+</resources>

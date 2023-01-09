@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvWelcomeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="@string/welcome_message"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+        <!-- A label for nickname: -->
+
+        <TextView
+            android:id="@+id/tvNickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="changeNickname"
+            android:text="@string/nickname"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+        <!-- A TextView for wallet: -->
+
+        <TextView
+            android:id="@+id/tvWalletContains"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_wallet_contains"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvChooseAGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/choose_a_game"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+        <!-- New mode of choosing a game to be opened: -->
+
+        <Spinner
+            android:id="@+id/spinnerChoose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:gravity="center_horizontal"
+            android:spinnerMode="dropdown"
+            android:textSize="@dimen/text_views_size" >
+        </Spinner>
+        
+                <TextView
+            android:id="@+id/tvLastVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+                                    android:text="@string/tv_last_visit"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="bottom|center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvCompanyName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/company_name"
+            android:textSize="@dimen/text_views_size" />
+
+        <TextView
+            android:id="@+id/tvCompanyWebAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:gravity="center_horizontal"
+            android:text="@string/company_web_address"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_views_size" />
+    </LinearLayout>
+
+</LinearLayout>

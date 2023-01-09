@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llPoker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:ignore="UselessParent" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btPkBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="changeBet"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/pk_bet"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_bet"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMyMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_money"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btPkNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="newHand"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/pk_new"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyPkHand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_pk_hand"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDealersPkHand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/dealers_pk_hand"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDealerCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llPlayerCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvPkStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/pk_status"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btPkDiscard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="discard"
+                android:text="@string/pk_discard"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btPkStand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="showdown"
+                android:text="@string/pk_stand"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btPkRaise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="raise"
+                android:text="@string/pk_raise"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btPkFold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="fold"
+                android:text="@string/pk_fold"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llBathroom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+            
+        <LinearLayout
+            android:id="@+id/llBathroom1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+                android:orientation="vertical" >
+            
+            <TextView
+            android:id="@+id/tvWelcomeToBathroom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bath_title"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/tvPassedDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saloon_passed_day"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+                               
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llBathroom2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tvBathroomAction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/bath_action"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/tlBathActions"
+android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+    
+    <TableRow tools:ignore="UselessParent" >
+        
+            <ImageButton
+android:id="@+id/ibtBathroom1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/bathroom1"
+            android:contentDescription="@string/ellypsis"
+                        android:padding="@dimen/views_paddings_in_table"
+                                android:onClick="bathAction1" />
+            
+            <ImageButton
+android:id="@+id/ibtBathroom2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/bathroom2"
+            android:contentDescription="@string/ellypsis"
+                        android:padding="@dimen/views_paddings_in_table"
+                                android:onClick="bathAction2" />
+            
+            <ImageButton
+android:id="@+id/ibtBathroom3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/bathroom3"
+            android:contentDescription="@string/ellypsis"
+                        android:padding="@dimen/views_paddings_in_table"
+                                android:onClick="bathAction3" />
+            
+            </TableRow>
+            </TableLayout>
+
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/llBathroom3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:layout_weight="1"
+android:gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" >
+            
+<TextView
+            android:id="@+id/tvBathroomStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_paddings_in_table"
+                        android:gravity="center_vertical|center_horizontal"
+            android:text="@string/bath_status"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />            
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+                        

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llSlotMachine"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/llMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvMyBet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                android:padding="@dimen/views_paddings_in_table"
+                android:text="@string/my_bet"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMyMoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|left"
+                android:padding="@dimen/views_paddings_in_table"
+                android:text="@string/my_money"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llInsert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btSmNew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startNewMachine1"
+                android:padding="@dimen/views_paddings_in_table"
+                android:text="@string/sm_one_coin"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btSmNew2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startNewMachine2"
+                android:padding="@dimen/views_paddings_in_table"
+                android:text="@string/sm_two_coins"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btSmNew3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="startNewMachine3"
+                android:padding="@dimen/views_paddings_in_table"
+                android:text="@string/sm_three_coins"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llCylinders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvSmStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/sm_status"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btSmFire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="shakeMachine"
+                android:text="@string/sm_fire"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

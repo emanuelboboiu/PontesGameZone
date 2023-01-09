@@ -1,0 +1,88 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ro.pontes.pontesgamezone.MainActivity" >
+
+    <item
+        android:id="@+id/mnuChangeNickname"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="@string/mnu_change_nickname"/>
+    <item
+        android:id="@+id/mnuGoTo"
+        android:orderInCategory="85"
+        android:showAsAction="never"
+        android:title="@string/mnu_go_to">
+
+        <!-- Go to submenu: -->
+        <menu>
+            <item
+                android:id="@+id/mnuSaloon"
+                android:orderInCategory="86"
+                android:showAsAction="never"
+                android:title="@string/mnu_saloon"/>
+            <item
+                android:id="@+id/mnuBathroom"
+                android:orderInCategory="87"
+                android:showAsAction="never"
+                android:title="@string/mnu_bathroom"/>
+            <item
+                android:id="@+id/mnuPawnshop"
+                android:orderInCategory="88"
+                android:showAsAction="never"
+                android:title="@string/mnu_pawnshop"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnuMainSettings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings">
+
+        <!-- Settings submenu: -->
+        <menu>
+            <item
+                android:id="@+id/mnuAudioSettings"
+                android:orderInCategory="100"
+                android:showAsAction="never"
+                android:title="@string/title_activity_audio_settings"/>
+            <item
+                android:id="@+id/mnuLanguageSettings"
+                android:orderInCategory="105"
+                android:showAsAction="never"
+                android:title="@string/title_activity_language_settings"/>
+            <item
+                android:id="@+id/mnuOnshakeSettings"
+                android:orderInCategory="110"
+                android:showAsAction="never"
+                android:title="@string/title_activity_shake_settings"/>
+
+            <!-- Miscellaneous -->
+            <item
+                android:id="@+id/mnuMiscellaneousSettings"
+                android:orderInCategory="115"
+                android:showAsAction="never"
+                android:title="@string/title_activity_miscellaneous_settings"/>
+            <item
+                android:id="@+id/mnuDefaultSettings"
+                android:orderInCategory="130"
+                android:showAsAction="never"
+                android:title="@string/title_default_settings"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnuVirtualTime"
+        android:orderInCategory="300"
+        android:showAsAction="never"
+        android:title="@string/mnu_saloon_virtual_time"/>
+    <item
+        android:id="@+id/mnuAboutDialog"
+        android:orderInCategory="900"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/mnuHelp"
+        android:orderInCategory="1000"
+        android:showAsAction="never"
+        android:title="@string/open_help_online"/>
+
+</menu>

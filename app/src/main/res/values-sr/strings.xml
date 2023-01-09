@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+    <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Dobrodošli u Pontes GameZone!</string>
+    <string name="registered_message">Registrovano na ime %1$s</string>
+    <string name="nickname">Vaše ime je %1$s</string>
+    <string name="nickname_visitor">Posetilac</string>
+    <string name="no_nickname">Kucnite ovde za dodavanje vašeg imena…</string>
+    <string name="visitor">Posetilac</string>
+    <string name="company_name">Pontes Apps by Manu</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Izaberite igru:</string>
+    <string name="black_jack_game">Crni žandar</string>
+    <string name="poker_game">Poker</string>
+    <string name="cards_war_game">Rat Karata</string>
+    <string name="who_is_greater_game">Šta je Veće</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Promeni Ime</string>
+    <string name="change_nickname_title">Ime</string>
+    <string name="change_nickname_message">Upišite vaše novo ime: </string>
+    <string name="change_nickname_hint">Upišite ovde vaše ime…</string>
+    <string name="change_nickname_success">Pozdrav %1$s!\nVaše ime je promenjeno uspešno.</string>
+    <string name="change_nickname_error_short"> Ime mora sadržati najmanje dva slova.\nPokušajte ponovo!</string>
+    <string name="change_nickname_error_non_alphanumeric"> Ime mora sadržati samo slova i brojeve.\nOno mora biti jedna reč.\nPokušajte ponovo!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">Pontes Crni Žandar</string>
+    <string name="bj_new">Nova ruka</string>
+    <string name="bj_bet">Promeni ulog</string>
+    <string name="bj_hit">Vuci kartu</string>
+    <string name="bj_stand">Ostani</string>
+    <string name="bj_double">Dupliraj</string>
+    <string name="bj_surrender">Predaj</string>
+    <string name="my_money">Moj novčanik: $%1$s</string>
+    <string name="my_bet">Moj ulog: $%1$s</string>
+    <string name="my_bj_total">Vi: %1$s</string>
+    <string name="dealers_bj_total">Diler: %1$s</string>
+    <string name="bj_status">Crni žandar status</string>
+    <string name="not_enough_money_to_double">Vi nemate dovoljno novca da bi ste duplirali vaš ulog.\nVi imate $%1$s u vašem novčaniku.</string>
+    <string name="statistics_for_blackjack">Vi ste igrali %1$s ruka od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\n Prosečan balans po ruci iznosi $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Pontes pet karata povučenih Poker</string>
+    <string name="pk_new">Nova ruka</string>
+    <string name="pk_bet">Promeni ulog</string>
+    <string name="pk_discard">Vuci</string>
+    <string name="pk_discard_x">Vuci %1$s</string>
+    <string name="pk_stand">Pokaži</string>
+    <string name="pk_fold">Plati</string>
+    <string name="pk_raise">Povećaj</string>
+    <string name="pk_sort_title">sortiraj karte</string>
+    <string name="pk_sort_by_value">Po broju</string>
+    <string name="pk_sort_by_color">Po boji</string>
+    <string name="pk_sort_by_nothing">Izmešano</string>
+    <string name="my_pk_hand">Vi: %1$s</string>
+    <string name="dealers_pk_hand">Diler: %1$s</string>
+    <string name="pk_nothing">ništa</string>
+    <string name="pk_status">Poker status</string>
+    <string name="pk_sort_not_allowed">Vi Ne možete sortirati karte kada vi morate da odbacite neku od njih.</string>
+    <string name="statistics_for_poker">Vi ste igrali %1$s ruka od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\nProsečan balans po ruci je $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Cela ruka</item>
+        <item>Četiri iste</item>
+        <item>Cela</item>
+        <item>Flush</item>
+        <item>Ruka</item>
+        <item>Tri iste</item>
+        <item>Dva para</item>
+        <item>Jedan par</item>
+        <item>Nema-parova</item>
+        <item>Ništa</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Pontes Rat Karata</string>
+    <string name="cw_new">Novi rat</string>
+    <string name="cw_bet">Promeni ulog</string>
+    <string name="cw_fire">Pucaj</string>
+    <string name="cw_withdraw">Predaj</string>
+    <string name="my_cw_total">Vi: %1$s</string>
+    <string name="dealers_cw_total">Diler: %1$s</string>
+    <string name="cbt_war_sounds">Ratni zvukovi</string>
+    <string name="cw_status">Rat Karata status</string>
+    <string name="statistics_for_cards_war">Vi ste se borili u %1$s Ratova od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\n prosečan balans po ratu iznosi $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Pontes Ko Je Veći</string>
+    <string name="gw_new">Novi set</string>
+    <string name="gw_bet">Promeni ulog</string>
+    <string name="gw_throw">Baci kocku</string>
+    <string name="gw_abandon">Predaj</string>
+    <string name="my_gw_total">Vi: %1$s</string>
+    <string name="dealers_gw_total">Diler: %1$s</string>
+    <string name="gw_status">Ko Je Veći status</string>
+    <string name="statistics_for_who_is_greater">Vi ste igrali %1$s setova od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\n prosečan balans po setu iznosi $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>karta</item>
+        <item>Detelina</item>
+        <item>Kocka</item>
+        <item>Srce</item>
+        <item>List</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>Skrivena</item>
+        <item>kec</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>žandar</item>
+        <item>Kraljica</item>
+        <item>Kralj</item>
+    </string-array>
+
+    <string name="card_name">%1$s %2$s</string>
+    <string name="card_name_extended">%1$s %2$s</string>
+    <!-- Content description for a card image: Dealer's Ace of Diamonds or Yours King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Dealer</item>
+        <item>Vaš</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">Vaš novi ulog!</string>
+    <string name="bet_dialog_body">Hej %1$s,\nupišite vaš ulog u dinarima: </string>
+    <string name="not_enough_money_to_bet">Žao nam je %1$s!\nVi nemate dovoljno novca da uložite $%2$s.\nVi morate promeniti vaš ulog!\nVi imate $%3$s u vašem novčaniku.</string>
+    <string name="play_just_for_fun">Oh %1$s, to je neprijatna situacija!\nVi nemate novca u vašem novčaniku.\nVi možete promeniti vaš ulog na 0 dinara da igrate samo za zabavu.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Bonus Zarade</string>
+    <string name="money_won_as_bonus_message">Hej %1$s,\nVi ste dobili $%2$s kao bonus od poslednjeg pokretanja igre.\nVi ste dobili $%3$s kao bonus danas.\nVi ste dobili $%4$s kao bonus od kada ste naš korisnik.</string>
+    <string name="mnu_money_won_as_bonus">Statistike Bonus zarada</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Akcija nije dostupna</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Audio</string>
+    <string name="cbt_sounds_setting">Puštaj zvukove</string>
+    <string name="cbt_dice_sound_setting">Izgovori kocku glasovno</string>
+    <string name="cbt_speech_setting">Koristi govor da poboljšaš pristupačnost</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Podešavanja jezika</string>
+    <string name="tv_choose_dice_language_settings">Izaberite jezik za izgovor kocke:</string>
+    <string name="language_english">Engleski (autor Giulia Guerra)</string>
+    <string name="language_italian">Italijanski (autor Giulia Guerra)</string>
+    <string name="language_romanian">Rumunski (autor Cristian Csetnek)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Protresi</string>
+    <string name="cbt_onshake_toggle">Koristi detektor pokreta </string>
+    <string name="onshake_magnitude">Podesi  osetljivost protresanja telefona</string>
+    <string name="magnitude_very_easy">Veoma slabo</string>
+    <string name="magnitude_easy">Lako</string>
+    <string name="magnitude_moderate">Srednje</string>
+    <string name="magnitude_hard">Snažno</string>
+    <string name="magnitude_very_hard">Veoma snažno</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Razno</string>
+    <string name="cbt_keep_screen_awake">Ostavi ekran budan</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Resetuj Na Zadano</string>
+    <string name="body_default_settings">Pozdrav %1$s!\nDa li Si siguran da želiž da Resetuješ sve vrednosti?\nPontes GameZone će biti u njegovom prvobitnom stanju.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Bar Prostor</string>
+    <string name="saloon_title">Dobrodošli %1$s!\nVi ste sada u baru !</string>
+    <string name="mnu_saloon">Idi u bar </string>
+    <string name="saloon_spent_money">Vi ste potrošili $%1$s danas.</string>
+    <string name="mnu_saloon_virtual_time">Prikaži Virtuelno vreme</string>
+    <string name="saloon_virtual_time_title">Sat</string>
+    <string name="saloon_passed_day">Virtuelno vreme je %1$s.%2$s</string>
+    <string name="saloon_order">Izaberite šta vi želite da kupite</string>
+    <string name="saloon_not_enough_money">žao nam je %1$s,\nVi nemate dovoljno novca!</string>
+    <string name="saloon_number_of_games_for_order">Vi ste igrali %1$s igara od poslednje kupovine.</string>
+    <string name="saloon_you_must_play_more">Hej %1$s,\nVi morate igrati %2$s još pre ponovne kupovine.</string>
+    <string name="saloon_actual_bonus_percentage">Vi imate bonus od %1$s%%\n(koji će biti dodat u vašem dobitku)</string>
+    <string name="saloon_new_order_title">Kupi</string>
+    <string name="saloon_new_order_message">Hej %1$s,\nDa li bi ste %2$s za $%3$s?</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Nothing</item>
+        <item>Kafa</item>
+        <item>Čaj</item>
+        <item>Sok</item>
+        <item>Pivo</item>
+        <item>Viski</item>
+        <item>Cigara</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s for $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">Statistike</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI Elements: -->
+    <string name="msg_dealers_visible_card">dilerova vidljiva karta je: %1$s</string>
+    <string name="msg_second_dealer_card">Druga karta Dilera Je: %1$s. Ukupno %2$s.</string>
+    <string name="msg_drawing_cards">%1$s. Ukupno %2$s.</string>
+    <string name="msg_dealer_has_busted">Diler je prekoračio!</string>
+    <string name="msg_you_have_busted">Vi ste prekoračili!</string>
+    <string name="msg_you_had_blackjack">Dobro! Vi imate Crni žandar!</string>
+    <string name="msg_blackjack_lost">Žao nam je! Vi ste izgubili $%1$s!</string>
+    <string name="msg_blackjack_won">Čestitke! Vi ste dobili $%1$s!</string>
+    <string name="msg_blackjack_draw">Nerešeno!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI Elements: -->
+    <string name="pk_started">ruka započeta! Vi možete izabrati karte da odbacite!</string>
+    <string name="pk_discarded">Vi Možete pokazati!</string>
+    <string name="pk_card_discarded">%1$s je spreman da bude odbačen</string>
+    <string name="pk_card_not_discarded">%1$s se vraća</string>
+    <string name="pk_raise_title">Povećaj</string>
+    <string name="pk_raise_message">Upišite za koliko vi želite da povećate</string>
+    <string name="pk_fold_message">Vi plaćate trenutnu kasu .</string>
+    <string name="pk_not_enough_raise">Vi morate povećati najmanje $%1$s.</string>
+    <string name="pk_you_won_the_hand">Čestitke! Vi dobijate ovu ruku!\nVi ste dobili $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Žao nam je! Vi ste izgubili ovu ruku!\nVi gubite $%1$s</string>
+    <string name="pk_draw_hand">To je nerešena ruka!\nNiko nije dobio ovu ruku…</string>
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>Dilerova ruka: %1$s. %2$s</item>
+        <item>Your hand: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI Elements: -->
+    <string name="cw_started">Rat je počeo, vi možete pucati!</string>
+    <string name="cw_battle_continues">Borba se nastavlja…</string>
+    <string name="cw_you_won_battle">Vi ste dobili ovu borbu!</string>
+    <string name="cw_dealer_won_battle">Vi ste izgubili ovu borbu!</string>
+    <string name="cw_you_won_the_war">Čestitke! Vi ste dobili rat!\nVi ste dobili $%1$s</string>
+    <string name="cw_dealer_won_the_war">Žao nam je! Vi ste izgubili rat!\nVi ste izgubili $%1$s</string>
+    <string name="cw_draw_war">Nerešeno!\nNiko nije dobio ovaj rat…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI Elements: -->
+    <string name="gw_started">Set je počeo, vi možete bacati!</string>
+    <string name="gw_you_won_the_set">Čestitamo! Vi ste dobili ovaj set!\nVi ste dobili $%1$s</string>
+    <string name="gw_dealer_won_the_set">Žao nam je! Vi ste izgubili ovaj set!\nVi gubite $%1$s</string>
+    <string name="gw_draw_set">Nerešeno!\nNiko nije dobio ovaj set…</string>
+    <string name="gw_actual_score">Rezultat: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Greška!</string>
+    <string name="warning">Upozorenje!</string>
+
+    <!-- About dialog: -->
+    <string name="about">O</string>
+    <string name="app_version">Pontes GameZone, verzija 1.3.9</string>
+    <string name="app_release_date">Verzija 1.0 objavljena datuma Ponedeljak, 16 Februara 2015</string>
+    <string name="app_last_update">Poslednje ažuriranje: 1.3.9</string>
+    <string name="app_creator">Napravljeno od strane  Pontes Apps\nProgramirano od strane Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">broj telefona no: +40740203043</string>
+    <string name="email_address">E-mail: android@pontes.ro</string>
+    <string name="web_address">Web: www.android.pontes.ro</string>
+    <string name="app_credits2">Ștefan Halus napravio slike: karata, kocke, ikona</string>
+    <string name="app_credits_translation">Preveo na engleski od strane Nikola Jovic</string>
+    <string name="app_credits3">Beta testeri:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Pomoć</string>
+    <string name="hello_world">zdravo svet!</string>
+    <string name="action_settings">Podešavanja</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">Pontes Spoji Četiri</string>
+    <string name="cf_game_name">Spoji Četiri</string>
+    <string name="cf_bet">Promeni ulog</string>
+    <string name="cf_new">Start</string>
+    <string name="cf_status">Spoji Četiri status</string>
+    <string name="cf_abandon_game">Predaj</string>
+    <string name="cf_game_type0">Protiv Dilera</string>
+    <string name="cf_game_type1">Protiv partnera</string>
+    <string name="cf_cell_already_used">%1$s se već koristi</string>
+    <string name="cf_cell_forbidden">%1$s zabranjeno! Nema ničega ispod.</string>
+    <string name="dealer">Diler</string>
+    <string name="partner">Partner</string>
+    <string name="my_cf_total">Vi: %1$s</string>
+    <string name="dealers_cf_total">Diler: %1$s</string>
+    <string name="partners_cf_total">Partner: %1$s</string>
+    <string name="cf_started">Nova prazna polja su kreirana!!</string>
+    <string name="cf_current_move">Potez broj %1$s - %2$s</string>
+    <string name="cf_win">Čestitke! Vi ste dobili ovu igru!</string>
+    <string name="cf_lose">Žao nam je, Vi ste izgubili ovu igru…</string>
+    <string name="cf_draw">Ova igra je nerešena…</string>
+    <string name="statistics_for_connectfour">Vi ste igrali %1$s puta od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\nProsečan balans po igri iznosi $%5$s.</string>
+    <string name="mnu_difficulty_level">Težina</string>
+    <string name="cf_choose_level">Izaberite nivo težine</string>
+    <string name="cf_easy">Lako</string>
+    <string name="cf_medium">Srednje</string>
+    <string name="cf_hard">Teško</string>
+    <string name="cf_impossible">Skoro nemoguće</string>
+
+    <!-- Other places in casino, like pawn shop -->
+    <string name="mnu_go_to">Idi u …</string>
+    <string name="mnu_pawnshop">Idi u prodavnicu</string>
+    <string name="title_activity_pawnshop">Prodavnica</string>
+    <string name="ps_title">Dobrodošli %1$s!\nVi ste sada u prodavnici!</string>
+    <string name="ps_sell">Izaberite šta vi želite da prodate</string>
+    <string name="ps_new_sell_title">Prodavanje</string>
+    <string name="ps_new_sell_message">Hej %1$s,\nDa Li vi želite da prodate vaš %2$s za $%3$s?</string>
+    <string name="ps_content_description_for_products">Prodaj %1$s za $%2$s</string>
+    <string name="ps_old_sell_title">Vrati To Nazad</string>
+    <string name="ps_old_sell_message">Hej %1$s,\nDa li vi želite da uzmete vaš %2$s nazad za $%3$s?</string>
+    <string name="ps_content_description_for_sold_products">Vrati %1$s nazad za $%2$s</string>
+    <string name="ps_not_enough_money_to_take_product_back">Hej %1$s!\nVi nemate dovoljno novca da vratite proizvod nazad.\nVi imate $%2$s u vašem novčaniku.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>ništa</item>
+        <item>sat</item>
+        <item>telefon</item>
+        <item>laptop</item>
+        <item>skuter</item>
+        <item>motor</item>
+        <item>auto</item>
+    </string-array>
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">Oh ne!…</string>
+    <string name="saloon_bottles_moved">Molimo vas budite pažljivi! Ne lomite naše čaše!</string>
+    <string name="saloon_bottles_broken">Hej %1$s!\nVi ste slomili neke čaše!\nZašto si ti pomerao toliko jako?\nSada ti moraš da platiš $%2$s kao obštetu…</string>
+    <string name="saloon_not_enough_money_for_compensation">Hej %1$s!\nVi ste slomili neke naše čaše!\nVi nemate dovoljno novca da platite obštetu.\nMolimo vas izađite iz bara !</string>
+    <string name="saloon_not_allowed">Hej %1$s!\nVi nemate novca u vašem novčaniku!\nŠta vi radite ovde?\nEventualno, idite u prodavnicu da prodate nešto.\nVidimo se uskoro!</string>
+    <string name="tv_clock_is_unavailable">Nepoznato vreme…</string>
+    <string name="ps_clock_is_unavailable">Nepoznato vreme…\nIdite u prodavnicu da uzmete vaš sat nazad…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Kupatilo</string>
+    <string name="mnu_bathroom">Idite u kupatilo</string>
+    <string name="bath_title">Vi ste u kupatilu</string>
+    <string name="bath_action">Izaberite akciju</string>
+    <string name="bath_status">Status kupatila</string>
+    <string name="bath_use_objects">Koristi %1$s</string>
+    <string name="bath_wrong_action_chosen">Hej %1$s,\nVi niste izabrali ispravnu akciju ovde.\nMolimo proverite status kupatila!\nStatus je napisan u donjem delu kupatila.</string>
+    <string name="saloon_too_many_drinks">Hej %1$s,\nVi ste pili previše!\nMolimo idite u kupatilo, inače vi ne možete piti više!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>Ništa</item>
+        <item>Vodokotlić</item>
+        <item>peškir</item>
+        <item>sušač za ruke</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>Nijedna akcija nije potrebna u kupatilu</item>
+        <item>Vi morate koristiti vodokotlić.</item>
+        <item>Molimo operite vaše ruke!</item>
+        <item>Vaše ruke su mokre, nemojte zaboraviti da koristite sušač ruku.</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Idite u ulaz </string>
+    <string name="mnu_go_back">Idite nazad</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">Vi imate $%1$s u vašem novčaniku</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">Insolvency</string>
+    <string name="tv_ins_congratulations">ČESTITAMO!</string>
+    <string name="tv_ins_main_message">Naš kazino je bankrotirao!</string>
+    <string name="tv_ins_explanations">Da %1$s,\nVi  ste zaradili više od $%2$s.\nMi ne možemo da platimo više od toga.\nMolimo dođite i počnite ponovo kada mi povratimo gubitak.</string>
+    <string name="tv_ins_play_sound_again">Pusti zvuk ponovo!</string>
+    <string name="tv_ins_restart_game">Pokreni igru ponovo sada!</string>
+    <string name="tv_send_performance">Vi možete poslati vaš rezultat:</string>
+    <string name="hint_write_a_name">Upišite ovde ime koje će se pojaviti na webu…</string>
+    <string name="bt_ins_send_now">Pošalji sada!</string>
+    <string name="name_not_written_correctly">Ime mora imati najmanje 3 slova.\nUpišite ponovo!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Puštaj pozadinske zvuke</string>
+    <string name="cbt_sounds_music_setting">Puštaj muziku u igrama</string>
+    <string name="tv_background_volume_percentage">Jačina pozadinskih zvukova u procentima</string>
+    <string name="tv_music_volume_percentage">Jačina muzike u procentima</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">Potvrda</string>
+    <string name="really_leave_page">Da li ste sigurni da želite da napustite ovu aktivnost?</string>
+    <string name="yes">Da</string>
+    <string name="no">Ne</string>
+
+    <!-- Strings after 20 July 2015, version 1.3 -->
+
+
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Pontes Slot Mašina</string>
+    <string name="sm_game_name">Slot Mašina</string>
+    <string name="sm_one_coin">Jedan žeton</string>
+    <string name="sm_two_coins">Dva žetona</string>
+    <string name="sm_three_coins">Tri žetona</string>
+    <string name="sm_fire">Pritisni dugme!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Cilindri su spremni da se zavrte</string>
+    <string name="sm_you_won">Čestitamo! Vi ste dobili $%1$s!</string>
+    <string name="sm_dealer_won">Žao nam je! Vi gubite $%1$s!</string>
+    <string name="sm_status">Slot Machine status</string>
+    <string name="statistics_for_slot_machine">Vi ste zavrteli cilindre %1$s puta od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutan balans za ovu sesiju iznosi $%4$s.\nProsečan balans po vrtenju iznosi $%5$s.</string>
+    <string name="sm_cylinder_face">Lice</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Pontes Skopa</string>
+    <string name="ls_game_name">Skopa</string>
+    <string name="ls_bet">Promeni ulog</string>
+    <string name="ls_new">Nova</string>
+    <string name="ls_say_all">Izgovori karte</string>
+    <string name="ls_abandon">Predaj</string>
+    <string name="my_ls_score">Vi: %1$s</string>
+    <string name="dealers_ls_score">Diler: %1$s</string>
+    <string name="ls_new_round">Nova runda! %1$s počinje…</string>
+    <string name="ls_status">Skopa status</string>
+    <string name="statistics_for_la_scopa">Vi ste igrali %1$s Skopa igara od poslednje pauze.\nVi ste dobili $%2$s i vi ste izgubili $%3$s.\nVaš trenutni balans za ovu sesiju iznosi $%4$s.\nprosečni balans po igri iznosi $%5$s.</string>
+    <string name="ls_mnu_limit_score">Ograniči rezultat za pobedu</string>
+    <string name="ls_set_limit_score">Izaberite ograničenje rezultata za pobedu:</string>
+    <string name="ls_change_limit_score_not_allowed">Vi ne možete da promenite ograničenje rezultata za pobedu ako jeigra u toku.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Igra započeta</string>
+    <string name="ls_you_won">Čestitamo! Vi ste dobili $%1$s!</string>
+    <string name="ls_dealer_won_battle">Žao nam je! Vi ste izgubili $%1$s!</string>
+    <string name="ls_card_put_message">%1$s stavlja %2$s.</string>
+    <string name="ls_taken_cards_message">%1$s uzima %2$s sa %3$s.</string>
+    <string name="ls_scopa_event">Skopa!</string>
+    <string name="ls_remained_cards_taken">%1$s uzeo the ostao %2$s.</string>
+    <string name="ls_point_number_of_cards">%1$s uzeo više karata (%2$s) i dobija jedan poen.</string>
+    <string name="ls_same_number_of_cards">Oboje su skupili 20 karata.</string>
+    <string name="ls_point_number_of_diamonds">%1$s je uzeo više kocki (%2$s) i dobija jedan poen.</string>
+    <string name="ls_same_number_of_diamonds">Oboje uzimaju 5 kocki.</string>
+    <string name="ls_point_number_of_sevens">%1$s uzima više sedmica (%2$s) i dobija jedan poen.</string>
+    <string name="ls_same_number_of_sevens">Oboje uzimaju 2 sedmice.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s uzima 7 Kocka i dobija jedan poen.</string>
+    <string name="ls_score">Rezultat: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s dobija celu igru.\nKonačan rezultat: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>Na stolu su: %1$s.</item>
+        <item>Vaše karte: %1$s.</item>
+        <item>Dilerove karte: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Niko</item>
+        <item>Vi</item>
+        <item>Diler</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Izaberite ovde</string>
+    <string name="cbt_allow_vibration">Dozvoli uređaju da vibrira u određenim događajima</string>
+    <string name="tv_last_visit">Vaša zadnja poseta:\n%1$s, %2$s %3$s %4$s, %5$s.%6$s</string>
+    <string name="tv_last_visit_not_known">Ovo je vaša prva poseta u našem kazinu.</string>
+    <string name="game_history">Istorija Igre</string>
+    <string name="bt_history">Istorija</string>
+    <string name="bt_close">Zatvori</string>
+    <string name="congratulations">Čestitamo</string>
+    <string name="sorry">Žao nam je</string>
+    <string name="today">danas</string>
+    <string name="yesterday">juče</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s\'s %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Choose a variant</string>
+    <string name="ls_scopa_variant">Classic Scopa</string>
+    <string name="ls_escoba_variant">Escoba</string>
+    <string name="ls_scopone_variant">Scopone</string>
+    <string name="ls_scopone_escoba_variant">Scopone Escoba</string>
+    <string name="ls_chosen_variant">You have chosen %1$s variant</string>
+    <string name="ls_choose_variant_not_allowed">You cannot change the variant while the game is in progress.</string>
+
+    <!-- Strings for permissions and others: -->
+    <string name="information">Information</string>
+    <string name="info_when_permission_accounts_not_granted">This package works well without any permisions granted.\nWe need that permission only to know your Google Id, this way some of your activities can be remembered by this app.\nWe don\'t show anywhere publicly your Google Id.\nIf you don\'t want to have a history of your activities, or the possibility to save money in a virtual bank account, or other information about your work in this application, next time you can choose not to be asked anymore about this permission.\nYou can also give manually the permission in Application Manager, if your needs gets changed in future.</string>
+    <string name="no_account_name_detected_because_permission">We don\'t know your Google Id, this way we cannot post on the server information about your activity.\nSometime ago you didn\'t accepted to give us the permission to read your Google account name.\nIf you want to view in future your results and other personal information, please go in Application Manager, this App, and turn on requested permissions.\nWe don\'t show publicly your Google Id.\nYou can also use this application without turning on the necessary permission for reading Google account name.</string>
+
+</resources>

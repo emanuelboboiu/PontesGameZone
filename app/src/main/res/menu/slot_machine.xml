@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ro.pontes.pontesgamezone.SlotMachineActivity" >
+
+    <item
+        android:id="@+id/mnuSaloon"
+        android:orderInCategory="30"
+        android:showAsAction="never"
+        android:title="@string/mnu_saloon"/>
+    <item
+        android:id="@+id/mnuBathroom"
+        android:orderInCategory="40"
+        android:showAsAction="never"
+        android:title="@string/mnu_bathroom"/>
+    <item
+        android:id="@+id/mnuPawnshop"
+        android:orderInCategory="50"
+        android:showAsAction="never"
+        android:title="@string/mnu_pawnshop"/>
+    <item
+        android:id="@+id/mnuVirtualTime"
+        android:orderInCategory="80"
+        android:showAsAction="never"
+        android:title="@string/mnu_saloon_virtual_time"/>
+    <item
+        android:id="@+id/mnuSmStatistics"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/title_statistics_alert"/>
+    <item
+        android:id="@+id/mnuMoneyWonAsBonus"
+        android:orderInCategory="102"
+        android:showAsAction="never"
+        android:title="@string/mnu_money_won_as_bonus"/>
+    <item
+        android:id="@+id/mnuHelp"
+        android:orderInCategory="1000"
+        android:showAsAction="never"
+        android:title="@string/open_help_online"/>
+
+</menu>

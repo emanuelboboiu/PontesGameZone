@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llScopa"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:ignore="UselessParent" >
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btLsBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="changeBet"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/ls_bet"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyBet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_bet"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMyMoney"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_money"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow>
+
+                <Button
+                    android:id="@+id/btLsNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="newHand"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/ls_new"
+                    android:textSize="@dimen/buttons_size"
+                    android:textStyle="bold"
+                    tools:ignore="ButtonStyle" />
+
+                <TextView
+                    android:id="@+id/tvMyLsHand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/my_ls_score"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDealersLsHand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/views_paddings_in_table"
+                    android:text="@string/dealers_ls_score"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_views_size"
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/llDealerCards"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:id="@+id/llPlayerCards"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            tools:ignore="UselessLeaf" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tvLsStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/ls_status"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_views_size"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btLsSayAllVisibleCards"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sayAllVisibleCards"
+                android:text="@string/ls_say_all"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btLsAbandon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="abandon"
+                android:text="@string/ls_abandon"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/btLsHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:onClick="history"
+                android:text="@string/bt_history"
+                android:textSize="@dimen/buttons_size"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

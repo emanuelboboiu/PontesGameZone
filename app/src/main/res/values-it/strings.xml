@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+    <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Benvenuto in Pontes GameZone!</string>
+    <string name="registered_message">Registrato da %1$s</string>
+    <string name="nickname">Il tuo nickname è %1$s</string>
+    <string name="nickname_visitor">Visitatore</string>
+    <string name="no_nickname">Tocca per aggiungere il tuo nickname…</string>
+    <string name="visitor">Visitatore</string>
+    <string name="company_name">Pontes Apps by Manu</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Scegli un gioco:</string>
+    <string name="black_jack_game">Black Jack</string>
+    <string name="poker_game">Poker</string>
+    <string name="cards_war_game">Guerra di carte</string>
+    <string name="who_is_greater_game">Chi è il migliore</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Cambia Nickname</string>
+    <string name="change_nickname_title">Nickname</string>
+    <string name="change_nickname_message">Imposta il tuo nuovo nickname:</string>
+    <string name="change_nickname_hint">Scrivi qui il tuo nickname…</string>
+    <string name="change_nickname_success">Ciao %1$s!\nIl tuo nickname è stato cambiato correttamente.</string>
+    <string name="change_nickname_error_short">Il nickname deve contenere almeno due lettere.\nRiprova!</string>
+    <string name="change_nickname_error_non_alphanumeric">Il nickname deve contenere solo lettere e numeri.\nDeve essere un\'unica parola.\nRiprova!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">Pontes Black Jack</string>
+    <string name="bj_new">Nuova mano</string>
+    <string name="bj_bet">Cambia la puntata</string>
+    <string name="bj_hit">Pesca</string>
+    <string name="bj_stand">Fermati</string>
+    <string name="bj_double">Raddoppia</string>
+    <string name="bj_surrender">Ritirati</string>
+    <string name="my_money">Il mio portafogli: $%1$s</string>
+    <string name="my_bet">La mia puntata: $%1$s</string>
+    <string name="my_bj_total">Tu: %1$s</string>
+    <string name="dealers_bj_total">Banco: %1$s</string>
+    <string name="bj_status">Stato di Blackjack</string>
+    <string name="not_enough_money_to_double">Non hai abbastanza denaro per raddoppiare la tua puntata. \nHai $%1$s nel tuo portafogli.</string>
+    <string name="statistics_for_blackjack">Hai giocato %1$s mani dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\nIl saldo corrente per questa sessione è  $%4$s.\nIl saldo medio per ciascuna mano è $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Pontes Five Card Draw Poker</string>
+    <string name="pk_new">Nuova mano</string>
+    <string name="pk_bet">Cambia la puntata</string>
+    <string name="pk_discard">Scarta</string>
+    <string name="pk_discard_x">Scarti %1$s</string>
+    <string name="pk_stand">Dai Carte</string>
+    <string name="pk_fold">Ritirati</string>
+    <string name="pk_raise">Rilancia</string>
+    <string name="pk_sort_title">Ordina le carte</string>
+    <string name="pk_sort_by_value">Per valore</string>
+    <string name="pk_sort_by_color">Per colore</string>
+    <string name="pk_sort_by_nothing">Mischiato</string>
+    <string name="my_pk_hand">Tu: %1$s</string>
+    <string name="dealers_pk_hand">Banco: %1$s</string>
+    <string name="pk_nothing">Niente</string>
+    <string name="pk_status">Stato di Poker</string>
+    <string name="pk_sort_not_allowed">Non puoi ordinare le carte quando ne hai una sola.</string>
+    <string name="statistics_for_poker">Hai giocato %1$s mani dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\nIl tuo saldo attuale per questa sessione è  $%4$s.\nIl saldo medio per ciascuna mano è $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Scala reale</item>
+        <item>Poker</item>
+        <item>Full</item>
+        <item>Colore</item>
+        <item>Scala</item>
+        <item>Tris</item>
+        <item>Doppia coppia</item>
+        <item>Coppia</item>
+        <item>Niente</item>
+        <item>Nessuno</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Pontes Guerra di Carte</string>
+    <string name="cw_new">Nuova guerra</string>
+    <string name="cw_bet">Cambia la puntata</string>
+    <string name="cw_fire">Fuoco</string>
+    <string name="cw_withdraw">Ritirati</string>
+    <string name="my_cw_total">Tu: %1$s</string>
+    <string name="dealers_cw_total">Banco: %1$s</string>
+    <string name="cbt_war_sounds">Suoni di guerra</string>
+    <string name="cw_status">Stato di Guerra di Carte</string>
+    <string name="statistics_for_cards_war">Hai combattuto in %1$s guerre dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\nIl saldo corrente per questa sessione è  $%4$s.\nIl saldo medio per ciascuna guerra è $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Pontes Chi è il migliore</string>
+    <string name="gw_new">Nuovo set</string>
+    <string name="gw_bet">Cambia la puntata</string>
+    <string name="gw_throw">Lancia i dadi</string>
+    <string name="gw_abandon">Abbandona</string>
+    <string name="my_gw_total">Tu: %1$s</string>
+    <string name="dealers_gw_total">Banco: %1$s</string>
+    <string name="gw_status">Stato di Chi è il migliore</string>
+    <string name="statistics_for_who_is_greater">Hai giocato %1$s set dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\nIl  saldo attuale per questa sessione è $%4$s.\nIl saldo medio per ciascun set è $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>carta</item>
+        <item>Fiori</item>
+        <item>Quadri</item>
+        <item>Cuori</item>
+        <item>Picche</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>Retro</item>
+        <item>Asso</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Jack</item>
+        <item>Regina</item>
+        <item>Re</item>
+    </string-array>
+
+    <string name="card_name">%1$s di %2$s</string>
+    <string name="card_name_extended">%1$s %2$s</string>
+
+    <!-- Content description for a card image: Dealer\'s Ace of Diamonds or yours King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Banco</item>
+        <item>Tu</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">La tua nuova puntata!</string>
+    <string name="bet_dialog_body">Ehi %1$s,\nscrivi la tua puntata in dollari:</string>
+    <string name="not_enough_money_to_bet">Spiacente %1$s!\nNon hai abbastanza denaro per puntare $%2$s.\nDevi cambiare la puntata!\nHai $%3$s nel tuo portafogli.</string>
+    <string name="play_just_for_fun">Oh %1$s, sei in una situazione sgradevole!\nNon hai più denaro nel tuo portafogli.\nPuoi cambiare la tua puntata a $0 per giocare solo per divertirti.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Guadagni un Bonus</string>
+    <string name="money_won_as_bonus_message">Hey %1$s,\nHai vinto $%2$s come bonus dall\'ultima volta che hai lanciato il gioco.\nHai vinto $%3$s come bonus oggi.\nHai vinto $%4$s come bonus da quando sei nostro cliente.</string>
+    <string name="mnu_money_won_as_bonus">Statistiche dei Bonus guadagnati</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Azione non consentita</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Audio</string>
+    <string name="cbt_sounds_setting">Esegui i suoni</string>
+    <string name="cbt_dice_sound_setting">Annuncia vocalmente i dadi</string>
+    <string name="cbt_speech_setting">Usa la sintesi vocale per migliorare l\'accessibilità</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Lingua</string>
+    <string name="tv_choose_dice_language_settings">Scegli la lingua per l\'annuncio dei dadi:</string>
+    <string name="language_english">Inglese (by Giulia Guerra)</string>
+    <string name="language_italian">Italiano (by Giulia Guerra)</string>
+    <string name="language_romanian">Romeno (by Cristian Csetnek)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Scuotimento</string>
+    <string name="cbt_onshake_toggle">Utilizza il rilevatore per lo scuotimento</string>
+    <string name="onshake_magnitude">Imposta l\'intensità dello scuotimento</string>
+    <string name="magnitude_very_easy">Molto leggero</string>
+    <string name="magnitude_easy">Leggero</string>
+    <string name="magnitude_moderate">Medio</string>
+    <string name="magnitude_hard">Forte</string>
+    <string name="magnitude_very_hard">Molto forte</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Varie</string>
+    <string name="cbt_keep_screen_awake">Mantieni lo schermo acceso</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Riporta ai valori predefiniti</string>
+    <string name="body_default_settings">Ciao %1$s!\nSei sicuro  di voler reimpostare i valori predefiniti?\nPontes GameZone verrà portato al suo stato iniziale.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Area Bar</string>
+    <string name="saloon_title">Benvenuto %1$s!\nSei ora nell\'area Bar!</string>
+    <string name="mnu_saloon">Vai all\'area Bar</string>
+    <string name="saloon_spent_money">Oggi hai speso $%1$s.</string>
+    <string name="mnu_saloon_virtual_time">Mostra tempo virtuale</string>
+    <string name="saloon_virtual_time_title">Orologio</string>
+    <string name="saloon_passed_day">Il tempo virtuale è %1$s.%2$s</string>
+    <string name="saloon_order">Scegli cosa vuoi comprare</string>
+    <string name="saloon_not_enough_money">Spiacente %1$s,\nnon hai abbastanza denaro!</string>
+    <string name="saloon_number_of_games_for_order">Hai giocato %1$s giochi dall\'ultima ordinazione.</string>
+    <string name="saloon_you_must_play_more">Ehi %1$s,\nDevi giocare almeno %2$s volte prima della prossima ordinazione.</string>
+    <string name="saloon_actual_bonus_percentage">Hai un bonus di %1$s%%\n(da aggiungere alla tua vincita)</string>
+    <string name="saloon_new_order_title">Ordinazione</string>
+    <string name="saloon_new_order_message">Ehi %1$s,\nVuoi un %2$s per $%3$s?</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Niente</item>
+        <item>Caffè</item>
+        <item>Tè</item>
+        <item>Succo</item>
+        <item>Birra</item>
+        <item>Whisky</item>
+        <item>Sigaro</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s per $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">Statistiche</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI elements: -->
+    <string name="msg_dealers_visible_card">La carta del banco visibile è: %1$s</string>
+    <string name="msg_second_dealer_card">La seconda carta del banco è: %1$s. Totale %2$s.</string>
+    <string name="msg_drawing_cards">%1$s. Totale %2$s.</string>
+    <string name="msg_dealer_has_busted">Il banco ha sbancato!</string>
+    <string name="msg_you_have_busted">Hai sbancato!</string>
+    <string name="msg_you_had_blackjack">Ottimo! Hai fatto un Blackjack!</string>
+    <string name="msg_blackjack_lost">Spiacente! Hai perso $%1$s!</string>
+    <string name="msg_blackjack_won">Complimenti! Hai vinto $%1$s!</string>
+    <string name="msg_blackjack_draw">Pareggio!!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI elements: -->
+    <string name="pk_started">Inizia la mano! Puoi scegliere le carte da scartare!</string>
+    <string name="pk_discarded">Ora si possono scoprire le carte!</string>
+    <string name="pk_card_discarded">%1$s scartata</string>
+    <string name="pk_card_not_discarded">%1$s ripresa</string>
+    <string name="pk_raise_title">Rilancia</string>
+    <string name="pk_raise_message">Inserisci  la cifra per il  rilancio</string>
+    <string name="pk_fold_message">Paghi un interesse per il piatto attuale.</string>
+    <string name="pk_not_enough_raise">Devi rilanciare almeno $%1$s.</string>
+    <string name="pk_you_won_the_hand">Complimenti! Hai vinto questa mano!\nHai vinto $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Spiacente! Hai perso questa mano!\nHai perso $%1$s</string>
+    <string name="pk_draw_hand">Pareggio!\nNessuno  ha vinto questa mano…</string>
+
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>La mano del banco: %1$s. %2$s</item>
+        <item>La tua mano: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI elements: -->
+    <string name="cw_started">Inizia la guerra, puoi sparare!</string>
+    <string name="cw_battle_continues">La battaglia continua…</string>
+    <string name="cw_you_won_battle">Hai vinto questa battaglia!</string>
+    <string name="cw_dealer_won_battle">Hai perso questa battaglia!</string>
+    <string name="cw_you_won_the_war">Complimenti! Hai vinto la guerra!\nHai vinto $%1$s</string>
+    <string name="cw_dealer_won_the_war">Spiacente! Hai perso la guerra!\nHai perso $%1$s</string>
+    <string name="cw_draw_war">Pareggio!\nNessuno ha vinto questa guerra…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI elements: -->
+    <string name="gw_started">Inizia il set, puoi lanciare!</string>
+    <string name="gw_you_won_the_set">Complimenti! Hai vinto questo set!\nHai vinto $%1$s</string>
+    <string name="gw_dealer_won_the_set">Spiacente! Hai perso questo set!\nHai perso $%1$s</string>
+    <string name="gw_draw_set">Pareggio!\nNessuno vince questo set…</string>
+    <string name="gw_actual_score">Punteggio: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Errore!</string>
+    <string name="warning">Attenzione!</string>
+
+    <!-- About dialog: -->
+    <string name="about">Informazioni</string>
+    <string name="app_version">Pontes GameZone, versione 1.5.1</string>
+    <string name="app_release_date">Rilasciato Lunedì 16 febbraio 2015</string>
+    <string name="app_last_update">Ultimo aggiornamento: Domenica 12 agosto 2018</string>
+    <string name="app_creator">Programmato da Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Telefono: +40740203043</string>
+    <string name="email_address">E-mail: android@pontes.ro</string>
+    <string name="web_address">Web: www.android.pontes.ro</string>
+    <string name="app_credits2">Ștefan Halus ha creato le immagini di: carte, dadi, icone</string>
+    <string name="app_credits_translation">Traduzione italiano di Luigi Russo</string>
+    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Aiuto</string>
+    <string name="hello_world">Ciao mondo!</string>
+    <string name="action_settings">Impostazioni</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">Pontes Forza Quattro</string>
+    <string name="cf_game_name">Forza Quattro</string>
+    <string name="cf_bet">Cambia la puntata</string>
+    <string name="cf_new">Inizia</string>
+    <string name="cf_status">Stato di Forza Quattro</string>
+    <string name="cf_abandon_game">Abbandona</string>
+    <string name="cf_game_type0">Contro il computer</string>
+    <string name="cf_game_type1">Contro un amico</string>
+    <string name="cf_cell_already_used">%1$s è già stata usata</string>
+    <string name="cf_cell_forbidden">%1$s non consentita</string>
+    <string name="dealer">Computer</string>
+    <string name="partner">Amico</string>
+    <string name="my_cf_total">Tu: %1$s</string>
+    <string name="dealers_cf_total">Computer: %1$s</string>
+    <string name="partners_cf_total">Amico: %1$s</string>
+    <string name="cf_started">È stata creata una nuova griglia!!</string>
+    <string name="cf_current_move">Sposta numero %1$s - %2$s</string>
+    <string name="cf_win">Complimenti! Hai vinto questa partita!</string>
+    <string name="cf_lose">Spiacente, hai perso questa partita…</string>
+    <string name="cf_draw">Questa partita è patta…</string>
+    <string name="statistics_for_connectfour">Hai giocato %1$s partite dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\Il bilancio per questa sessione è $%4$s.\nIl bilancio medio a partita è $%5$s.</string>
+    <string name="mnu_difficulty_level">Difficoltà</string>
+    <string name="cf_choose_level">Scegli il livello di difficoltà</string>
+    <string name="cf_easy">Facile</string>
+    <string name="cf_medium">Medio</string>
+    <string name="cf_hard">Difficile</string>
+    <string name="cf_impossible">Quasi impossibile</string>
+
+    <!-- Other places in casino, like pawn shop -->
+    <string name="mnu_go_to">Vai a…</string>
+    <string name="mnu_pawnshop">Vai al banco dei pegni</string>
+    <string name="title_activity_pawnshop">Banco dei pegni</string>
+    <string name="ps_title">Benvenuto %1$s!\nSei al banco dei pegni!</string>
+    <string name="ps_sell">Scegli cosa vuoi dare in pegno</string>
+    <string name="ps_new_sell_title">Impegnando</string>
+    <string name="ps_new_sell_message">Ehi %1$s,\nVuoi impegnare il tuo %2$s per $%3$s?</string>
+    <string name="ps_content_description_for_products">Impegni %1$s per $%2$s</string>
+    <string name="ps_old_sell_title">Riprenditelo</string>
+    <string name="ps_old_sell_message">Ehi %1$s,\nVuoi riprenderti il tuo %2$s per $%3$s?</string>
+    <string name="ps_content_description_for_sold_products">Riprendi %1$s per $%2$s</string>
+    <string name="ps_not_enough_money_to_take_product_back">Ehi %1$s!\nNon hai denaro sufficiente per riprenderti il prodotto.\nHai $%2$s nel tuo portafogli.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>niente</item>
+        <item>orologio</item>
+        <item>cellulare</item>
+        <item>laptop</item>
+        <item>braccialetto</item>
+        <item>motocicletta</item>
+        <item>automobile</item>
+    </string-array>
+
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">Oh no!…</string>
+    <string name="saloon_bottles_moved">Per favore sta attento! Non rompere le nostre bottiglie!</string>
+    <string name="saloon_bottles_broken">Ehi %1$s!\nHai rotto molte bottiglie!\nPerché usi la violenza?\nOra dovrai pagare $%2$s come risarcimento…</string>
+    <string name="saloon_not_enough_money_for_compensation">Ehi %1$s!\nHai rotto molte delle nostre bottiglie!\nNon hai abbastanza denaro per pagare il risarcimento.\nSei pregato di andartene dall\'area bar!</string>
+    <string name="saloon_not_allowed">ehi %1$s!\nNon hai soldi nel tuo portafogli!\nCosa ci fai qui?\nEventualmente, vai al banco dei pegni per vendere qualcosa.\nVattene!</string>
+    <string name="tv_clock_is_unavailable">Orologio non disponibile…</string>
+    <string name="ps_clock_is_unavailable">Orologio non disponibile…\nVai al banco dei pegni per riprenderti l\'orologio…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Bagno</string>
+    <string name="mnu_bathroom">Vai in bagno</string>
+    <string name="bath_title">Sei in bagno</string>
+    <string name="bath_action">Scegli un\'azione</string>
+    <string name="bath_status">Stato bagno</string>
+    <string name="bath_use_objects">Usa %1$s</string>
+    <string name="bath_wrong_action_chosen">Ehi %1$s,\nNon puoi scegliere un\'azione valida qui.\nControlla lo stato del bagno!\nLo stato è riportato nella parte bassa dell\'area bagno.</string>
+    <string name="saloon_too_many_drinks">Ehi %1$s,\nHai bevuto  troppo\nPer favore, vai in bagno, altrimenti non potrai bere nulla!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>Niente</item>
+        <item>gabinetto</item>
+        <item>lavandino</item>
+        <item>asciugamani</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>non puoi compiere azioni</item>
+        <item>Devi usare il gabinetto perché hai bevuto molto.</item>
+        <item>Per favore lavati le mani!</item>
+        <item>Hai le mani bagnate, ricordati di usare l\'asciugamani.</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Vai all\'entrata</string>
+    <string name="mnu_go_back">Indietro</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">Hai $%1$s nel tuo portafogli</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">Insolvenza</string>
+    <string name="tv_ins_congratulations">CONGRATULAZIONI!</string>
+    <string name="tv_ins_main_message">Il nostro casinò è andato in bancarotta!</string>
+    <string name="tv_ins_explanations">Sì %1$s,\nHai guadagnato più di $%2$s.\nNon possiamo pagarti più di quella cifra.\nRitorna e riprova ancora quando avremo recuperato.</string>
+    <string name="tv_ins_play_sound_again">Riproduci ancora il suono!</string>
+    <string name="tv_ins_restart_game">Riavvia ora il gioco!</string>
+    <string name="tv_send_performance">Puoi postare le tue performance:</string>
+    <string name="hint_write_a_name">Scrivi qui un nome che apparirà sul web…</string>
+    <string name="bt_ins_send_now">Invia ora!</string>
+    <string name="name_not_written_correctly">Il nome deve avere almeno 3 lettere.\nRiscrivilo!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Riproduci suoni di sottofondo</string>
+    <string name="cbt_sounds_music_setting">Riproduci musica durante il gioco</string>
+    <string name="tv_background_volume_percentage">Percentuale del volume di sottofondo</string>
+    <string name="tv_music_volume_percentage">Percentuale del volume della musica</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">Conferma</string>
+    <string name="really_leave_page">Sei sicuro di voler lasciare questa attività?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+
+    <!-- Strings after 20 July 2015, version 1.3: -->
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Pontes Slot Machine</string>
+    <string name="sm_game_name">Slot Machine</string>
+    <string name="sm_one_coin">Una moneta</string>
+    <string name="sm_two_coins">Due monete</string>
+    <string name="sm_three_coins">Tre monete</string>
+    <string name="sm_fire">Tira la leva!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Ora puoi tirare la leva!</string>
+    <string name="sm_you_won">Complimenti! Hai vinto $%1$s!</string>
+    <string name="sm_dealer_won">Spiacente! Hai perso $%1$s!</string>
+    <string name="sm_status">Stato di Slot Machine</string>
+    <string name="statistics_for_slot_machine">Hai mosso i cilindri %1$s volte dall\'ultima pausa.\Hai vinto $%2$s e hai perso $%3$s.\nIl saldo corrente per questa sessione è $%4$s.\nIl bilancio medio a partita è $%5$s.</string>
+    <string name="sm_cylinder_face">Faccia</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Pontes Scopa</string>
+    <string name="ls_game_name">Scopa</string>
+    <string name="ls_bet">Cambia la puntata</string>
+    <string name="ls_new">Nuovo</string>
+    <string name="ls_say_all">Dici le carte</string>
+    <string name="ls_abandon">Abbandona</string>
+    <string name="my_ls_score">Tu: %1$s</string>
+    <string name="dealers_ls_score">Banco: %1$s</string>
+    <string name="ls_new_round">Nuovo round! Inizia %1$s…</string>
+    <string name="ls_status">Stato di Scopa</string>
+    <string name="statistics_for_la_scopa">Hai giocato %1$s Scopa dall\'ultima pausa.\nHai vinto $%2$s e hai perso $%3$s.\nIl saldo corrente  per
+ questa sessione è $%4$s.\nIl saldo medio a partita è $%5$s.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Inizia il gioco</string>
+    <string name="ls_you_won">Complimenti! Hai vinto $%1$s!</string>
+    <string name="ls_dealer_won_battle">Spiacente! Hai perso $%1$s!</string>
+    <string name="ls_card_put_message">%1$s mette %2$s.</string>
+    <string name="ls_taken_cards_message">%1$s prende %2$s con %3$s.</string>
+    <string name="ls_scopa_event">Scopa!</string>
+    <string name="ls_remained_cards_taken">%1$s ha preso le carte restanti %2$s.</string>
+    <string name="ls_point_number_of_cards">%1$s ha preso più carte di (%2$s) e vince un punto.</string>
+    <string name="ls_same_number_of_cards">Entrambi  avete  20 carte.</string>
+    <string name="ls_point_number_of_diamonds">%1$s ha preso più quadri di (%2$s) e vince un punto.</string>
+    <string name="ls_same_number_of_diamonds">Entrambi avete 5 quadri.</string>
+    <string name="ls_point_number_of_sevens">%1$s ha più sette di (%2$s) e vince un punto.</string>
+    <string name="ls_same_number_of_sevens">Entrambi avete 2 sette.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s ha preso il 7 di Quadri e vince un punto.</string>
+    <string name="ls_score">Punteggio: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s vince la partita.\nPunteggio finale: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>Sul tavolo ci sono: %1$s.</item>
+        <item>Le tue carte: %1$s.</item>
+        <item>Le carte del banco: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Nessuno</item>
+        <item>Tu</item>
+        <item>Banco</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Scegli qui</string>
+    <string name="cbt_allow_vibration">Permetti al dispositivo di vibrare in alcuni eventi</string>
+    <string name="tv_last_visit">La tua ultima visita:\n%1$s, %2$s %3$s %4$s, %5$s:%6$s</string>
+    <string name="tv_last_visit_not_known">Questa è la prima volta che fai visita al nostro casinò.</string>
+    <string name="game_history">Storico del gioco</string>
+    <string name="bt_history">Storico</string>
+    <string name="bt_close">Chiudi</string>
+    <string name="congratulations">Complimenti</string>
+    <string name="sorry">Spiacente</string>
+    <string name="today">Oggi</string>
+    <string name="yesterday">Ieri</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s\'s %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Scegli una variante</string>
+    <string name="ls_scopa_variant">Scopa classica</string>
+    <string name="ls_escoba_variant">Escoba</string>
+    <string name="ls_scopone_variant">Scopone</string>
+    <string name="ls_scopone_escoba_variant">Scopone Escoba</string>
+    <string name="ls_chosen_variant">Hai scelto la variante %1$s</string>
+    <string name="ls_choose_variant_not_allowed">Non puoi cambiare variante quando il gioco è in corso.</string>
+
+    <!-- Strings for permissions and others: -->
+    <string name="information">Informazioni</string>
+    <string name="info_when_permission_accounts_not_granted">Questo pacchetto non ha bisogno di permessi particolari per funzionare correttamente.\nI permessi ci servono soltanto per identificare il tuo Id Google, in questo modo alcune delle tue attività vengono riepilogate da questa app.\nNon rendiamo pubblico il tuo Id Google..\nSe non vuoi avere lo storico delle tue attività, o depositare i soldi in un account per la banca virtuale, od altre informazioni circa le tue attività per questa applicazione, al prossimo accesso puoi scegliere di non esser avvisato circa questi permessi.\nPuoi anche dare manualmente i permessi nel Gestore Applicazioni, qualora tu dovessi cambiare idea in futuro.</string>
+    <string name="no_account_name_detected_because_permission">Non conosciamo il tuo Id Google, in questo modo non possiamo postare sul server le informazioni inerenti le tue attività.\Tempo fa non ci hai dato il permesso di  identificare il tuo Id Google.\nSe in futuro deciderai di voler visualizzare risultati e altre informazioni personali, per favore entra nel Gestore Applicazioni, seleziona questa App, e abilita i permessi richiesti.\nNon renderemo pubblico il tuo Id Google.\nPuoi anche utilizzare questa applicazione senza abilitare i permessi necessari per l\'identificazione dell\'Id Google.</string>
+
+</resources>

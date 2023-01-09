@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llBlackJack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+    
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    tools:ignore="UselessParent" >
+    
+    <TableRow>
+                   <Button
+            android:id="@+id/btBjBet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_paddings_in_table"
+            android:onClick="changeBet"
+            android:text="@string/bj_bet"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+        
+        <TextView
+            android:id="@+id/tvMyBet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_paddings_in_table"
+                        android:gravity="center_vertical|left"
+            android:text="@string/my_bet"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/tvMyMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_paddings_in_table"
+                        android:gravity="center_vertical|left"
+            android:text="@string/my_money"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+            </TableRow>
+    
+    <TableRow>
+                    <Button
+            android:id="@+id/btBjNew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/views_paddings_in_table"
+            android:onClick="newBlackJack"
+            android:text="@string/bj_new"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+            
+<TextView
+android:id="@+id/tvMyBjTotal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="@dimen/views_paddings_in_table"
+            android:gravity="center_vertical|left"
+android:text="@string/my_bj_total"
+android:textColor="#000000"
+android:textSize="@dimen/text_views_size"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/tvDealersBjTotal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="@dimen/views_paddings_in_table"
+            android:gravity="center_vertical|left"
+android:text="@string/dealers_bj_total"
+android:textColor="#000000"
+android:textSize="@dimen/text_views_size"
+android:textStyle="bold" />
+</TableRow>
+                            
+    </TableLayout>
+    </LinearLayout>
+        
+    <LinearLayout
+        android:id="@+id/llDealerCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/llPlayerCards"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical" >
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+                android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+<TextView
+            android:id="@+id/tvBjStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/bj_status"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
+ 
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+                android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btBjHit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="takeCard"
+            android:text="@string/bj_hit"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btBjStand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stand"
+            android:text="@string/bj_stand"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btBjDouble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="doubleDown"
+            android:text="@string/bj_double"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btBjSurrender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="surrender"
+            android:text="@string/bj_surrender"
+            android:textSize="@dimen/buttons_size"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+       
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

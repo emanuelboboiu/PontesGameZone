@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="wrap_content"
+        android:orientation="vertical"
+    android:padding="@dimen/settings_paddings_layout">
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_version" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_release_date" />
+ 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_last_update" />
+ 
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_creator" />
+ 
+     <TextView
+        android:id="@+id/tvPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/phone_number"
+        android:autoLink="phone" />
+ 
+    <TextView
+        android:id="@+id/tvEmailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+                android:textSize="@dimen/text_views_size"
+        android:text="@string/email_address"
+        android:autoLink="email" />
+ 
+    <TextView
+        android:id="@+id/tvWebAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/web_address"
+        android:autoLink="web" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_credits2" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_credits_translation" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_views_size"
+        android:text="@string/app_credits3" />
+    
+</LinearLayout>
+ 
