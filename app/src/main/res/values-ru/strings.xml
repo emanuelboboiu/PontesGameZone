@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+    <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Добро пожаловать в Pontes GameZone!</string>
+    <string name="registered_message">Зарегистрировано на %1$s</string>
+    <string name="nickname">Ваш никнейм %1$s</string>
+    <string name="nickname_visitor">Посетитель</string>
+    <string name="no_nickname">Нажмите, чтобы установить никнейм…</string>
+    <string name="visitor">Посетитель</string>
+    <string name="company_name">Pontes Apps by Manu</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Выберите игру:</string>
+    <string name="black_jack_game">Блэк Джек</string>
+    <string name="poker_game">Покер</string>
+    <string name="cards_war_game">Карточная война</string>
+    <string name="who_is_greater_game">Кто больше</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Изменить никнейм</string>
+    <string name="change_nickname_title">Никнейм</string>
+    <string name="change_nickname_message">Напишите ваш новый никнейм: </string>
+    <string name="change_nickname_hint">Пишите ваш никнейм здесь…</string>
+    <string name="change_nickname_success">Поздравляем %1$s!\nВаш никнейм был успешно изменён.</string>
+    <string name="change_nickname_error_short">В никнейме должно содержаться не менее двух букв.\nПопробуйте ещё раз!</string>
+    <string name="change_nickname_error_non_alphanumeric">Никнейм должен содержать только буквы и цифры.\nНикнейм должен состоять только из одного слова.\nпопробуйте ещё раз!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">Pontes Блэк Джек</string>
+    <string name="bj_new">Начать партию</string>
+    <string name="bj_bet">Изменить ставку</string>
+    <string name="bj_hit">Взять ещё карту</string>
+    <string name="bj_stand">Остановиться</string>
+    <string name="bj_double">Удвоить ставку</string>
+    <string name="bj_surrender">Сдаться</string>
+    <string name="my_money">Ваш кошелёк: $%1$s</string>
+    <string name="my_bet">Ваша ставка: $%1$s</string>
+    <string name="my_bj_total">У вас: %1$s</string>
+    <string name="dealers_bj_total">У крупье: %1$s</string>
+    <string name="bj_status">Статус игры в Блэк Джек</string>
+    <string name="not_enough_money_to_double">У вас недостаточно денег, чтобы удвоить ставку.\nВ вашем кошельке $%1$s.</string>
+    <string name="statistics_for_blackjack">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Pontes пятекарточный покер</string>
+    <string name="pk_new">Новая партия</string>
+    <string name="pk_bet">Изменить ставку</string>
+    <string name="pk_discard">Заменить</string>
+    <string name="pk_discard_x">Заменить %1$s</string>
+    <string name="pk_stand">Закончить ход</string>
+    <string name="pk_fold">Пасовать</string>
+    <string name="pk_raise">Увеличить ставку</string>
+    <string name="pk_sort_title">Отсортировать карты</string>
+    <string name="pk_sort_by_value">По достоинству</string>
+    <string name="pk_sort_by_color">По масти</string>
+    <string name="pk_sort_by_nothing">вперемешку</string>
+    <string name="my_pk_hand">У вас: %1$s</string>
+    <string name="dealers_pk_hand">У крупье: %1$s</string>
+    <string name="pk_nothing">ничего</string>
+    <string name="pk_status">Статус игры в покер</string>
+    <string name="pk_sort_not_allowed">Вы не можете изменить сортировку карт во время партии.</string>
+    <string name="statistics_for_poker">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Стрит-флэш</item>
+        <item>Каре</item>
+        <item>Фул-хаус</item>
+        <item>Флэш</item>
+        <item>Стрит</item>
+        <item>Триплет</item>
+        <item>Две пары</item>
+        <item>Пара</item>
+        <item>Без пары</item>
+        <item>Ничего</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Pontes Карточная война</string>
+    <string name="cw_new">Новая партия</string>
+    <string name="cw_bet">Изменить ставку</string>
+    <string name="cw_fire">Атаковать</string>
+    <string name="cw_withdraw">Сдаться</string>
+    <string name="my_cw_total">У вас: %1$s</string>
+    <string name="dealers_cw_total">У крупье: %1$s</string>
+    <string name="cbt_war_sounds">Звуки боя</string>
+    <string name="cw_status">Статус игры в карточную войну</string>
+    <string name="statistics_for_cards_war">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Pontes Кто больше</string>
+    <string name="gw_new">Новая партия</string>
+    <string name="gw_bet">Изменить ставку</string>
+    <string name="gw_throw">Бросить кубики</string>
+    <string name="gw_abandon">Сдаться</string>
+    <string name="my_gw_total">У вас: %1$s</string>
+    <string name="dealers_gw_total">У крупье: %1$s</string>
+    <string name="gw_status">Статус игры в кто больше</string>
+    <string name="statistics_for_who_is_greater">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>card</item>
+        <item>Трефы</item>
+        <item>Буби</item>
+        <item>Черви</item>
+        <item>Пики</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>Скрыто</item>
+        <item>Туз</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Валет</item>
+        <item>Дама</item>
+        <item>Король</item>
+    </string-array>
+
+    <string name="card_name">%1$s %2$s</string>
+    <string name="card_name_extended">%1$s %2$s</string>
+    <!-- Content description for a card image: Dealer's Ace of Diamonds or Yours King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Крупье</item>
+        <item>Ваша</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">Ваша новая ставка!</string>
+    <string name="bet_dialog_body">Хэй %1$s,\nукажите новую ставку в долларах: </string>
+    <string name="not_enough_money_to_bet">Извините, %1$s!\nУ вас недостаточно денег, чтобы поставить $%2$s.\nВы должны изменить ставку!\nВ вашем кошельке $%3$s.</string>
+    <string name="play_just_for_fun">Упс, %1$s, какая неприятная ситуация!\nВ вашем кошельке совсем не осталось денег.\nВы можете поставить 0 долларов, чтобы поиграть просто так.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Бонусные начисления</string>
+    <string name="money_won_as_bonus_message">Хэй, %1$s,\nС момента запуска игры, вам было начислено $%2$s в качестве бонуса.\nЗа день вам было начислено $%3$s в качестве бонуса.\nВам было начислено $%4$s в качестве бонуса с момента, как вы стали нашим клиентом.</string>
+    <string name="mnu_money_won_as_bonus">Статистика бонусных начислений</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Действие не может быть выполнено</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Настройки аудио</string>
+    <string name="cbt_sounds_setting">Проигрывать звуки</string>
+    <string name="cbt_dice_sound_setting">Озвучивать цифры на кубиках голосом</string>
+    <string name="cbt_speech_setting">Использовать дополнительную озвучку для увеличения доступности</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Настройки языка</string>
+    <string name="tv_choose_dice_language_settings">Выберите язык озвучки кубиков:</string>
+    <string name="language_english">English (by Giulia Guerra)</string>
+    <string name="language_italian">Italiano (by Giulia Guerra)</string>
+    <string name="language_romanian">Română (by Cristian Csetnek)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Настройки встряхивания</string>
+    <string name="cbt_onshake_toggle">Использовать датчик движения</string>
+    <string name="onshake_magnitude">Установить силу встряхиваний</string>
+    <string name="magnitude_very_easy">Очень легко</string>
+    <string name="magnitude_easy">Легко</string>
+    <string name="magnitude_moderate">Средне</string>
+    <string name="magnitude_hard">Сильно</string>
+    <string name="magnitude_very_hard">Очень сильно</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Другие настройки</string>
+    <string name="cbt_keep_screen_awake">Не выключать экран</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Сбросить к настройкам по умолчанию</string>
+    <string name="body_default_settings">%1$s!\nВы уверены, что хотите сбросить все значения?\nPontes GameZone окажется в первоначальном состоянии.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Бар</string>
+    <string name="saloon_title">Добро пожаловать %1$s!\nВы находитесь в баре!</string>
+    <string name="mnu_saloon">Пойти в бар</string>
+    <string name="saloon_spent_money">за сегодня вы потратили $%1$s.</string>
+    <string name="mnu_saloon_virtual_time">Показать виртуальное время</string>
+    <string name="saloon_virtual_time_title">часы</string>
+    <string name="saloon_passed_day">Виртуальное время %1$s.%2$s</string>
+    <string name="saloon_order">Выбирите что хотите заказать</string>
+    <string name="saloon_not_enough_money">Извините, %1$s,\nУ вас недостаточно денег!</string>
+    <string name="saloon_number_of_games_for_order">Вы сыграли %1$s игр с момента последнего заказа.</string>
+    <string name="saloon_you_must_play_more">Хэй, %1$s,\nВам нужно сыграть ещё %2$s раз перед следующим заказом.</string>
+    <string name="saloon_actual_bonus_percentage">У вас есть бонус в %1$s%%\n(который будет добавлен к победам)</string>
+    <string name="saloon_new_order_title">Заказать</string>
+    <string name="saloon_new_order_message">Хэй, %1$s,\nВы желаете %2$s за $%3$s?</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Ничего</item>
+        <item>Кофе</item>
+        <item>Чай</item>
+        <item>Сок</item>
+        <item>Пиво</item>
+        <item>Виски</item>
+        <item>Сигарета</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s за $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">Статистика</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI Elements: -->
+    <string name="msg_dealers_visible_card">Одна из карт крупье: %1$s</string>
+    <string name="msg_second_dealer_card">Вторая карта крупье: %1$s. Всего %2$s очков.</string>
+    <string name="msg_drawing_cards">%1$s. Всего %2$s очков.</string>
+    <string name="msg_dealer_has_busted">Крупье прогорел!</string>
+    <string name="msg_you_have_busted">Вы прогорели!</string>
+    <string name="msg_you_had_blackjack">Отлично! У вас получился Блэкджек!</string>
+    <string name="msg_blackjack_lost">Увы! Вы теряете $%1$s!</string>
+    <string name="msg_blackjack_won">Поздравляем! Вы получаете $%1$s!</string>
+    <string name="msg_blackjack_draw">Ничья!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI Elements: -->
+    <string name="pk_started">Партия начата! Выберите карты, которые хотите заменить!</string>
+    <string name="pk_discarded">Вы можете завершить ход!</string>
+    <string name="pk_card_discarded">%1$s будет заменена</string>
+    <string name="pk_card_not_discarded">%1$s не будет заменена</string>
+    <string name="pk_raise_title">Увеличить ставку</string>
+    <string name="pk_raise_message">Введите на сколько вы хотите увеличить ставку</string>
+    <string name="pk_fold_message">Вы сдались, и крупье забирает вашу ставку.</string>
+    <string name="pk_not_enough_raise">Вы должны увеличить ставку минимум на $%1$s!</string>
+    <string name="pk_you_won_the_hand">Поздравляем! Вы выиграли эту партию!\nВы получаете $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Увы! Вы проигралиэту партию!\nВы теряете $%1$s</string>
+    <string name="pk_draw_hand">Ничья!\Никто не выиграл партию…</string>
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>Карты крупье: %1$s. %2$s</item>
+        <item>Ваши карты: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI Elements: -->
+    <string name="cw_started">Война начата, Вы можете атаковать!</string>
+    <string name="cw_battle_continues">Бой продолжается…</string>
+    <string name="cw_you_won_battle">Этот бой за вами!</string>
+    <string name="cw_dealer_won_battle">Вы проиграли этот бой!</string>
+    <string name="cw_you_won_the_war">Поздравляем! Вы выиграли войну!\nВы получаете $%1$s</string>
+    <string name="cw_dealer_won_the_war">Увы! Вы проиграли в войне!\nВы теряете $%1$s</string>
+    <string name="cw_draw_war">Ничья!\nНикто не выиграл эту войну…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI Elements: -->
+    <string name="gw_started">Партия начата, Кидайте кубики!</string>
+    <string name="gw_you_won_the_set">Поздравляем! Вы выиграли партию!\nВы получаете $%1$s</string>
+    <string name="gw_dealer_won_the_set">Увы! Вы проиграли партию!\nВы теряете $%1$s</string>
+    <string name="gw_draw_set">Ничья!\nНикто не выиграл партию…</string>
+    <string name="gw_actual_score">Счёт: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Ошибка!</string>
+    <string name="warning">Внимание!</string>
+
+    <!-- About dialog: -->
+    <string name="about">О приложении</string>
+    <string name="app_version">Pontes GameZone, версии 2.1</string>
+    <string name="app_release_date">Версия 1.0 вышла в понедельник, 16 февраля 2015-ого</string>
+    <string name="app_last_update">Последнее обновление: вторник, 10-ого января, 2023-ого</string>
+    <string name="app_creator">Программист: Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Номер телефона: +40740203043</string>
+    <string name="email_address">Электронная почта: android@pontes.ro</string>
+    <string name="web_address">Сайт: www.android.pontes.ro</string>
+    <string name="app_credits2">Ștefan Halus автор картинок: карт, кубиков, иконок</string>
+    <string name="app_credits_translation">Перевод на Русский ArturMinyazev</string>
+    <string name="app_credits3">Бета-тестеры:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Помощь</string>
+    <string name="hello_world">Привет мир!</string>
+    <string name="action_settings">Настройки</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">Четыре в ряд</string>
+    <string name="cf_game_name">Четыре в ряд</string>
+    <string name="cf_bet">Изменить ставку</string>
+    <string name="cf_new">Начать</string>
+    <string name="cf_status">Статус игры в четыре в ряд</string>
+    <string name="cf_abandon_game">Сдаться</string>
+    <string name="cf_game_type0">Против крупье</string>
+    <string name="cf_game_type1">Против живого игрока</string>
+    <string name="cf_cell_already_used">Клетка %1$s уже занята</string>
+    <string name="cf_cell_forbidden">На клетку %1$s Ставить нельзя! Сначала заполните клетки ниже неё.</string>
+    <string name="dealer">Крупье</string>
+    <string name="partner">Партнёр</string>
+    <string name="my_cf_total">У вас: %1$s</string>
+    <string name="dealers_cf_total">У крупье: %1$s</string>
+    <string name="partners_cf_total">У партнёра: %1$s</string>
+    <string name="cf_started">Создано новое пустое поле!</string>
+    <string name="cf_current_move">Ход номер %1$s - %2$s</string>
+    <string name="cf_win">Поздравляем! Вы выиграли партию!\nВы получаете $%1$s</string>
+    <string name="cf_lose">Увы, вы проиграли партию!\nВы теряете $%1$s</string>
+    <string name="cf_draw">Ничья…</string>
+    <string name="statistics_for_connectfour">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+    <string name="mnu_difficulty_level">Уровень сложности</string>
+    <string name="cf_choose_level">Выберите уровень сложности</string>
+    <string name="cf_easy">Лёгкий</string>
+    <string name="cf_medium">Средний</string>
+    <string name="cf_hard">Тяжёлый</string>
+    <string name="cf_impossible">Очень тяжёлый</string>
+
+    <!-- Other places in casino, like pawn shop -->
+    <string name="mnu_go_to">Пойти в…</string>
+    <string name="mnu_pawnshop">Пойти в ломбард</string>
+    <string name="title_activity_pawnshop">Ломбард</string>
+    <string name="ps_title">Добро пожаловать %1$s!\nВы пришли в ломбард!</string>
+    <string name="ps_sell">Выберите что хотите заложить</string>
+    <string name="ps_new_sell_title">Залог</string>
+    <string name="ps_new_sell_message">Хэй, %1$s,\nВы хотите заложить %2$s за $%3$s?</string>
+    <string name="ps_content_description_for_products">Заложить %1$s за $%2$s</string>
+    <string name="ps_old_sell_title">Выкупить</string>
+    <string name="ps_old_sell_message">Хэй, %1$s,\nВы хотите выкупить %2$s за $%3$s?</string>
+    <string name="ps_content_description_for_sold_products">Выкупить %1$s за $%2$s</string>
+    <string name="ps_not_enough_money_to_take_product_back">Хэй, %1$s!\nУ вас недостаточно денег чтобы выкупить вещь!\nВ вашем кошельке $%2$s.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>Ничего</item>
+        <item>часы</item>
+        <item>телефон</item>
+        <item>ноутбук</item>
+        <item>браслет</item>
+        <item>мотоцикл</item>
+        <item>автомобиль</item>
+    </string-array>
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">О нет!…</string>
+    <string name="saloon_bottles_moved">Пожалуйста, будьте внимательнее! Не разбивайте наши бутылки!</string>
+    <string name="saloon_bottles_broken">Хэй, %1$s!\nВы разбили несколько бутылок!\nПочему вы были столь неаккуратны?\nТеперь вам придётся заплатить $%2$s в качестве компенсации…</string>
+    <string name="saloon_not_enough_money_for_compensation">Хэй, %1$s!\nВы разбили несколько бутылок!\nУ вас недостаточно денег для выплаты компенсации.\nПожалуйста, покиньте бар!</string>
+    <string name="saloon_not_allowed">Хэй, %1$s!\nВ вашем кошельке совсем нет денег!\nВ таком случае, что вы здесь делаете?\nСходите в ломбард и заложите что-нибудь.\nУвидимся после!</string>
+    <string name="tv_clock_is_unavailable">Время неизвестно…</string>
+    <string name="ps_clock_is_unavailable">Вы не можете узнать время…\nСходите в ломбард и выкупите ваши часы…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Душевая</string>
+    <string name="mnu_bathroom">Пойти в душевую</string>
+    <string name="bath_title">Вы в душевой</string>
+    <string name="bath_action">Выберите действие</string>
+    <string name="bath_status">Статус душевой</string>
+    <string name="bath_use_objects">Использовать %1$s</string>
+    <string name="bath_wrong_action_chosen">Хэй, %1$s,\nВы выбрали неверное действие.\nПожалуйста, проверьте статус душевой!\nСтатус написан в нижней части душевой.</string>
+    <string name="saloon_too_many_drinks">Хэй, %1$s,\nВы выпили слишком много!\nСходите в душевую, иначе вы не сможете больше выпить!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>Ничего</item>
+        <item>Туалет</item>
+        <item>раковина</item>
+        <item>сушилка для рук</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>Действий в душевой не требуется</item>
+        <item>Необходимо сходить в туалет, потому что вы слишком много выпили.</item>
+        <item>Пожалуйста, помойте руки!</item>
+        <item>У вас мокрые руки, не забудьте их высушить!</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Пойти в главный зал</string>
+    <string name="mnu_go_back">Вернуться</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">В вашем кошельке $%1$s</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">Insolvency</string>
+    <string name="tv_ins_congratulations">Поздравляем!</string>
+    <string name="tv_ins_main_message">Наше казино обанкротилось!</string>
+    <string name="tv_ins_explanations">Да, %1$s,\nВы заработали более $%2$s.\nМы не можем заплатить больше этой суммы.\nПожалуйста возвращайтесь когда мы восстановимся.</string>
+    <string name="tv_ins_play_sound_again">Проиграть звук ещё раз!</string>
+    <string name="tv_ins_restart_game">Перезапустить игру!</string>
+    <string name="tv_send_performance">Вы можете отправить свой результат:</string>
+    <string name="hint_write_a_name">Напишите своё имя, которое отобразится на сайте игры…</string>
+    <string name="bt_ins_send_now">Отправить сейчас!</string>
+    <string name="name_not_written_correctly">В имени должно содержаться не менее трёх букв.\nПопробуйте ещё раз!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Проигрывать фоновые звуки</string>
+    <string name="cbt_sounds_music_setting">Проигрывать музыку во время игр</string>
+    <string name="tv_background_volume_percentage">Громкость фоновых звуков в процентах</string>
+    <string name="tv_music_volume_percentage">Громкость музыки в процентах</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">Подтверждение</string>
+    <string name="really_leave_page">Вы уверены, что хотите покинуть этот экран?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <!-- Strings after 20 July 2015, version 1.3 -->
+
+
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Pontes Игровой автомат</string>
+    <string name="sm_game_name">Игровой автомат</string>
+    <string name="sm_one_coin">Одна монета</string>
+    <string name="sm_two_coins">Две монеты</string>
+    <string name="sm_three_coins">Три монеты</string>
+    <string name="sm_fire">Тянуть рукоять!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Цилиндры готовы к вращению</string>
+    <string name="sm_you_won">Поздравляем! Вы выигрываете $%1$s!</string>
+    <string name="sm_dealer_won">Увы! Вы теряете $%1$s!</string>
+    <string name="sm_status">Статус игры в игровой автомат</string>
+    <string name="statistics_for_slot_machine">С момента последнего визита, вы вращали цилиндры %1$s раз.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за вращение составляет $%5$s.</string>
+    <string name="sm_cylinder_face">Цифра</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Pontes Скопа</string>
+    <string name="ls_game_name">Скопа</string>
+    <string name="ls_bet">Изменить ставку</string>
+    <string name="ls_new">Начать партию</string>
+    <string name="ls_say_all">Произнести карты</string>
+    <string name="ls_abandon">Сдаться</string>
+    <string name="my_ls_score">У вас: %1$s</string>
+    <string name="dealers_ls_score">У крупье: %1$s</string>
+    <string name="ls_new_round">Новый раунд! %1$s начинается…</string>
+    <string name="ls_status">Статус игры в Скопу</string>
+    <string name="statistics_for_la_scopa">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
+    <string name="ls_mnu_limit_score">Изменить количество очков для победы</string>
+    <string name="ls_set_limit_score">Выберите количество очков, необходимых для победы в партии:</string>
+    <string name="ls_change_limit_score_not_allowed">Вы не можете изменять количество очков во время игры.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Игра начата</string>
+    <string name="ls_you_won">Поздравляем! Вы получаете $%1$s!</string>
+    <string name="ls_dealer_won_battle">Увы! Вы теряете $%1$s!</string>
+    <string name="ls_card_put_message">%1$s кладёт на стол %2$s.</string>
+    <string name="ls_taken_cards_message">%1$s забирает %2$s используя %3$s.</string>
+    <string name="ls_scopa_event">Скопа!</string>
+    <string name="ls_remained_cards_taken">%1$s забирает оставшиеся %2$s.</string>
+    <string name="ls_point_number_of_cards">%1$s забрал больше карт чем %2$s и поэтому получает одно очко.</string>
+    <string name="ls_same_number_of_cards">Вы оба забрали по 20 карт.</string>
+    <string name="ls_point_number_of_diamonds">%1$s забрал больше буби чем %2$s и поэтому получает одно очко.</string>
+    <string name="ls_same_number_of_diamonds">У вас обоих по 5 буби.</string>
+    <string name="ls_point_number_of_sevens">%1$s забрал больше семёрок чем %2$s и поэтому получает одно очко.</string>
+    <string name="ls_same_number_of_sevens">У вас обоих по две семёрки.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s забрал 7 буби и поэтому получает одно очко.</string>
+    <string name="ls_score">Счёт: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s выиграл партию.\nФинальный счёт: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>На столе лежат: %1$s.</item>
+        <item>Ваши карты: %1$s.</item>
+        <item>Карты крупье: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Никто</item>
+        <item>Вы</item>
+        <item>Крупье</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Выберите здесь</string>
+    <string name="cbt_allow_vibration">Включить вибрацию устройства во время некоторых событий</string>
+    <string name="tv_last_visit">Ваш последний визит:\n%1$s, %2$s %3$s %4$s, %5$s.%6$s</string>
+    <string name="tv_last_visit_not_known">Это ваше первое посещение нашего казино.</string>
+    <string name="game_history">История событий</string>
+    <string name="bt_history">История</string>
+    <string name="bt_close">Закрыть</string>
+    <string name="congratulations">Поздравляем</string>
+    <string name="sorry">Увы</string>
+    <string name="today">сегодня</string>
+    <string name="yesterday">вчера</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s\'s %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Выберите вариант игры</string>
+    <string name="ls_scopa_variant">Классическая скопа</string>
+    <string name="ls_escoba_variant">Эскоба</string>
+    <string name="ls_scopone_variant">Скопоне</string>
+    <string name="ls_scopone_escoba_variant">Скопоне эскоба</string>
+    <string name="ls_chosen_variant">Вы выбрали вариант %1$s</string>
+    <string name="ls_choose_variant_not_allowed">Вы не можете изменить вариант во время игры</string>
+
+    <!-- Strings for permissions and others: -->
+    <string name="information">Информация</string>
+    <string name="info_when_permission_accounts_not_granted">Этому приложению не нужны разрешения для корректной работы.\nОднако, нам необходимо это разрешение только чтобы знать ваш google id, чтобы иметь возможность сохранять ваш прогресс.\nВашь google id нигде публично не отображается.\nЕсли вам не нужно сохранять информацию о вашем счёте и других настройках в приложении, в следующий раз при запуске вы сможете отключить запросы на это разрешение.\nТакже, вы всегда сможете дать это разрешение в диспетчере приложений на вашем устройстве, если ваше мнение изменится.</string>
+    <string name="no_account_name_detected_because_permission">Мы не можем определить ваш google id, из-за этого информация о ваших успехах не может быть отправлена на сервер.\nНекоторое время назад, вы отказались дать нам разрешение на чтение вашего google id.\nЕсли вы ходите иметь возможность наблюдать за вашим прогрессом, пожалуйста дайте этому приложению необходимое разрешение в диспетчере приложений на вашем устройстве.\nМы не показываем публично ваш google id.\nОднако, вам никто не запрещает использовать это приложение и без необходимого разрешения.</string>
+
+</resources>

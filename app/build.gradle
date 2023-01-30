@@ -8,6 +8,7 @@ android {
         applicationId "ro.pontes.pontesgamezone"
         minSdkVersion 23
         targetSdkVersion 33
+        resConfigs "en", "es", "it", "ro", "ru", "sr", "vi"
     }
 
     buildTypes {

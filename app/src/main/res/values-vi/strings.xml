@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+    <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Chào mừng đến với Pontes GameZone!</string>
+    <string name="registered_message">đăng ký %1$s</string>
+    <string name="nickname">Tên của bạn là %1$s</string>
+    <string name="nickname_visitor">Khách thăm quan</string>
+    <string name="no_nickname">Nhấn vào đây để đặt tên của bạn…</string>
+    <string name="visitor">Khách thăm quan</string>
+    <string name="company_name">Ứng dụng Pontes của Manu và Dịch bởi Đào Đức Trung</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Chọn một trò chơi:</string>
+    <string name="black_jack_game">Xì dách</string>
+    <string name="poker_game">Xì phé</string>
+    <string name="cards_war_game">Bài Chiến tranh</string>
+    <string name="who_is_greater_game">Tung súc sắc</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Thay đổi Tên</string>
+    <string name="change_nickname_title">Tên</string>
+    <string name="change_nickname_message">Đặt tên của bạn: </string>
+    <string name="change_nickname_hint">Viết vào đây tên của bạn…</string>
+    <string name="change_nickname_success">Chào %1$s!\nTên của bạn đã được thay đổi thành công.</string>
+    <string name="change_nickname_error_short">Tên phải chứa ít nhất hai chữ cái.\nThử lại!</string>
+    <string name="change_nickname_error_non_alphanumeric">Tên chỉ được chứa các chữ cái và chữ số.\nNó phải là một từ.\nThử lại!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">xì dách</string>
+    <string name="bj_new">Ván mới</string>
+    <string name="bj_bet">Thay đổi tiền cược</string>
+    <string name="bj_hit">Lấy</string>
+    <string name="bj_stand">Dừng</string>
+    <string name="bj_double">Gấp đôi tiền</string>
+    <string name="bj_surrender">Đầu hàng</string>
+    <string name="my_money">Ví của tôi: $%1$s</string>
+    <string name="my_bet">Tôi Đặt cược: $%1$s</string>
+    <string name="my_bj_total">Bạn: %1$s</string>
+    <string name="dealers_bj_total">Nhà cái: %1$s</string>
+    <string name="bj_status">xì dách trạng thái</string>
+    <string name="not_enough_money_to_double">Bạn không có đủ tiền để nhân đôi số tiền đặt cược của mình.\nBạn có $%1$s trong ví của bạn.</string>
+    <string name="statistics_for_blackjack">Bạn đã chơi %1$s ván bài kể từ lần tạm dừng trước.\nBạn đã thắng $%2$s và thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình trên mỗi ván bài là $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Xì phé</string>
+    <string name="pk_new">Ván mới</string>
+    <string name="pk_bet">Thay đổi tiền cược</string>
+    <string name="pk_discard">Rút</string>
+    <string name="pk_discard_x">Rút %1$s</string>
+    <string name="pk_stand">Ngửa bài</string>
+    <string name="pk_fold">Bỏ bài</string>
+    <string name="pk_raise">Nâng tiền cược ván này</string>
+    <string name="pk_sort_title">Sắp xếp bài</string>
+    <string name="pk_sort_by_value">Theo giá trị</string>
+    <string name="pk_sort_by_color">Theo màu sắc</string>
+    <string name="pk_sort_by_nothing">xáo trộn</string>
+    <string name="my_pk_hand">Bạn: %1$s</string>
+    <string name="dealers_pk_hand">Nhà cái: %1$s</string>
+    <string name="pk_nothing">Không có gì</string>
+    <string name="pk_status">Bài xì phé Trạng thái</string>
+    <string name="pk_sort_not_allowed">Bạn không thể sắp xếp các lá bài khi bạn phải loại bỏ một số trong số chúng.</string>
+    <string name="statistics_for_poker">Bạn đã chơi %1$s ván bài kể từ lần tạm dừng trước.\nBạn đã thắng $%2$s và thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình trên mỗi ván bài là $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Sảnh đồng chất</item>
+        <item>Tứ quý</item>
+        <item>Cù lũ</item>
+        <item>Thùng</item>
+        <item>Sảnh</item>
+        <item>Bộ ba lá</item>
+        <item>Hai đôi</item>
+        <item>Một đôi</item>
+        <item>không có cặp</item>
+        <item>Không có gì</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Bài Chiến tranh</string>
+    <string name="cw_new">Ván mới</string>
+    <string name="cw_bet">Thay đổi tiền cược</string>
+    <string name="cw_fire">Khai hỏa</string>
+    <string name="cw_withdraw">Rút</string>
+    <string name="my_cw_total">Bạn: %1$s</string>
+    <string name="dealers_cw_total">Nhà cái: %1$s</string>
+    <string name="cbt_war_sounds">âm thanh chiến tranh</string>
+    <string name="cw_status">Bài chiến chanh Trạng thái</string>
+    <string name="statistics_for_cards_war">Bạn đã chiến đấu %1$s Cuộc chiến kể từ lần tạm dừng trước.\nBạn đã thắng $%2$s và thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình cho mỗi cuộc chiến là $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Tung súc sắc</string>
+    <string name="gw_new">Ván mới</string>
+    <string name="gw_bet">Thay đổi tiền cược</string>
+    <string name="gw_throw">Tung xúc xắc</string>
+    <string name="gw_abandon">từ bỏ</string>
+    <string name="my_gw_total">Bạn: %1$s</string>
+    <string name="dealers_gw_total">Nhà cái: %1$s</string>
+    <string name="gw_status">Tung súc sắc trạng thái</string>
+    <string name="statistics_for_who_is_greater">Bạn đã chơi %1$s Ván kể từ lần tạm dừng trước.\nBạn đã thắng $%2$s và thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình cho mỗi ván là $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>bài</item>
+        <item>Tép</item>
+        <item>rô</item>
+        <item>cơ</item>
+        <item>bích</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>đảo ngược</item>
+        <item>Át</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>J</item>
+        <item>Q</item>
+        <item>K</item>
+    </string-array>
+
+    <string name="card_name">%1$s %2$s</string>
+    <string name="card_name_extended">%1$s\'s %2$s</string>
+    <!-- Content description for a card image: Dealer's Ace of Diamonds or Yours King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Nhà cái</item>
+        <item>Bạn</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">đặt cược mới của bạn!</string>
+    <string name="bet_dialog_body">Này %1$s,\nviết tiền cược của bạn bằng đô la: </string>
+    <string name="not_enough_money_to_bet">Xin lỗi %1$s!\nBạn không có đủ tiền để đặt cược $%2$s.\nBạn phải thay đổi đặt cược của mình!\nBạn có $%3$s trong ví của bạn.</string>
+    <string name="play_just_for_fun">Ối %1$s, thật là một tình huống khó xử!\nBạn không có tiền trong ví.\nBạn có thể thay đổi tiền cược của mình thành $0 để chơi cho vui.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Thu nhập tiền thưởng</string>
+    <string name="money_won_as_bonus_message">Xin chào %1$s,\nBạn được $%2$s phần thưởng kể từ lần ra mắt cuối cùng của trò chơi.\nBạn đã giành được phần thưởng $%3$s hôm nay.\nBạn đã giành được $%4$s đó là phần thưởng vì bạn là khách hàng của chúng tôi.</string>
+    <string name="mnu_money_won_as_bonus">Thống kê thu nhập tiền thưởng</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Hành động không khả dụng</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Âm thanh</string>
+    <string name="cbt_sounds_setting">Phát âm thanh</string>
+    <string name="cbt_dice_sound_setting">Thông báo xúc xắc bằng giọng nói</string>
+    <string name="cbt_speech_setting">Sử dụng lời nói để cải thiện khả năng tiếp cận</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Ngôn ngữ</string>
+    <string name="tv_choose_dice_language_settings">Chọn ngôn ngữ thông báo xúc xắc:</string>
+    <string name="language_english">Tiếng Anh (by Giulia Guerra)</string>
+    <string name="language_italian">Tiếng Ý (by Giulia Guerra)</string>
+    <string name="language_romanian">tiếng rumani (by Cristian Csetnek)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Lắc</string>
+    <string name="cbt_onshake_toggle">Sử dụng bộ phát hiện rung khi bạn lắc thiết bị</string>
+    <string name="onshake_magnitude">Đặt cường độ lắc</string>
+    <string name="magnitude_very_easy">Rất nhẹ</string>
+    <string name="magnitude_easy">Nhẹ</string>
+    <string name="magnitude_moderate">Trung bình</string>
+    <string name="magnitude_hard">Mạnh</string>
+    <string name="magnitude_very_hard">Rất mạnh</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Cài đặt khác</string>
+    <string name="cbt_keep_screen_awake">Giữ cho màn hình luôn sáng</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Đặt lại về Mặc định</string>
+    <string name="body_default_settings">Này này %1$s!\nBạn có chắc chắn muốn Đặt lại tất cả các giá trị không?\nPontes GameZone sẽ ở trạng thái ban đầu.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Khu vực quầy bar</string>
+    <string name="saloon_title">Chào mừng bạn nhé %1$s!\nBây giờ bạn đang ở trong khu vực quầy bar!</string>
+    <string name="mnu_saloon">Đi đến khu vực quầy bar</string>
+    <string name="saloon_spent_money">Bạn đã chi tiêu $%1$s Hôm nay.</string>
+    <string name="mnu_saloon_virtual_time">Hiển thị thời gian ảo</string>
+    <string name="saloon_virtual_time_title">đồng hồ</string>
+    <string name="saloon_passed_day">Thời gian ảo là %1$s.%2$s</string>
+    <string name="saloon_order">Bạn muốn gọi gì</string>
+    <string name="saloon_not_enough_money">Xin lỗi nhé %1$s,\nbạn không có đủ tiền!</string>
+    <string name="saloon_number_of_games_for_order">Bạn đã chơi %1$s trò chơi kể từ lần Gọi đồ cuối cùng.</string>
+    <string name="saloon_you_must_play_more">Này %1$s,\nBạn phải chơi %2$s lần nữa trước khi tiếp tục gọi đồ.</string>
+    <string name="saloon_actual_bonus_percentage">Bạn có tiền thưởng là %1$s%%\n(để được thêm vào tiền thắng cược của bạn)</string>
+    <string name="saloon_new_order_title">Gọi đồ</string>
+    <string name="saloon_new_order_message">Vâng xin chào %1$s,\nBạn có Muốn làm tí %2$s Với giá giá là $%3$s?</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Không</item>
+        <item>Cà phê</item>
+        <item>Trà ô long</item>
+        <item>Nước ép</item>
+        <item>Bia</item>
+        <item>Rượu whisky</item>
+        <item>Xì gà</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s với $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">Số liệu thống kê</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI Elements: -->
+    <string name="msg_dealers_visible_card">Bài hiển thị của nhà cái là: %1$s</string>
+    <string name="msg_second_dealer_card">Bài thứ hai của nhà cái là: %1$s. Tổng %2$s.</string>
+    <string name="msg_drawing_cards">%1$s. Tổng %2$s.</string>
+    <string name="msg_dealer_has_busted">Nhà cái đã phá sản!</string>
+    <string name="msg_you_have_busted">Bạn đã phá sản. Kiếp đỏ đen của duy mạnh rồi!</string>
+    <string name="msg_you_had_blackjack">Ú cha! Bạn đã có một bài xì dách!</string>
+    <string name="msg_blackjack_lost">Xin lỗi nhé! Bạn đã mất $%1$s!</string>
+    <string name="msg_blackjack_won">Thật bố đời! Bạn thắng $%1$s!</string>
+    <string name="msg_blackjack_draw">Đó là một trận hòa!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI Elements: -->
+    <string name="pk_started">Ván chơi đã bắt đầu! Bạn có thể chọn bài để rút!</string>
+    <string name="pk_discarded">Bạn có thể Ngửa bài!</string>
+    <string name="pk_card_discarded">%1$s đã sẵn sàng để được loại bỏ</string>
+    <string name="pk_card_not_discarded">%1$s đã trở lại</string>
+    <string name="pk_raise_title">Nâng Tiền cược</string>
+    <string name="pk_raise_message">Nhập số tiền bạn muốn Nâng cược</string>
+    <string name="pk_fold_message">Bạn mất tiền lãi trong số tiền cược hiện tại.</string>
+    <string name="pk_not_enough_raise">Bạn phải Nâng cược ít nhất $%1$s.</string>
+    <string name="pk_you_won_the_hand">Chúc mừng! Bạn đã thắng ván bài này!\nBạn thắng $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Xin lỗi! Bạn đã thua ván bài này!\nBạn mất $%1$s</string>
+    <string name="pk_draw_hand">Hòa rồi!\nKhông ai thắng ván này cả…</string>
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>Trên tay nhà cái là: %1$s. %2$s</item>
+        <item>Trên tay bạn có: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI Elements: -->
+    <string name="cw_started">Chiến tranh đã bắt đầu, bạn có thể khai hỏa!</string>
+    <string name="cw_battle_continues">Trận chiến tiếp tục…</string>
+    <string name="cw_you_won_battle">Bạn đã thắng trận chiến này!</string>
+    <string name="cw_dealer_won_battle">Bạn đã thua trận chiến này!</string>
+    <string name="cw_you_won_the_war">Bố đời đấy! Bạn đã thắng!\nBạn thắng $%1$s</string>
+    <string name="cw_dealer_won_the_war">Xin lỗi! Bạn đã thua rồi!\nBạn mất $%1$s</string>
+    <string name="cw_draw_war">Đó là một trận hòa!\nKhông ai thắng cả…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI Elements: -->
+    <string name="gw_started">Ván chơi đã bắt đầu, bạn có thể Tung!</string>
+    <string name="gw_you_won_the_set">chúc mừng! Bạn đã thắng ván này!\nBạn thắng $%1$s</string>
+    <string name="gw_dealer_won_the_set">Xin lỗi! Bạn thua ván này!\nBạn mất $%1$s</string>
+    <string name="gw_draw_set">Đó là một trận hòa!\nKhông ai thắng hết…</string>
+    <string name="gw_actual_score">Điểm: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Lỗi!</string>
+    <string name="warning">Cảnh báo!</string>
+
+    <!-- About dialog: -->
+    <string name="about">Thông tin</string>
+    <string name="app_version">Pontes GameZone, version 2.1</string>
+    <string name="app_release_date">Phiên bản 1.0 được phát hành Thứ hai, ngày 16 tháng 2 năm 2015</string>
+    <string name="app_last_update">Cập nhật lần cuối: Thứ ba, ngày 10 tháng 1 năm 2023</string>
+    <string name="app_creator">Lập trình bởi Emanuel Boboiu (Manu)</string>
+    <string name="phone_number">Số điện thoại no: +40740203043</string>
+    <string name="email_address">E-mail: android@pontes.ro</string>
+    <string name="web_address">Web: www.android.pontes.ro</string>
+    <string name="app_credits2">Ștefan Halus đã tạo ra các hình ảnh: quân bài, xúc xắc, biểu tượng. Đào đức trung là người dịch trò chơi thành tiếng việt</string>
+    <string name="app_credits_translation">Tiếng việt (Bởi Trung</string>
+    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Trợ giúp</string>
+    <string name="hello_world">Chào thế giới!</string>
+    <string name="action_settings">Cài đặt</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">Bốn trong một dòng</string>
+    <string name="cf_game_name">Bốn trong một dòng</string>
+    <string name="cf_bet">Thay đổi tiền cược</string>
+    <string name="cf_new">Bắt đầu</string>
+    <string name="cf_status">Bốn trong một Dòng Trạng thái </string>
+    <string name="cf_abandon_game">Từ bỏ</string>
+    <string name="cf_game_type0">Đấu với nhà cái</string>
+    <string name="cf_game_type1">Đấu với người chơi</string>
+    <string name="cf_cell_already_used">%1$s đã được sử dụng</string>
+    <string name="cf_cell_forbidden">%1$s cấm! Không có gì bên dưới.</string>
+    <string name="dealer">Nhà cái</string>
+    <string name="partner">Người chơi</string>
+    <string name="my_cf_total">Bạn: %1$s</string>
+    <string name="dealers_cf_total">Nhà cái: %1$s</string>
+    <string name="partners_cf_total">Người chơi: %1$s</string>
+    <string name="cf_started">Một lưới trống mới đã được tạo!!</string>
+    <string name="cf_current_move">số Di chuyển %1$s - %2$s</string>
+    <string name="cf_win">chúc mừng! Bạn đã thắng trò chơi này!</string>
+    <string name="cf_lose">Xin lỗi, bạn đã thua trò chơi này…</string>
+    <string name="cf_draw">Trò chơi này là một trận hòa…</string>
+    <string name="statistics_for_connectfour">Bạn chơi %1$s Ván kể từ lần tạm dừng cuối cùng.\nBạn thắng $%2$s và bạn thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình trên mỗi ván là $%5$s.</string>
+    <string name="mnu_difficulty_level">Độ khó</string>
+    <string name="cf_choose_level">Chọn độ khó</string>
+    <string name="cf_easy">Dễ</string>
+    <string name="cf_medium">Bình thường</string>
+    <string name="cf_hard">Khó</string>
+    <string name="cf_impossible">Rất rất rất khó</string>
+
+    <!-- Other places in casino, like pawn shop -->
+    <string name="mnu_go_to">Đi đến…</string>
+    <string name="mnu_pawnshop">Đi Đến tiệm cầm đồ</string>
+    <string name="title_activity_pawnshop">tiệm cầm đồ</string>
+    <string name="ps_title">Chào mừng %1$s!\nBây giờ bạn đang ở trong tiệm cầm đồ!</string>
+    <string name="ps_sell">Bạn muốn cầm cố cái gì nào</string>
+    <string name="ps_new_sell_title">cầm đồ</string>
+    <string name="ps_new_sell_message">Này %1$s,\nbạn có muốn cầm một %2$s để lấy $%3$s?</string>
+    <string name="ps_content_description_for_products">Cầm %1$s Với $%2$s</string>
+    <string name="ps_old_sell_title">Lấy lại</string>
+    <string name="ps_old_sell_message">Chào bạn nhé %1$s,\nBạn có muốn lấy lại một %2$s Với $%3$s?</string>
+    <string name="ps_content_description_for_sold_products">Lấy %1$s Lại với $%2$s</string>
+    <string name="ps_not_enough_money_to_take_product_back">Này %1$s!\nBạn không đủ tiền để nhận lại đồ của bạn.\nBạn có $%2$s trong ví của bạn.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>Không</item>
+        <item>đồng hồ </item>
+        <item>điện thoại</item>
+        <item>laptop</item>
+        <item>Vòng đeo tay</item>
+        <item>xe máy</item>
+        <item>xe ô tô</item>
+    </string-array>
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">Ôi thôi hỏng rồi!…</string>
+    <string name="saloon_bottles_moved">hãy cẩn thận! Đừng làm vỡ chai của chúng tôi!</string>
+    <string name="saloon_bottles_broken">Ê Ê này %1$s!\nBạn đã làm vỡ một số chai!\nTại sao bạn di chuyển khó khăn như vậy, Bạn đi đứng cái kiểu gì đấy hả?\nBây giờ bạn phải trả tiền $%2$s tiền bồi thường. Lần sau đi đứng cho cẩn thận…</string>
+    <string name="saloon_not_enough_money_for_compensation">Này %1$s!\nBạn đã làm vỡ một số chai của chúng tôi!\nBạn không có đủ tiền để trả tiền bồi thường.\nVui lòng biến, Biến ngay khỏi khu vực quầy bar!</string>
+    <string name="saloon_not_allowed">này %1$s!\nTrung bảo này, Bạn không còn tiền trong ví!\nBạn vào đây làm gì?\nTheo trung nhé, Bạn nên đến tiệm cầm đồ để cầm đồ trên người của bạn.\nCứ cầm thoại mái đi. Ngại gì, Có chết được đâu. Hẹn sớm gặp lại!</string>
+    <string name="tv_clock_is_unavailable">thời gian không xác định…</string>
+    <string name="ps_clock_is_unavailable">Thời gian không xác định…\nĐến tiệm cầm đồ để lấy lại chiếc đồng hồ của bạn. Không có đồng hồ mà đòi xem giờ…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Phòng tắm</string>
+    <string name="mnu_bathroom">Đi đến phòng tắm</string>
+    <string name="bath_title">bạn đang ở trong phòng tắm</string>
+    <string name="bath_action">Chọn một hành động</string>
+    <string name="bath_status">phòng tắm trạng thái</string>
+    <string name="bath_use_objects">Sử dụng %1$s</string>
+    <string name="bath_wrong_action_chosen">Chào bạn nhé %1$s,\nBạn đã không chọn một hành động hợp lệ ở đây.\nVui lòng kiểm tra trạng thái của phòng tắm!\nTrạng thái được viết ở phần dưới của khu vực phòng tắm.</string>
+    <string name="saloon_too_many_drinks">Này %1$s,\nBạn đã uống quá nhiều. Bạn cần sả đi nỗi buồn của bạn!\nĐến phòng tắm sả chôi nỗi niềm đi nào, nếu không bạn không thể uống nhiều hơn!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>Không</item>
+        <item>wc</item>
+        <item>bồn rửa tay</item>
+        <item>máy sấy tay</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>Không cần hành động trong phòng tắm</item>
+        <item>Bạn phải sử dụng wc để sả đi nỗi niềm vì bạn đã uống rất nhiều.</item>
+        <item>Hãy rửa tay!</item>
+        <item>Tay ướt đừng quên dùng máy sấy tay.</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Đi đến sảnh vào</string>
+    <string name="mnu_go_back">Quay lại</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">Bạn có $%1$s trong ví của bạn</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">mất khả năng thanh toán</string>
+    <string name="tv_ins_congratulations">XIN CHÚC MỪNG!</string>
+    <string name="tv_ins_main_message">Sòng bạc của chúng tôi bị phá sản!</string>
+    <string name="tv_ins_explanations">Vâng %1$s,\nBạn đã kiếm được nhiều hơn $%2$s.\nChúng tôi không thể trả nhiều hơn thế.\nHãy quay lại và bắt đầu lại khi chúng tôi phục hồi, Mà công nhận bạn bố đời thật đấy.</string>
+    <string name="tv_ins_play_sound_again">Phát lại âm thanh!</string>
+    <string name="tv_ins_restart_game">Khởi động lại trò chơi ngay bây giờ!</string>
+    <string name="tv_send_performance">Bạn có thể đăng hiệu suất của bạn:</string>
+    <string name="hint_write_a_name">Viết ở đây một cái tên sẽ xuất hiện trên web, Nhập tên thật nếu có thể cho việt nam tự hào…</string>
+    <string name="bt_ins_send_now">Gửi ngay bây giờ!</string>
+    <string name="name_not_written_correctly">Tên phải có ít nhất 3 chữ cái.\nViết lại!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Phát âm thanh nền</string>
+    <string name="cbt_sounds_music_setting">Phát nhạc nền trong trò chơi</string>
+    <string name="tv_background_volume_percentage">Âm lượng âm thanh nền</string>
+    <string name="tv_music_volume_percentage">Âm lượng nhạc nền</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">xác nhận</string>
+    <string name="really_leave_page">Bạn có chắc chắn muốn rời khỏi hoạt động này?</string>
+    <string name="yes">Đúng</string>
+    <string name="no">Không</string>
+
+    <!-- Strings after 20 July 2015, version 1.3 -->
+
+
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Máy xèng</string>
+    <string name="sm_game_name">Máy xèng</string>
+    <string name="sm_one_coin">Một xu</string>
+    <string name="sm_two_coins">Hai xu</string>
+    <string name="sm_three_coins">Ba xu</string>
+    <string name="sm_fire">Kéo tay cầm!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Các Xu đã sẵn sàng để được lắc</string>
+    <string name="sm_you_won">Hay quá! Bạn thắng $%1$s!</string>
+    <string name="sm_dealer_won">Vâng bạn thua! Bạn mất $%1$s!</string>
+    <string name="sm_status">Máy xèng trạng thái</string>
+    <string name="statistics_for_slot_machine">Bạn đã lắc Xu %1$s lần kể từ lần tạm dừng trước.\nBạn đã thắng $%2$s và thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình mỗi lần lắc là $%5$s.</string>
+    <string name="sm_cylinder_face">mặt</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Scopa</string>
+    <string name="ls_game_name">Scopa</string>
+    <string name="ls_bet">Thay đổi tiền cược</string>
+    <string name="ls_new">Ván mới</string>
+    <string name="ls_say_all">nói lá bài</string>
+    <string name="ls_abandon">Từ bỏ</string>
+    <string name="my_ls_score">Bạn: %1$s</string>
+    <string name="dealers_ls_score">Nhà cái: %1$s</string>
+    <string name="ls_new_round">vòng mới! %1$s bắc đầu…</string>
+    <string name="ls_status">Scopa trạng thái</string>
+    <string name="statistics_for_la_scopa">Bạn đã chơi %1$s Ván Scopa kể từ lần tạm dừng cuối cùng.\nBạn thắng $%2$s và bạn thua $%3$s.\nSố dư hiện tại của bạn cho phiên này là $%4$s.\nSố dư trung bình mỗi ván là $%5$s.</string>
+    <string name="ls_mnu_limit_score">Điểm giới hạn để chiến thắng</string>
+    <string name="ls_set_limit_score">Chọn số điểm giới hạn để chiến thắng:</string>
+    <string name="ls_change_limit_score_not_allowed">Bạn không thể thay đổi điểm giới hạn cho chiến thắng trong khi trò chơi đang diễn ra.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Bắt đầu</string>
+    <string name="ls_you_won">Vâng! Bạn thắng $%1$s!</string>
+    <string name="ls_dealer_won_battle">Bạn đã thua rồi! Bạn mất $%1$s!</string>
+    <string name="ls_card_put_message">%1$s đặt %2$s.</string>
+    <string name="ls_taken_cards_message">%1$s Nhận %2$s với %3$s.</string>
+    <string name="ls_scopa_event">Scopa!</string>
+    <string name="ls_remained_cards_taken">%1$s Nhận phần còn lại %2$s.</string>
+    <string name="ls_point_number_of_cards">%1$s Nhận thêm bài (%2$s) và giành được một điểm.</string>
+    <string name="ls_same_number_of_cards">Cả hai thu thập 20 bài.</string>
+    <string name="ls_point_number_of_diamonds">%1$s Nhận thêm bài rô (%2$s) và giành được một điểm.</string>
+    <string name="ls_same_number_of_diamonds">Cả hai đều nhận được 5 lá rô.</string>
+    <string name="ls_point_number_of_sevens">%1$s Nhận được thêm bảy (%2$s) và giành được một điểm.</string>
+    <string name="ls_same_number_of_sevens">Cả hai đều nhận bảy.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s Nhận 7 Rô và giành được một điểm.</string>
+    <string name="ls_score">Điểm: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s thắng toàn bộ trò chơi.\nĐiểm cuối cùng: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>Trên bàn là: %1$s.</item>
+        <item>Bài của bạn: %1$s.</item>
+        <item>Bài của nhà cái: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Không ai</item>
+        <item>Bạn</item>
+        <item>Nhà cái</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Chọn ở đây</string>
+    <string name="cbt_allow_vibration">Cho phép thiết bị rung tại một số sự kiện nhất định</string>
+    <string name="tv_last_visit">chuyến thăm cuối cùng của bạn:\n%1$s, %2$s %3$s %4$s, %5$s.%6$s</string>
+    <string name="tv_last_visit_not_known">Đây là chuyến thăm đầu tiên của bạn trong sòng bạc của chúng tôi.</string>
+    <string name="game_history">Lịch sử trò chơi</string>
+    <string name="bt_history">Lịch sử</string>
+    <string name="bt_close">Đóng</string>
+    <string name="congratulations">chúc mừng</string>
+    <string name="sorry">Xin lỗi</string>
+    <string name="today">hôm nay</string>
+    <string name="yesterday">hôm qua</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s\'s %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Chọn một biến thể</string>
+    <string name="ls_scopa_variant">Classic Scopa</string>
+    <string name="ls_escoba_variant">Escoba</string>
+    <string name="ls_scopone_variant">Scopone</string>
+    <string name="ls_scopone_escoba_variant">Scopone Escoba</string>
+    <string name="ls_chosen_variant">Bạn chọn %1$s Biến thể</string>
+    <string name="ls_choose_variant_not_allowed">Bạn không thể thay đổi biến thể trong khi trò chơi đang diễn ra.</string>
+
+    <!-- Strings for permissions and others: -->
+    <string name="information">Thông tin</string>
+    <string name="info_when_permission_accounts_not_granted">Gói này hoạt động tốt mà không cần cấp bất kỳ quyền nào.\nChúng tôi chỉ cần quyền đó để biết Id Google của bạn, bằng cách này, ứng dụng này có thể ghi nhớ một số hoạt động của bạn.\nChúng tôi không hiển thị công khai Id Google của bạn ở bất kỳ đâu.\nNếu bạn không muốn có lịch sử hoạt động của mình hoặc khả năng tiết kiệm tiền trong tài khoản ngân hàng ảo hoặc thông tin khác về công việc của bạn trong ứng dụng này, lần sau bạn có thể chọn không bị hỏi về quyền này nữa.\nBạn cũng có thể cấp quyền theo cách thủ công trong Trình quản lý ứng dụng, nếu nhu cầu của bạn thay đổi trong tương lai.</string>
+    <string name="no_account_name_detected_because_permission">Chúng tôi không biết Id Google của bạn, theo cách này, chúng tôi không thể đăng lên máy chủ thông tin về hoạt động của bạn.\nTrước đây, bạn đã không chấp nhận cấp cho chúng tôi quyền đọc tên tài khoản Google của bạn.\nNếu bạn muốn xem kết quả của mình và thông tin cá nhân khác trong tương lai, vui lòng truy cập Trình quản lý ứng dụng, Ứng dụng này và bật các quyền được yêu cầu.\nChúng tôi không hiển thị công khai Id Google của bạn.\nBạn cũng có thể sử dụng ứng dụng này mà không cần bật quyền cần thiết để đọc tên tài khoản Google.</string>
+
+</resources>
