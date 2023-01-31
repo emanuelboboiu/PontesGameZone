@@ -164,8 +164,9 @@
 
             <Button
                 android:id="@+id/btLsSayAllVisibleCards"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="sayAllVisibleCards"
                 android:text="@string/ls_say_all"
                 android:textSize="@dimen/buttons_size"
@@ -174,8 +175,9 @@
 
             <Button
                 android:id="@+id/btLsAbandon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="abandon"
                 android:text="@string/ls_abandon"
                 android:textSize="@dimen/buttons_size"
@@ -184,8 +186,9 @@
 
             <Button
                 android:id="@+id/btLsHistory"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:enabled="false"
                 android:onClick="history"
                 android:text="@string/bt_history"

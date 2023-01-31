@@ -147,8 +147,9 @@
 
             <Button
                 android:id="@+id/btGwThrow"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="startNewBattle"
                 android:text="@string/gw_throw"
                 android:textSize="@dimen/buttons_size"
@@ -157,8 +158,9 @@
 
             <Button
                 android:id="@+id/btGwAbandon"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="abandon"
                 android:text="@string/gw_abandon"
                 android:textSize="@dimen/buttons_size"

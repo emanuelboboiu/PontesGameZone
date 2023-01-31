@@ -131,16 +131,18 @@
             <Button
                 android:id="@+id/cfAbandon"
                 style="@style/bottomButtonsStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="abandonGame"
                 android:text="@string/cf_abandon_game" />
 
             <Button
                 android:id="@+id/cfChangeGameType"
                 style="@style/bottomButtonsStyle"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="changeGameType"
                 android:text="@string/cf_game_type1" />
 

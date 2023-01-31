@@ -147,8 +147,9 @@
 
             <Button
                 android:id="@+id/btBjHit"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="takeCard"
                 android:text="@string/bj_hit"
                 android:textSize="@dimen/buttons_size"
@@ -157,8 +158,9 @@
 
             <Button
                 android:id="@+id/btBjStand"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="stand"
                 android:text="@string/bj_stand"
                 android:textSize="@dimen/buttons_size"
@@ -167,8 +169,9 @@
 
             <Button
                 android:id="@+id/btBjDouble"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="doubleDown"
                 android:text="@string/bj_double"
                 android:textSize="@dimen/buttons_size"
@@ -177,8 +180,9 @@
 
             <Button
                 android:id="@+id/btBjSurrender"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="surrender"
                 android:text="@string/bj_surrender"
                 android:textSize="@dimen/buttons_size"

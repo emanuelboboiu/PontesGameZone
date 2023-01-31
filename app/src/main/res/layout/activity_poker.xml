@@ -152,8 +152,9 @@
 
             <Button
                 android:id="@+id/btPkDiscard"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="discard"
                 android:text="@string/pk_discard"
                 android:textSize="@dimen/buttons_size"
@@ -162,8 +163,9 @@
 
             <Button
                 android:id="@+id/btPkStand"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="showdown"
                 android:text="@string/pk_stand"
                 android:textSize="@dimen/buttons_size"
@@ -172,8 +174,9 @@
 
             <Button
                 android:id="@+id/btPkRaise"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="raise"
                 android:text="@string/pk_raise"
                 android:textSize="@dimen/buttons_size"
@@ -182,8 +185,9 @@
 
             <Button
                 android:id="@+id/btPkFold"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="fold"
                 android:text="@string/pk_fold"
                 android:textSize="@dimen/buttons_size"

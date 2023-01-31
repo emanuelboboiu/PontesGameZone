@@ -147,8 +147,9 @@
 
             <Button
                 android:id="@+id/btCwFire"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="startBattle"
                 android:text="@string/cw_fire"
                 android:textSize="@dimen/buttons_size"
@@ -157,8 +158,9 @@
 
             <Button
                 android:id="@+id/btCwWithdraw"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="withdraw"
                 android:text="@string/cw_withdraw"
                 android:textSize="@dimen/buttons_size"
@@ -167,8 +169,9 @@
 
             <CheckBox
                 android:id="@+id/cbtWarSounds"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:onClick="onCheckboxClicked"
                 android:text="@string/cbt_war_sounds"
                 android:textSize="@dimen/buttons_size"

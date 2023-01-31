@@ -44,7 +44,7 @@
 
     <!-- Poker strings: -->
     <string name="title_activity_poker">Pontes пятекарточный покер</string>
-    <string name="pk_new">Новая партия</string>
+    <string name="pk_new">Начать</string>
     <string name="pk_bet">Изменить ставку</string>
     <string name="pk_discard">Заменить</string>
     <string name="pk_discard_x">Заменить %1$s</string>
@@ -77,7 +77,7 @@
 
     <!-- Cards War Game strings: -->
     <string name="title_activity_cards_war">Pontes Карточная война</string>
-    <string name="cw_new">Новая партия</string>
+    <string name="cw_new">Начать партию</string>
     <string name="cw_bet">Изменить ставку</string>
     <string name="cw_fire">Атаковать</string>
     <string name="cw_withdraw">Сдаться</string>
@@ -89,7 +89,7 @@
 
     <!-- Who is Greater Game strings: -->
     <string name="title_activity_who_is_greater">Pontes Кто больше</string>
-    <string name="gw_new">Новая партия</string>
+    <string name="gw_new">Начать партию</string>
     <string name="gw_bet">Изменить ставку</string>
     <string name="gw_throw">Бросить кубики</string>
     <string name="gw_abandon">Сдаться</string>
@@ -100,14 +100,14 @@
 
     <!-- Cards strings: -->
     <string-array name="suits_array">
-        <item>card</item>
+        <item>карта</item>
         <item>Трефы</item>
         <item>Буби</item>
         <item>Черви</item>
         <item>Пики</item>
     </string-array>
     <string-array name="values_array">
-        <item>Скрыто</item>
+        <item>Скрытая</item>
         <item>Туз</item>
         <item>2</item>
         <item>3</item>
@@ -244,7 +244,7 @@
     <string name="pk_fold_message">Вы сдались, и крупье забирает вашу ставку.</string>
     <string name="pk_not_enough_raise">Вы должны увеличить ставку минимум на $%1$s!</string>
     <string name="pk_you_won_the_hand">Поздравляем! Вы выиграли эту партию!\nВы получаете $%1$s</string>
-    <string name="pk_dealer_won_the_hand">Увы! Вы проигралиэту партию!\nВы теряете $%1$s</string>
+    <string name="pk_dealer_won_the_hand">Увы! Вы проиграли эту партию!\nВы теряете $%1$s</string>
     <string name="pk_draw_hand">Ничья!\Никто не выиграл партию…</string>
     <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
     <string-array name="pk_about_hand_array">
@@ -275,14 +275,14 @@
     <!-- About dialog: -->
     <string name="about">О приложении</string>
     <string name="app_version">Pontes GameZone, версии 2.1</string>
-    <string name="app_release_date">Версия 1.0 вышла в понедельник, 16 февраля 2015-ого</string>
-    <string name="app_last_update">Последнее обновление: вторник, 10-ого января, 2023-ого</string>
+    <string name="app_release_date">Версия 1.0 вышла в понедельник, 16 февраля 2015</string>
+    <string name="app_last_update">Последнее обновление: вторник, 10 января, 2023</string>
     <string name="app_creator">Программист: Emanuel Boboiu (Manu)</string>
     <string name="phone_number">Номер телефона: +40740203043</string>
     <string name="email_address">Электронная почта: android@pontes.ro</string>
     <string name="web_address">Сайт: www.android.pontes.ro</string>
-    <string name="app_credits2">Ștefan Halus автор картинок: карт, кубиков, иконок</string>
-    <string name="app_credits_translation">Перевод на Русский ArturMinyazev</string>
+    <string name="app_credits2">Ștefan Halus- Автор картинок: карт, кубиков, иконок</string>
+    <string name="app_credits_translation">Перевод на Русский- ArturMinyazev</string>
     <string name="app_credits3">Бета-тестеры:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
@@ -294,7 +294,7 @@
     <string name="title_activity_connect_four">Четыре в ряд</string>
     <string name="cf_game_name">Четыре в ряд</string>
     <string name="cf_bet">Изменить ставку</string>
-    <string name="cf_new">Начать</string>
+    <string name="cf_new">Начать партию</string>
     <string name="cf_status">Статус игры в четыре в ряд</string>
     <string name="cf_abandon_game">Сдаться</string>
     <string name="cf_game_type0">Против крупье</string>
@@ -308,8 +308,8 @@
     <string name="partners_cf_total">У партнёра: %1$s</string>
     <string name="cf_started">Создано новое пустое поле!</string>
     <string name="cf_current_move">Ход номер %1$s - %2$s</string>
-    <string name="cf_win">Поздравляем! Вы выиграли партию!\nВы получаете $%1$s</string>
-    <string name="cf_lose">Увы, вы проиграли партию!\nВы теряете $%1$s</string>
+    <string name="cf_win">Поздравляем! Вы выиграли партию!</string>
+    <string name="cf_lose">Увы, вы проиграли партию!</string>
     <string name="cf_draw">Ничья…</string>
     <string name="statistics_for_connectfour">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
     <string name="mnu_difficulty_level">Уровень сложности</string>
@@ -369,7 +369,7 @@
     <string name="bath_action">Выберите действие</string>
     <string name="bath_status">Статус душевой</string>
     <string name="bath_use_objects">Использовать %1$s</string>
-    <string name="bath_wrong_action_chosen">Хэй, %1$s,\nВы выбрали неверное действие.\nПожалуйста, проверьте статус душевой!\nСтатус написан в нижней части душевой.</string>
+    <string name="bath_wrong_action_chosen">Хэй, %1$s,\nВы выбрали неверное действие.\nПожалуйста, проверьте статус душевой!\nСтатус написан в нижней части экрана.</string>
     <string name="saloon_too_many_drinks">Хэй, %1$s,\nВы выпили слишком много!\nСходите в душевую, иначе вы не сможете больше выпить!</string>
     <!-- An array with objects which can be found in bathroom: -->
     <string-array name="bath_actions_array">
@@ -393,16 +393,16 @@
     <string name="tv_wallet_contains">В вашем кошельке $%1$s</string>
 
     <!-- Insolvency messages -->
-    <string name="title_activity_insolvency">Insolvency</string>
+    <string name="title_activity_insolvency">Банкротство</string>
     <string name="tv_ins_congratulations">Поздравляем!</string>
     <string name="tv_ins_main_message">Наше казино обанкротилось!</string>
-    <string name="tv_ins_explanations">Да, %1$s,\nВы заработали более $%2$s.\nМы не можем заплатить больше этой суммы.\nПожалуйста возвращайтесь когда мы восстановимся.</string>
-    <string name="tv_ins_play_sound_again">Проиграть звук ещё раз!</string>
+    <string name="tv_ins_explanations">Да, %1$s,\nВы заработали более $%2$s.\nУ нас больше не осталось денег.\nПожалуйста возвращайтесь когда мы восстановимся.</string>
+    <string name="tv_ins_play_sound_again">Проиграть звук победы ещё раз!</string>
     <string name="tv_ins_restart_game">Перезапустить игру!</string>
     <string name="tv_send_performance">Вы можете отправить свой результат:</string>
     <string name="hint_write_a_name">Напишите своё имя, которое отобразится на сайте игры…</string>
     <string name="bt_ins_send_now">Отправить сейчас!</string>
-    <string name="name_not_written_correctly">В имени должно содержаться не менее трёх букв.\nПопробуйте ещё раз!</string>
+    <string name="name_not_written_correctly">Имя должно содержать не менее трёх букв.\nПопробуйте ещё раз!</string>
 
     <!-- Added in audio settings: -->
     <string name="cbt_sounds_looped_setting">Проигрывать фоновые звуки</string>
@@ -444,9 +444,9 @@
     <string name="ls_new">Начать партию</string>
     <string name="ls_say_all">Произнести карты</string>
     <string name="ls_abandon">Сдаться</string>
-    <string name="my_ls_score">У вас: %1$s</string>
-    <string name="dealers_ls_score">У крупье: %1$s</string>
-    <string name="ls_new_round">Новый раунд! %1$s начинается…</string>
+    <string name="my_ls_score">Ваш счёт: %1$s</string>
+    <string name="dealers_ls_score">Счёт крупье: %1$s</string>
+    <string name="ls_new_round">Новый раунд! %1$s начинает…</string>
     <string name="ls_status">Статус игры в Скопу</string>
     <string name="statistics_for_la_scopa">С момента последнего визита, было сыграно %1$s партий.\nВы заработали $%2$s и потеряли $%3$s.\Баланс текущей сессии составляет $%4$s.\nСредний баланс за партию составляет $%5$s.</string>
     <string name="ls_mnu_limit_score">Изменить количество очков для победы</string>
@@ -461,11 +461,11 @@
     <string name="ls_taken_cards_message">%1$s забирает %2$s используя %3$s.</string>
     <string name="ls_scopa_event">Скопа!</string>
     <string name="ls_remained_cards_taken">%1$s забирает оставшиеся %2$s.</string>
-    <string name="ls_point_number_of_cards">%1$s забрал больше карт чем %2$s и поэтому получает одно очко.</string>
-    <string name="ls_same_number_of_cards">Вы оба забрали по 20 карт.</string>
-    <string name="ls_point_number_of_diamonds">%1$s забрал больше буби чем %2$s и поэтому получает одно очко.</string>
+    <string name="ls_point_number_of_cards">%1$s набрал больше карт (%2$s) и поэтому получает одно очко.</string>
+    <string name="ls_same_number_of_cards">Вы оба набрали по 20 карт.</string>
+    <string name="ls_point_number_of_diamonds">%1$s набрал больше буби (%2$s) и поэтому получает одно очко.</string>
     <string name="ls_same_number_of_diamonds">У вас обоих по 5 буби.</string>
-    <string name="ls_point_number_of_sevens">%1$s забрал больше семёрок чем %2$s и поэтому получает одно очко.</string>
+    <string name="ls_point_number_of_sevens">%1$s набрал больше семёрок (%2$s) и поэтому получает одно очко.</string>
     <string name="ls_same_number_of_sevens">У вас обоих по две семёрки.</string>
     <string name="ls_point_seven_of_diamonds">%1$s забрал 7 буби и поэтому получает одно очко.</string>
     <string name="ls_score">Счёт: %1$s %2$s, %3$s %4$s.</string>
@@ -484,7 +484,7 @@
     </string-array>
 
     <!-- Other new strings: -->
-    <string name="ls_choose_item">Выберите здесь</string>
+    <string name="ls_choose_item">Сделайте выбор</string>
     <string name="cbt_allow_vibration">Включить вибрацию устройства во время некоторых событий</string>
     <string name="tv_last_visit">Ваш последний визит:\n%1$s, %2$s %3$s %4$s, %5$s.%6$s</string>
     <string name="tv_last_visit_not_known">Это ваше первое посещение нашего казино.</string>
@@ -501,7 +501,7 @@
     <string name="digit_name_extended">%1$s\'s %2$s</string>
 
     <!-- New strings in 1.3.5, Scopa variants -->
-    <string name="ls_choose_variant">Выберите вариант игры</string>
+    <string name="ls_choose_variant">Выбрать вариант игры</string>
     <string name="ls_scopa_variant">Классическая скопа</string>
     <string name="ls_escoba_variant">Эскоба</string>
     <string name="ls_scopone_variant">Скопоне</string>
