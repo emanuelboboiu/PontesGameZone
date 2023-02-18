@@ -274,7 +274,7 @@
 
     <!-- About dialog: -->
     <string name="about">Thông tin</string>
-    <string name="app_version">Pontes GameZone, version 2.1</string>
+    <string name="app_version">Pontes GameZone, version 2.3</string>
     <string name="app_release_date">Phiên bản 1.0 được phát hành Thứ hai, ngày 16 tháng 2 năm 2015</string>
     <string name="app_last_update">Cập nhật lần cuối: Thứ ba, ngày 10 tháng 1 năm 2023</string>
     <string name="app_creator">Lập trình bởi Emanuel Boboiu (Manu)</string>

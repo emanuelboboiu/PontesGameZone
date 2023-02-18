@@ -11,17 +11,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.EditorInfo;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.ArrayAdapter;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.util.Calendar;
 import java.util.Locale;
 
-public class MainActivity extends Activity implements OnItemSelectedListener {
+public class MainActivity extends Activity {
 
     // Various variables and constants:
     public final static String EXTRA_MESSAGE = "ro.pontes.pontesgamezone.MESSAGE";
@@ -58,9 +54,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 
     // For background sound:
     SoundPlayer sndBackground;
-
-    Spinner dropdown; // to have it globally, to select first item in
-    // onResume() method.
 
     /*
      * We need a global alertToShow as alert to be able to dismiss it when
@@ -101,6 +94,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
         // An arrays with all R.ids of title games:
         int[] gamesIds = new int[]{R.string.ls_choose_item, R.string.black_jack_game, R.string.poker_game, R.string.cards_war_game, R.string.who_is_greater_game, R.string.cf_game_name, R.string.sm_game_name, R.string.ls_game_name};
 
+
         // Create the StringBuilder declared above:
         for (int i = 0; i < gamesIds.length; i++) {
             sb.append(getString(gamesIds[i]));
@@ -108,12 +102,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
                 sb.append("|");
             } // end append vertical bar.
         } // end for create the StringBuilder.
-
-        dropdown = findViewById(R.id.spinnerChoose);
-        String[] items = sb.toString().split("\\|");
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, items);
-        dropdown.setAdapter(adapter);
-        dropdown.setOnItemSelectedListener(this);
 
         // Set last visit text view:
         setLastVisit();
@@ -138,21 +126,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
         userName = getString(R.string.visitor);
     } // end getCredentials() method.
 
-    // Methods for implement of this class:
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-        // String chosen = parent.getItemAtPosition(position).toString();
-        startAGame(position);
-    } // end implemented method for chosen item.
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-        // TODO Auto-generated method stub
-
-    } // end onNothingSelected() method.
-    // end implements methods.
-
     @Override
     public void onResume() {
         super.onResume();
@@ -162,9 +135,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
 
         sndBackground = new SoundPlayer();
         sndBackground.playLooped(this, "main_background1");
-
-        dropdown.setSelection(0);
-
     } // end onResume method.
 
     @Override
@@ -470,30 +440,28 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
     } // end startScopaGameActivity.
 
     // A method to open a game depending of the item chosen in spinner:
-    public void startAGame(int chosen) {
+    public void startAGame(View view) {
+        int chosen = view.getId();
         switch (chosen) {
-            case 0:
-                // Do nothing:
-                break;
-            case 1:
+            case R.id.tvGame1:
                 startBlackJackGame();
                 break;
-            case 2:
+            case R.id.tvGame2:
                 startPokerGame();
                 break;
-            case 3:
+            case R.id.tvGame3:
                 startCardsWarGame();
                 break;
-            case 4:
+            case R.id.tvGame4:
                 startWhoIsGreaterGame();
                 break;
-            case 5:
+            case R.id.tvGame5:
                 startConnectFourGame();
                 break;
-            case 6:
+            case R.id.tvGame6:
                 startSlotMachineGame();
                 break;
-            case 7:
+            case R.id.tvGame7:
                 startScopaGame();
                 break;
         } // end switch.

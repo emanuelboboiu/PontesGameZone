@@ -14,4 +14,7 @@
     <dimen name="text_size_in_alerts">18sp</dimen>
     <dimen name="buttons_size">14sp</dimen>
 
+    <dimen name="text_size_main">18sp</dimen>
+    <dimen name="padding_for_menu_item">5dp</dimen>
+    <dimen name="margin_below_menu_item">7dp</dimen>
 </resources>

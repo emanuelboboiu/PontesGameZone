@@ -276,7 +276,7 @@
 
     <!-- About dialog: -->
     <string name="about">Informazioni</string>
-    <string name="app_version">Pontes GameZone, versione 2.1</string>
+    <string name="app_version">Pontes GameZone, versione 2.3</string>
     <string name="app_release_date">Rilasciato Lunedì 16 febbraio 2015</string>
     <string name="app_last_update">Ultimo aggiornamento: Martedì 10 Gennaio 2023</string>
     <string name="app_creator">Programmato da Emanuel Boboiu (Manu)</string>

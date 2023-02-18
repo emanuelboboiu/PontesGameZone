@@ -66,25 +66,89 @@
             android:textSize="@dimen/text_views_size"
             android:textStyle="bold" />
 
-        <!-- New mode of choosing a game to be opened: -->
 
-        <Spinner
-            android:id="@+id/spinnerChoose"
+        <ScrollView
+            android:id="@+id/svMainMenu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@android:drawable/btn_dropdown"
-            android:gravity="center_horizontal"
-            android:spinnerMode="dropdown"
-            android:textSize="@dimen/text_views_size"></Spinner>
+            android:isScrollContainer="false"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tvLastVisit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tv_last_visit"
-            android:textColor="#000000"
-            android:textSize="@dimen/text_views_size"
-            android:textStyle="bold" />
+            <LinearLayout
+                android:id="@+id/llMainMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:id="@+id/tvGame1"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/black_jack_game" />
+
+                <TextView
+                    android:id="@+id/tvGame2"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/poker_game" />
+
+                <TextView
+                    android:id="@+id/tvGame7"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/ls_game_name" />
+
+                <TextView
+                    android:id="@+id/tvGame3"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/cards_war_game" />
+
+                <TextView
+                    android:id="@+id/tvGame6"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/sm_game_name" />
+
+                <TextView
+                    android:id="@+id/tvGame4"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/who_is_greater_game" />
+
+                <TextView
+                    android:id="@+id/tvGame5"
+                    style="@style/mainMenuStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_below_menu_item"
+                    android:onClick="startAGame"
+                    android:text="@string/cf_game_name" />
+
+
+            </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 
@@ -94,6 +158,15 @@
         android:layout_weight="1"
         android:gravity="bottom|center_horizontal"
         android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvLastVisit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_last_visit"
+            android:textColor="#000000"
+            android:textSize="@dimen/text_views_size"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvCompanyName"

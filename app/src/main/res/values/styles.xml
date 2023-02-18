@@ -21,4 +21,16 @@
         <item name="android:textSize">@dimen/buttons_size</item>
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="mainMenuStyle" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textSize">@dimen/text_size_main</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:paddingLeft">@dimen/padding_for_menu_item</item>
+        <item name="android:paddingRight">@dimen/padding_for_menu_item</item>
+    </style>
+
 </resources>
