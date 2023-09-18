@@ -276,14 +276,14 @@
     <string name="about">Despre Pontes GameZone</string>
     <string name="app_version">Pontes GameZone, versiunea 2.3</string>
     <string name="app_release_date">Versiunea 1.0 finalizată luni, 16 februarie 2015</string>
-    <string name="app_last_update">Ultima actualizare: marți, 17 februarie 2023</string>
+    <string name="app_last_update">Ultima actualizare: sâmbătă, 12 august 2023</string>
     <string name="app_creator">Programat de Emanuel Boboiu (Manu)</string>
     <string name="phone_number">Telefon: +40740203043</string>
     <string name="email_address">E-mail: android@pontes.ro</string>
     <string name="web_address">Web: www.android.pontes.ro</string>
     <string name="app_credits2">Ștefan Halus a creat imagini: cărți, zaruri, iconițe</string>
     <string name="app_credits_translation">Traducere în română de Emanuel Boboiu</string>
-    <string name="app_credits3">Testeri versiune beta:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+    <string name="app_credits3">Testeri versiune beta:\nAdela Cetinoiu,\nGrigore Frișan,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
     <string name="open_help_online">Ajutor</string>

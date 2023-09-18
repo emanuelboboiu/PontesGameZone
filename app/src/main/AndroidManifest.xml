@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="ro.pontes.pontesgamezone"
-    android:versionCode="32"
-    android:versionName="   2.3">
+    android:versionCode="37"
+    android:versionName="   2.3.7">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -157,5 +157,11 @@
                 android:value="MainActivity" />
         </activity>
     </application>
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
 
 </manifest>

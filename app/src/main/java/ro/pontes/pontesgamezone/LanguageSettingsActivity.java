@@ -42,7 +42,12 @@ public class LanguageSettingsActivity extends Activity {
                     MainActivity.currentLanguage = "ro";
                 }
                 break;
-        } // } // end switch.
+            case R.id.rbRadio_tr:
+                if (checked) {
+                    MainActivity.currentLanguage = "tr";
+                }
+                break;
+        } // end switch.
 
         // Save now the setting:
         Settings set = new Settings(getApplicationContext());

@@ -285,7 +285,7 @@
     <string name="web_address">Web: www.android.pontes.ro</string>
     <string name="app_credits2">Ștefan Halus ha creato le immagini di: carte, dadi, icone</string>
     <string name="app_credits_translation">Traduzione italiano di Luigi Russo</string>
-    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
     <string name="open_help_online">Aiuto</string>

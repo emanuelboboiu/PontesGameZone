@@ -283,7 +283,7 @@
     <string name="web_address">Página web: www.android.pontes.ro</string>
     <string name="app_credits2">Las imágenes fueron creadas por Ștefan Halus: cartas, dados, iconos</string>
     <string name="app_credits_translation">Traducción al español por Miguel Pacheco</string>
-    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
     <string name="open_help_online">Ayuda</string>

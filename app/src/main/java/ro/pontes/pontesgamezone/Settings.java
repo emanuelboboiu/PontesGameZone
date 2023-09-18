@@ -191,12 +191,10 @@ public class Settings {
 
         // Get the language for currentLanguage key in SharedPrefferences:
         String tempCurLocale = getStringSettings("currentLanguage");
-        if (tempCurLocale.equals("en") || tempCurLocale.equals("it") || tempCurLocale.equals("ro")) {
-            // If there is a saved value which exists also in the raw folder:
+        if (tempCurLocale.equals("en") || tempCurLocale.equals("it") || tempCurLocale.equals("ro") || tempCurLocale.equals("tr")) {
             MainActivity.currentLanguage = tempCurLocale;
         } else {
-            // If is another language that one saved in settings, or another one
-            // which also doesn't exists, English is the default:
+            // If is another language that one saved in settings, or another one which also doesn't exists, English is the default:
             MainActivity.currentLanguage = "en";
         }
 
@@ -269,7 +267,9 @@ public class Settings {
         String curLocale = context.getResources().getConfiguration().locale.getDisplayName();
         curLocale = curLocale.substring(0, 2);
         curLocale = curLocale.toLowerCase(Locale.US);
-        if (curLocale.equals("en") || curLocale.equals("it") || curLocale.equals("ro")) {
+        // GUITools.alert(context, "Language", curLocale);
+        if (curLocale.equals("en") || curLocale.equals("it") || curLocale.equals("ro") || curLocale.equals("tü")) {
+            if (curLocale.equals("tü")) curLocale = "tr";
             saveStringSettings("currentLanguage", curLocale);
         } else {
             saveStringSettings("currentLanguage", "en");

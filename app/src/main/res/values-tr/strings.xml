@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- The main screen of the game: -->
+   <string name="app_name">Pontes GameZone</string>
+    <string name="welcome_message">Pontes GameZone\'a Hoşgeldiniz!</string>
+    <string name="registered_message">%1$s olarak kaydedildi</string>
+    <string name="nickname">Takma Adın %1$s</string>
+    <string name="nickname_visitor">Misafir</string>
+    <string name="no_nickname">Takma Adını eklemek için dokun…</string>
+    <string name="visitor">Misafir</string>
+    <string name="company_name">Manu Pontes Uygulamaları</string>
+    <string name="company_web_address">www.android.pontes.ro</string>
+    <string name="choose_a_game">Oyun seç:</string>
+    <string name="black_jack_game">Yirmibir</string>
+    <string name="poker_game">Poker</string>
+    <string name="cards_war_game">Kart Savaşı</string>
+    <string name="who_is_greater_game">En Büyük Zar</string>
+
+    <!-- Change nickname strings: -->
+    <string name="mnu_change_nickname">Takma adı değiştir</string>
+    <string name="change_nickname_title">Takma ad</string>
+    <string name="change_nickname_message">Yeni Takma adını belirle: </string>
+    <string name="change_nickname_hint">Buraya Takma adını yaz…</string>
+    <string name="change_nickname_success">Merhaba %1$s!\nTakma adın başarıyla değiştirildi.</string>
+    <string name="change_nickname_error_short">Takma adı en az iki harften oluşmalıdır.\nLütfen tekrar dene!</string>
+    <string name="change_nickname_error_non_alphanumeric">Takma adı yalnızca harfler ve rakamlardan oluşmalıdır.\nYalnızca tek sözcük olmalıdır.\nLütfen tekrar dene!</string>
+
+    <!-- BlackJack Strings: -->
+    <string name="title_activity_black_jack">Pontes Yirmibir</string>
+    <string name="bj_new">Yeni el</string>
+    <string name="bj_bet">Bahsi değiştir</string>
+    <string name="bj_hit">Kart Çek</string>
+    <string name="bj_stand">Pas</string>
+    <string name="bj_double">İkiye katla</string>
+    <string name="bj_surrender">Pes et</string>
+    <string name="my_money">Toplam param: $%1$s</string>
+    <string name="my_bet">Bahis miktarı: $%1$s</string>
+    <string name="my_bj_total">Sen: %1$s</string>
+    <string name="dealers_bj_total">Dağıtıcı: %1$s</string>
+    <string name="bj_status">Yirmibir durumu</string>
+    <string name="not_enough_money_to_double">Bahsini ikiye katlamak için yeterli paran yok.\nCüzdanında $%1$s paran var.</string>
+    <string name="statistics_for_blackjack">Son duraklatılmadan beri %1$s el oynadın.\n$%2$s el kazandın ve $%3$s el kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nEl başına ortalama bakiye $%5$s.</string>
+
+    <!-- Poker strings: -->
+    <string name="title_activity_poker">Pontes Beş Kart Çek Poker</string>
+    <string name="pk_new">Yeni el</string>
+    <string name="pk_bet">Bahsi değiştir</string>
+    <string name="pk_discard">Kart çek</string>
+    <string name="pk_discard_x">Çek %1$s</string>
+    <string name="pk_stand">Elini Aç</string>
+    <string name="pk_fold">Çekil</string>
+    <string name="pk_raise">Bahsi artır</string>
+    <string name="pk_sort_title">Kartları sırala</string>
+    <string name="pk_sort_by_value">Değere göre</string>
+    <string name="pk_sort_by_color">Renge göre</string>
+    <string name="pk_sort_by_nothing">Karıştır</string>
+    <string name="my_pk_hand">Sen: %1$s</string>
+    <string name="dealers_pk_hand">Dağıtıcı: %1$s</string>
+    <string name="pk_nothing">hiçbirşey</string>
+    <string name="pk_status">Poker durumu</string>
+    <string name="pk_sort_not_allowed">Iskarta etmeniz gereken bazı kartlar varken kartları sıralayamazsınız</string>
+    <string name="statistics_for_poker">Son duraklatılmadan beri %1$s el oynadın.\n$%2$s el kazandın ve $%3$s el kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nEl başına ortalama bakiye $%5$s.</string>
+
+    <string-array name="pk_hands_array">
+        <item>Sıralı Renk</item>
+        <item>Dörtlü Set</item>
+        <item>Ful</item>
+        <item>Renk</item>
+        <item>Kent</item>
+        <item>Üçlü Set</item>
+        <item>Döper</item>
+        <item>Tek per</item>
+        <item>Yüksek kart/Beş Benzemez</item>
+        <item>Hiç</item>
+    </string-array>
+
+    <!-- Cards War Game strings: -->
+    <string name="title_activity_cards_war">Pontes Kart Savaşı</string>
+    <string name="cw_new">Yeni Savaş</string>
+    <string name="cw_bet">Bahsi Değiştir</string>
+    <string name="cw_fire">Ateş et</string>
+    <string name="cw_withdraw">Geri Çekil</string>
+    <string name="my_cw_total">Sen: %1$s</string>
+    <string name="dealers_cw_total">Dağıtıcı: %1$s</string>
+    <string name="cbt_war_sounds">Savaş Sesleri</string>
+    <string name="cw_status">Kart Savaşı durumu</string>
+    <string name="statistics_for_cards_war">Son duraklatılmadan beri %1$s savaş yaptın.\n$%2$s savaş kazandın ve $%3$s savaş kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nSavaş başına ortalama bakiye $%5$s.</string>
+
+    <!-- Who is Greater Game strings: -->
+    <string name="title_activity_who_is_greater">Pontes En Büyük Zar</string>
+    <string name="gw_new">Yeni set</string>
+    <string name="gw_bet">Bahsi değiştir</string>
+    <string name="gw_throw">Zarı at</string>
+    <string name="gw_abandon">Oyundan ayrıl</string>
+    <string name="my_gw_total">Sen: %1$s</string>
+    <string name="dealers_gw_total">Dağıtıcı: %1$s</string>
+    <string name="gw_status">En Büyük Zar durumu</string>
+    <string name="statistics_for_who_is_greater">Son duraklatılmadan beri %1$s set oynadın.\n$%2$s seti kazandın ve $%3$s seti kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nSet başına ortalama bakiye $%5$s.</string>
+
+    <!-- Cards strings: -->
+    <string-array name="suits_array">
+        <item>Kart</item>
+        <item>Sinek</item>
+        <item>Karo</item>
+        <item>Kupa</item>
+        <item>Maça</item>
+    </string-array>
+    <string-array name="values_array">
+        <item>Ters çevir</item>
+        <item>As</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>Vale</item>
+        <item>Kız</item>
+        <item>Papaz</item>
+    </string-array>
+
+    <string name="card_name">%2$s %1$s</string>
+    <string name="card_name_extended">%2$s %1$s</string>
+    <!-- Content description for a card image: Dealer's Ace of Diamonds or Yours King of Clubs -->
+    <string-array name="possesion_array">
+        <item>Dağıtıcı</item>
+        <item>Sen</item>
+    </string-array>
+
+    <!-- The Dice class: -->
+    <string name="die_name_extended">%1$s %2$s</string>
+
+    <!-- Dealer strings: -->
+    <string name="bet_dialog_title">Yeni bahis miktarı!</string>
+    <string name="bet_dialog_body">Selam %1$s,\nBahis miktarını dolar olarak yaz: </string>
+    <string name="not_enough_money_to_bet">Üzgünüm %1$s!\n$%2$s tutarında bir bahis yapmaya yetecek paran bulunmuyor.\nBahis miktarını değiştirmen gerek!\nCüzdanında $%3$s paran var.</string>
+    <string name="play_just_for_fun">%1$s, bunun kötü bir durum olduğunu anlıyorum!\nCüzdanında hiç para yok.\nBahis miktarını $0 olarak değiştirerek yalnızca eğlenmek için oynayabilirsin.</string>
+
+    <!-- Bonus strings -->
+    <string name="money_won_as_bonus_title">Bonus Kazançlar</string>
+    <string name="money_won_as_bonus_message">Şanslısın %1$s,\nOyunu son çalıştırdığından beri $%2$s bonus kazandın.\nBugün $%3$s bonus kazandın.\nOyunu ilk yüklediğinden beri $%4$s bonus kazandın.</string>
+    <string name="mnu_money_won_as_bonus">Bonus kazanma istatistikleri</string>
+
+    <!-- General messages and strings: -->
+    <string name="warning_not_available">Eylem mevcut değil</string>
+    <string name="ellypsis">…</string>
+
+    <!-- Audio Settings activity -->
+    <string name="title_activity_audio_settings">Ses ayarları</string>
+    <string name="cbt_sounds_setting">Ses Çal</string>
+    <string name="cbt_dice_sound_setting">Zarları sesli oku</string>
+    <string name="cbt_speech_setting">Erişilebilirliği artırmak için konuşma kullan</string>
+
+    <!-- Language Settings Activity -->
+    <string name="title_activity_language_settings">Seslendirme dil ayarları</string>
+    <string name="tv_choose_dice_language_settings">Zarların sesli okunacağı dili seç:</string>
+    <string name="language_english">İngilizce (Sağlayan Giulia Guerra)</string>
+    <string name="language_italian">Italyanca (Sağlayan Giulia Guerra)</string>
+    <string name="language_romanian">Rumence (Sağlayan Cristian Csetnek)</string>
+<string name="language_turkish">Türkçe (Sağlayan Erişilebilir Android Türkiye Ekibi)</string>
+
+    <!-- On shake settings activity -->
+    <string name="title_activity_shake_settings">Sallama ayarları</string>
+    <string name="cbt_onshake_toggle">Cihaz sallandığında algıla</string>
+    <string name="onshake_magnitude">Sallama şiddetini belirle</string>
+    <string name="magnitude_very_easy">Çok hafif</string>
+    <string name="magnitude_easy">Hafif</string>
+    <string name="magnitude_moderate">Orta</string>
+    <string name="magnitude_hard">Sert</string>
+    <string name="magnitude_very_hard">Çok sert</string>
+
+    <!-- Miscellaneous Settings Activity -->
+    <string name="title_activity_miscellaneous_settings">Çeşitli</string>
+    <string name="cbt_keep_screen_awake">Ekranı açık tut</string>
+
+    <!-- Set default values: -->
+    <string name="title_default_settings">Varsayılanları yükle</string>
+    <string name="body_default_settings">Merhaba %1$s!\nTüm ayarları sıfırlamak istediğine emin misin?\nPontes GameZone ilk yüklendiği ayarlarına döndürülecektir.</string>
+
+    <!-- Saloon class strings: -->
+    <string name="title_activity_saloon">Bar alanı</string>
+    <string name="saloon_title">Hoşgeldin %1$s!\nŞu anda bara giriş yaptın!</string>
+    <string name="mnu_saloon">Bar alanına git</string>
+    <string name="saloon_spent_money">Bugün $%1$s harcadın.</string>
+    <string name="mnu_saloon_virtual_time">Sanal zamanı göster</string>
+    <string name="saloon_virtual_time_title">Saat</string>
+    <string name="saloon_passed_day">Sanal zaman %1$s.%2$s</string>
+    <string name="saloon_order">Satın almak istediğin ürünü seç</string>
+    <string name="saloon_not_enough_money">Üzgünüm %1$s,\nmaalesef yeterli paran bulunmuyor!</string>
+    <string name="saloon_number_of_games_for_order">Son siparişinden beri %1$s oyun oynadın.</string>
+    <string name="saloon_you_must_play_more">Selam %1$s,\nYeni bir sipariş vermeden önce %2$s oyun daha oynamalısın.</string>
+    <string name="saloon_actual_bonus_percentage">%1$s%% bonusun bulunuyor\n(cüzdanına eklenecek)</string>
+    <string name="saloon_new_order_title">Sipariş ver</string>
+    <string name="saloon_new_order_message">Selam %1$s,\nBir %2$s siparişi vermek istiyor musun? Fiyat: $%3$s.</string>
+
+    <!-- An array for products names: -->
+    <string-array name="saloon_product_names_array">
+        <item>Hiçbirşey</item>
+        <item>Kahve</item>
+        <item>Çay</item>
+        <item>Meyve suyu</item>
+        <item>Bira</item>
+        <item>Viski</item>
+        <item>Puro</item>
+    </string-array>
+    <!-- An array for product prices, it is parralel with the above one: -->
+    <string-array name="saloon_product_prices_array">
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string name="saloon_content_description_for_products">%1$s, ücret: $%2$s</string>
+
+    <!-- Other strings: -->
+    <!-- For alert dialog with statistics, at leas for Blackjack: -->
+    <string name="title_statistics_alert">İstatistikler</string>
+
+    <!-- Strings for status and TextToSpeech for Blackjack, not GUI Elements: -->
+    <string name="msg_dealers_visible_card">Dağıtıcının açık kartı: %1$s</string>
+    <string name="msg_second_dealer_card">Dağıtıcının ikinci kartı: %1$s. Toplam %2$s.</string>
+    <string name="msg_drawing_cards">%1$s. %2$s.</string>
+    <string name="msg_dealer_has_busted">Dağıtıcı fazla çekti ve kaybetti!</string>
+    <string name="msg_you_have_busted">Fazla çektin ve kaybettin!</string>
+    <string name="msg_you_had_blackjack">Harika! Bir kerede Yirmibir yaptın!</string>
+    <string name="msg_blackjack_lost">Üzgünüm! $%1$s kaybettin!</string>
+    <string name="msg_blackjack_won">Tebrikler! $%1$s kazandın!</string>
+    <string name="msg_blackjack_draw">Sonuç berabere!</string>
+
+    <!-- Strings for status and TextToSpeech for Poker, not GUI Elements: -->
+    <string name="pk_started">El başladı! Iskarta edeceğin kartları seçebilirsin!</string>
+    <string name="pk_discarded">Şimdi elini açabilirsin!</string>
+    <string name="pk_card_discarded">%1$s kart ıskarta için hazır</string>
+    <string name="pk_card_not_discarded">%1$s geri alındı</string>
+    <string name="pk_raise_title">Bahsi artır</string>
+    <string name="pk_raise_message">Artırmak istediğin bahis miktarını gir</string>
+    <string name="pk_fold_message">Mevcut pot ile ilgilenmiyorsun.</string>
+    <string name="pk_not_enough_raise">Bahsi en $%1$s artırmalısın.</string>
+    <string name="pk_you_won_the_hand">Tebrikler! Bu eli kazandın!\n$%1$s kazandın.</string>
+    <string name="pk_dealer_won_the_hand">Üzgünüm! Bu eli kaybettin!\n$%1$s kaybettin.</string>
+    <string name="pk_draw_hand">El berabere bitti!\nBu eli kimse kazanamadı…</string>
+    <!-- An array where at 0 is dealer, at 1 is the player. It announces through TTS the cards and the type of the hand: -->
+    <string-array name="pk_about_hand_array">
+        <item>Dağıtıcının eli: %1$s. %2$s</item>
+        <item>Senin elin: %1$s. %2$s</item>
+    </string-array>
+
+    <!-- Strings for status and TextToSpeech for Cards War, not GUI Elements: -->
+    <string name="cw_started">Savaş başladı, ateş etmeye başlayabilirsin!</string>
+    <string name="cw_battle_continues">Kazanan yok! Mücadele devam ediyor…</string>
+    <string name="cw_you_won_battle">Bu savaşı sen kazandın!</string>
+    <string name="cw_dealer_won_battle">Bu savaşı kaybettin!</string>
+    <string name="cw_you_won_the_war">Tebrikler! Zafer Senin!\n$%1$s kazandın.</string>
+    <string name="cw_dealer_won_the_war">Üzgünüm! Mağlup oldun!\n$%1$s kaybettin.</string>
+    <string name="cw_draw_war">Bu savaş berabere bitti!\nBu savaşı kimse kazanamadı…</string>
+
+    <!-- Strings for status and TextToSpeech for Who is Greater, not GUI Elements: -->
+    <string name="gw_started">Set başladı, zar atmaya başlayabilirsin!</string>
+    <string name="gw_you_won_the_set">Tebrikler! Bu seti kazandın!\n$%1$s kazandın.</string>
+    <string name="gw_dealer_won_the_set">Üzgünüm! Bu seti kaybettin!\n$%1$s kaybettin.</string>
+    <string name="gw_draw_set">Bu set berabere bitti!\nBu seti kimse kazanamadı…</string>
+    <string name="gw_actual_score">Sonuç: %1$s - %2$s</string>
+
+    <!-- General messages: -->
+    <string name="error">Hata!</string>
+    <string name="warning">Uyarı!</string>
+
+    <!-- About dialog: -->
+    <string name="about">Hakkında</string>
+    <string name="app_version">Pontes GameZone, sürüm 2.3</string>
+    <string name="app_release_date">Sürüm 1.0 yayınlanma tarihi: 16 Şubat 2015 Pazartesi</string>
+    <string name="app_last_update">Son Güncellenme: 17 Şubat 2023 Cumartesi</string>
+    <string name="app_creator">Emanuel Boboiu (Manu) tarafından geliştirildi</string>
+    <string name="phone_number">Telefon: +40740203043</string>
+    <string name="email_address">E-posta: android@pontes.ro</string>
+    <string name="web_address">Web: www.android.pontes.ro</string>
+    <string name="app_credits2">Resimler: kartlar, zar, semboller, Ștefan Halus tarafından oluşturuldu</string>
+    <string name="app_credits_translation">Türkçe\'ye Çeviren: Ömer Yeşiltaş (www.erisilebilirandroid.com)</string>
+    <string name="app_credits3">Beta test edenler:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+
+    <!-- Help -->
+    <string name="open_help_online">Yardım</string>
+    <string name="hello_world">Merhaba Dünya!</string>
+    <string name="action_settings">Ayarlar</string>
+
+    <!-- Strings after 19 March 2015, version 1.1 -->
+    <string name="title_activity_connect_four">4 bir arada</string>
+    <string name="cf_game_name">4 bir arada</string>
+    <string name="cf_bet">Bahsi değiştir</string>
+    <string name="cf_new">Başla</string>
+    <string name="cf_status">4 bir arada durumu</string>
+    <string name="cf_abandon_game">Oyundan ayrıl</string>
+    <string name="cf_game_type0">Dağıtıcıya karşı</string>
+    <string name="cf_game_type1">Arkadaşa karşı</string>
+    <string name="cf_cell_already_used">%1$s daha önce kullanıldı</string>
+    <string name="cf_cell_forbidden">%1$s yasaklandı! Aşağıda hiçbirşey yok.</string>
+    <string name="dealer">Dağıtıcı</string>
+    <string name="partner">Arkadaş</string>
+    <string name="my_cf_total">Sen: %1$s</string>
+    <string name="dealers_cf_total">Dağıtıcı: %1$s</string>
+    <string name="partners_cf_total">Arkadaş: %1$s</string>
+    <string name="cf_started">Yeni bir boş hücre tablosu oluşturuldu!!</string>
+    <string name="cf_current_move">%1$s hücresinden %2$s hücresine taşındı</string>
+    <string name="cf_win">Tebrikler! Bu oyunu sen kazandın!</string>
+    <string name="cf_lose">Üzgünüm, Bu oyunu kaybettin…</string>
+    <string name="cf_draw">Bu oyun berabere bitti…</string>
+    <string name="statistics_for_connectfour">Son duraklatılmadan beri %1$s tablo oynadın.\n$%2$s kazandın ve $%3$s kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nTablo başına ortalama bakiye $%5$s.</string>
+    <string name="mnu_difficulty_level">Zorluk düzeyi</string>
+    <string name="cf_choose_level">Zorluk düzeyini seç</string>
+    <string name="cf_easy">Kolay</string>
+    <string name="cf_medium">Orta</string>
+    <string name="cf_hard">Zor</string>
+    <string name="cf_impossible">Neredeyse imkansız</string>
+
+    <!-- Other places in casino, like pawn shop -->
+    <string name="mnu_go_to">Git…</string>
+    <string name="mnu_pawnshop">Rehine mağazasına git</string>
+    <string name="title_activity_pawnshop">Rehine mağazası</string>
+    <string name="ps_title">Hoşgeldin %1$s!\nRehine mağazasına giriş yaptın!</string>
+    <string name="ps_sell">Rehine bırakmak istediğin eşyayı seç</string>
+    <string name="ps_new_sell_title">Rehine bırak</string>
+    <string name="ps_new_sell_message">Selam %1$s,\n%2$s eşyanı $%3$s karşılığında rehine bırakmak istiyor musun?</string>
+    <string name="ps_content_description_for_products">%1$s eşyanı $%2$s karşılığında rehine bırak</string>
+    <string name="ps_old_sell_title">Bu eşyayı geri al</string>
+    <string name="ps_old_sell_message">Selam %1$s,\n%2$s eşyanı $%3$s ödeyerek geri almak istiyor musun?</string>
+    <string name="ps_content_description_for_sold_products">%1$s eşyasını $%2$s ödeyerek geri al</string>
+    <string name="ps_not_enough_money_to_take_product_back">Üzgünüm %1$s!\nBu eşyayı geri almak için yeterli paran bulunmuyor.\nCüzdanında $%2$s var.</string>
+    <!-- An array with products which can be sold to pawn shop: -->
+    <string-array name="ps_products_to_sell_array">
+        <item>hiçbirşey</item>
+        <item>kol saati</item>
+        <item>telefon</item>
+        <item>dizüstü bilgisayar</item>
+        <item>bilezik</item>
+        <item>moto siklet</item>
+        <item>araba</item>
+    </string-array>
+    <!-- An array for product prices when sold, it is parralel with the above one: -->
+    <string-array name="ps_product_prices_array">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>800</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+    </string-array>
+
+    <!-- For bar area, break bottles: -->
+    <string name="saloon_broken_title">Hayır, Olamaz!…</string>
+    <string name="saloon_bottles_moved">Lütfen dikkatli ol! Şişelerimizi kırma!</string>
+    <string name="saloon_bottles_broken">Hay aksi! %1$s!\nBu şişeleri kırdın!\nNeden bu kadar dikkatsiz hareket ediyorsun?\nŞimdi $%2$s ceza ödemelisin…</string>
+    <string name="saloon_not_enough_money_for_compensation">Çok yazık %1$s!\nBazı şişelerimizi kırdın!\nAncak cezayı ödeyebilecek hiç paran yok.\nLütfen barı terk et!</string>
+    <string name="saloon_not_allowed">Selam %1$s!\nAnlaşılan cüzdanında hiç paran yok!\nBurada ne yaptığını sanıyorsun?\nRehine mağazasına giderek bazı eşyalarını rehine bırak, ondan sonra buraya gel.\nParan olduğunda görüşürüz!</string>
+    <string name="tv_clock_is_unavailable">Zaman bilinmiyor…</string>
+    <string name="ps_clock_is_unavailable">Zaman bilinmiyor…\nRehine mağazasına git ve saatini geri al…</string>
+
+    <!-- Bathroom area -->
+    <string name="title_activity_bathroom">Tuvalet</string>
+    <string name="mnu_bathroom">Tuvalete git</string>
+    <string name="bath_title">Şu anda tuvalettesin</string>
+    <string name="bath_action">Bir eylem seç</string>
+    <string name="bath_status">Tuvalet durumu</string>
+    <string name="bath_use_objects">%1$s kullan</string>
+    <string name="bath_wrong_action_chosen">Merhaba %1$s,\nGeçerli bir eylem seçemedin.\nLütfen tuvalet durumunu kontrol et!\nDurum bilgisi tuvaletin alt kısmında yer almaktadır.</string>
+    <string name="saloon_too_many_drinks">Hey %1$s,\nÇok içki içtin!\nLütfen ortalığı batırmadan lavaboya git, yoksa daha fazla içemezsin!</string>
+    <!-- An array with objects which can be found in bathroom: -->
+    <string-array name="bath_actions_array">
+        <item>Hiçbirşey</item>
+        <item>tuvalet</item>
+        <item>Lavabo</item>
+        <item>El kurutucu</item>
+    </string-array>
+    <!-- An array with bathroom status: -->
+    <string-array name="bath_status_array">
+        <item>Tuvaleti kullanmaya ihtiyacın yok</item>
+        <item>Çok fazla içtiğin için tuvaleti kullanmalısın.</item>
+        <item>Lütfen ellerini yıka!</item>
+        <item>Ellerin ıslak, el kurutucu ile ellerini kurulamayı unutma.</item>
+    </string-array>
+
+    <string name="mnu_casino_entrance">Giriş salonuna git</string>
+    <string name="mnu_go_back">Geri git</string>
+
+    <!-- Information about wallet on first page, ccasino entrance -->
+    <string name="tv_wallet_contains">Cüzdanında $%1$s paran var</string>
+
+    <!-- Insolvency messages -->
+    <string name="title_activity_insolvency">İflas</string>
+    <string name="tv_ins_congratulations">Tebrikler!</string>
+    <string name="tv_ins_main_message">Oyun mağazamız iflas etti!</string>
+    <string name="tv_ins_explanations">Evet %1$s,\n$%2$s tutarından fazla kazandın.\nBu meblağdan fazlasını ödeyemiyoruz.\nBiz işleri düzelttiğimizde lütfen tekrar gel ve yeniden başla.</string>
+    <string name="tv_ins_play_sound_again">Sesi tekrar çal!</string>
+    <string name="tv_ins_restart_game">Oyunu şimdi yeniden başlat!</string>
+    <string name="tv_send_performance">Başarını paylaşabilirsin:</string>
+    <string name="hint_write_a_name">Buraya webde görünecek bir isim yaz…</string>
+    <string name="bt_ins_send_now">Şimdi gönder!</string>
+    <string name="name_not_written_correctly">İsim en az 3 harften oluşmalıdır.\nLütfen tekrar yaz!</string>
+
+    <!-- Added in audio settings: -->
+    <string name="cbt_sounds_looped_setting">Arka planda ses çal</string>
+    <string name="cbt_sounds_music_setting">Oyunlarda müzik çal</string>
+    <string name="tv_background_volume_percentage">Arka plan ses yüzdesi</string>
+    <string name="tv_music_volume_percentage">Müzik ses yüzdesi</string>
+
+    <!-- Ask for confirmation: -->
+    <string name="confirmation">Onay</string>
+    <string name="really_leave_page">Buradan ayrılmak istediğine emin misin?</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+
+    <!-- Strings after 20 July 2015, version 1.3 -->
+
+
+    <!-- Strings for Slot Machine: -->
+    <string name="title_activity_slot_machine">Pontes Şans Makinesi</string>
+    <string name="sm_game_name">Şans Makinesi</string>
+    <string name="sm_one_coin">Bir jeton</string>
+    <string name="sm_two_coins">İki jeton</string>
+    <string name="sm_three_coins">Üç jeton</string>
+    <string name="sm_fire">Kolu çevir!</string>
+
+    <!-- Strings for status and TextToSpeech for Slot Machine, not GUI Elements: -->
+    <string name="sm_started">Silindirler döndürmeye hazır</string>
+    <string name="sm_you_won">Tebrikler! $%1$s kazandın!</string>
+    <string name="sm_dealer_won">Üzgünüm! $%1$s kaybettin!</string>
+    <string name="sm_status">Şans Makinesi durumu</string>
+    <string name="statistics_for_slot_machine">Son duraklatılmadan beri silindirleri %1$s kez döndürdün.\n$%2$s kazandın ve $%3$s kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nDöndürme başına ortalama bakiye $%5$s.</string>
+    <string name="sm_cylinder_face">Sayı</string>
+    <!-- A string which says in English version: "Face 5" for instance -->
+    <string name="sm_cylinder_face_extended">%1$s %2$s</string>
+
+    <!-- String for Scopa game: -->
+    <string name="title_activity_scopa">Pontes Scopa</string>
+    <string name="ls_game_name">Scopa</string>
+    <string name="ls_bet">Bahsi değiştir</string>
+    <string name="ls_new">Yeni oyun</string>
+    <string name="ls_say_all">Kartları oku</string>
+    <string name="ls_abandon">Oyundan ayrıl</string>
+    <string name="my_ls_score">Sen: %1$s</string>
+    <string name="dealers_ls_score">Dağıtıcı: %1$s</string>
+    <string name="ls_new_round">Yeni tur! %1$s başlıyor…</string>
+    <string name="ls_status">Scopa durumu</string>
+    <string name="statistics_for_la_scopa">Son duraklatıldığından beri %1$s Scopa oynadın.\n$%2$s kazandın ve $%3$s kaybettin.\nBu oturumdaki mevcut bakiyen $%4$s.\nOyun başına ortalama bakiye $%5$s.</string>
+    <string name="ls_mnu_limit_score">Bitiş puanını ayarla</string>
+    <string name="ls_set_limit_score">Bitiş için puanı seç:</string>
+    <string name="ls_change_limit_score_not_allowed">Oyun devam ederken bitiş puanını değiştiremezsin.</string>
+
+    <!-- Strings for status and TextToSpeech for Scopa, not GUI Elements: -->
+    <string name="ls_started">Oyun başladı</string>
+    <string name="ls_you_won">Tebrikler! $%1$s kazandın!</string>
+    <string name="ls_dealer_won_battle">Üzgünüm! $%1$s kaybettin!</string>
+    <string name="ls_card_put_message">%1$s %2$s kartını oynadı.</string>
+    <string name="ls_taken_cards_message">%3$s kartı ile %1$s %2$s aldı.</string>
+    <string name="ls_scopa_event">Scopa!</string>
+    <string name="ls_remained_cards_taken">%1$s, kalan  %2$s kartları aldı.</string>
+    <string name="ls_point_number_of_cards">%1$s daha çok kart topladı (%2$s) ve bir puan kazandı.</string>
+    <string name="ls_same_number_of_cards">Her iki oyuncu da 20 kart topladı.</string>
+    <string name="ls_point_number_of_diamonds">%1$s daha çok karo topladı (%2$s) ve bir puan kazandı.</string>
+    <string name="ls_same_number_of_diamonds">Her iki oyuncu da 5 karo topladı.</string>
+    <string name="ls_point_number_of_sevens">%1$s daha çok yedi topladı (%2$s) ve bir puan kazandı.</string>
+    <string name="ls_same_number_of_sevens">Her iki oyuncu da 2 yedili topladı.</string>
+    <string name="ls_point_seven_of_diamonds">%1$s Karo Yedi kartına sahip olduğu için bir puan aldı.</string>
+    <string name="ls_score">Puan: %1$s %2$s, %3$s %4$s.</string>
+    <string name="ls_won_entire_game">%1$s! %2$s oyunu kazandı.\nSon puan durumu: %3$s.</string>
+    <!-- Strings to announce hands of cards: -->
+    <string-array name="ls_hands_array">
+        <item>Yerdeki kartlar: %1$s.</item>
+        <item>Senin kartların: %1$s.</item>
+        <item>Dağıtıcının kartları: %1$s.</item>
+    </string-array>
+    <!-- Another array, for subject of action in scopa: -->
+    <string-array name="ls_subject_array">
+        <item>Hiç kimse</item>
+        <item>Sen</item>
+        <item>Dağıtıcı</item>
+    </string-array>
+
+    <!-- Other new strings: -->
+    <string name="ls_choose_item">Bunu seç</string>
+    <string name="cbt_allow_vibration">Bazı eylemlerde cihazın titremesine izin ver</string>
+    <string name="tv_last_visit">Son ziyaretin:\n%1$s, %2$s %3$s %4$s, %5$s.%6$s</string>
+    <string name="tv_last_visit_not_known">Bu oyunumuzu ilk ziyaretin.</string>
+    <string name="game_history">Oyun geçmişi</string>
+    <string name="bt_history">Geçmiş</string>
+    <string name="bt_close">Kapat</string>
+    <string name="congratulations">Tebrikler</string>
+    <string name="sorry">Üzgünüm</string>
+    <string name="today">Bugün</string>
+    <string name="yesterday">Dün</string>
+
+    <!-- Strings for Digit and DigitHand classes: -->
+    <string name="digit_name">%1$s</string>
+    <string name="digit_name_extended">%1$s - %2$s</string>
+
+    <!-- New strings in 1.3.5, Scopa variants -->
+    <string name="ls_choose_variant">Bir varyant seç</string>
+    <string name="ls_scopa_variant">Klasik Scopa</string>
+    <string name="ls_escoba_variant">Escoba</string>
+    <string name="ls_scopone_variant">Scopone</string>
+    <string name="ls_scopone_escoba_variant">Scopone Escoba</string>
+    <string name="ls_chosen_variant">%1$s varyantını seçtin</string>
+    <string name="ls_choose_variant_not_allowed">Oyun sürerken varyantı  değiştiremezsin.</string>
+
+    <!-- Strings for permissions and others: -->
+    <string name="information">Bilgi</string>
+    <string name="info_when_permission_accounts_not_granted">Hiçbir izin verilmediğinde de bu paket düzgün çalışır.\nBu izne yalnızca Google kullanıcı adınızı kullanmak için ihtiyaçç duymaktayız, bu sayede bazı etkinlikleriniz bu uygulama tarafından hatırlanabilecektir.\nGoogle hesap bilgileriniz başka hiç kimseye gösterilmeyecektir.\nOyunlarınızın geçmişinin depolanmasını, veya sanal bir banka hesabında paranızın biriktirilmesini, veya bu uygulamada gerçekleştirdiğiniz diğer işlemlerin kaydedilmesini istemiyorsanız, bu iznin bir daha sorulmamasını seçebilirsiniz.\nEğer fikrinizi değiştirirseniz, bu izni uygulama yöneticisinden el ile de verebilirsiniz.</string>
+    <string name="no_account_name_detected_because_permission">Google İD\'nizi algılayamadık, bu nedenle etkinliklerinizi sunucuda paylaşamıyoruz.\nBir süre önce Google hesap adınızı okuma iznini vermediniz.\nGelecekte sonuçlarınızı ve kişisel bilgilerinizi görmek istiyorsanız, lütfen uygulama yöneticisine gidin, bu uygulamayı tıklayın ve ilgili izni verin.\nGoogle İD\'niz kimseyle paylaşılmayacaktır.\nBu uygulamayı bu izin olmadan da kullanmaya devam edebilirsiniz.</string>
+
+</resources>

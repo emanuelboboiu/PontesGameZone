@@ -283,7 +283,7 @@
     <string name="web_address">Сайт: www.android.pontes.ro</string>
     <string name="app_credits2">Ștefan Halus- Автор картинок: карт, кубиков, иконок</string>
     <string name="app_credits_translation">Перевод на Русский- ArturMinyazev</string>
-    <string name="app_credits3">Бета-тестеры:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+    <string name="app_credits3">Бета-тестеры:\nAdela Cetinoiu,\nGrigore Frișan,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
     <string name="open_help_online">Помощь</string>

@@ -40,7 +40,7 @@
     <string name="dealers_bj_total">Dealer: %1$s</string>
     <string name="bj_status">Blackjack status</string>
     <string name="not_enough_money_to_double">You haven\'t enough money to double your bet.\nYou have $%1$s in your wallet.</string>
-    <string name="statistics_for_blackjack">You played %1$s hands since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per hand is $%5$s.</string>
+    <string name="statistics_for_blackjack">You played %1$s hands since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per hand is $%5$s.</string>
 
     <!-- Poker strings: -->
     <string name="title_activity_poker">Pontes Five Card Draw Poker</string>
@@ -60,7 +60,7 @@
     <string name="pk_nothing">nothing</string>
     <string name="pk_status">Poker status</string>
     <string name="pk_sort_not_allowed">You can not sort the cards when you have to discard some of them.</string>
-    <string name="statistics_for_poker">You played %1$s hands since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per hand is $%5$s.</string>
+    <string name="statistics_for_poker">You played %1$s hands since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per hand is $%5$s.</string>
 
     <string-array name="pk_hands_array">
         <item>Straight flush</item>
@@ -85,7 +85,7 @@
     <string name="dealers_cw_total">Dealer: %1$s</string>
     <string name="cbt_war_sounds">War sounds</string>
     <string name="cw_status">Cards War status</string>
-    <string name="statistics_for_cards_war">You fighted in %1$s Wars since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per war is $%5$s.</string>
+    <string name="statistics_for_cards_war">You fought in %1$s Wars since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per war is $%5$s.</string>
 
     <!-- Who is Greater Game strings: -->
     <string name="title_activity_who_is_greater">Pontes Who is Greater</string>
@@ -96,7 +96,7 @@
     <string name="my_gw_total">You: %1$s</string>
     <string name="dealers_gw_total">Dealer: %1$s</string>
     <string name="gw_status">Who is Greater status</string>
-    <string name="statistics_for_who_is_greater">You played %1$s sets since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per set is $%5$s.</string>
+    <string name="statistics_for_who_is_greater">You played %1$s sets since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per set is $%5$s.</string>
 
     <!-- Cards strings: -->
     <string-array name="suits_array">
@@ -161,6 +161,7 @@
     <string name="language_english">English (by Giulia Guerra)</string>
     <string name="language_italian">Italiano (by Giulia Guerra)</string>
     <string name="language_romanian">Română (by Cristian Csetnek)</string>
+    <string name="language_turkish">Türkçe (Sağlayan Erişilebilir Android Türkiye Ekibi)</string>
 
     <!-- On shake settings activity -->
     <string name="title_activity_shake_settings">Shake</string>
@@ -276,14 +277,14 @@
     <string name="about">About</string>
     <string name="app_version">Pontes GameZone, version 2.3</string>
     <string name="app_release_date">Version 1.0 released Monday, 16 February 2015</string>
-    <string name="app_last_update">Last update: Saturday, February 17th, 2023</string>
+    <string name="app_last_update">Last update: Saturday, August 12th, 2023</string>
     <string name="app_creator">Programmed by Emanuel Boboiu (Manu)</string>
     <string name="phone_number">Phone no: +40740203043</string>
     <string name="email_address">E-mail: android@pontes.ro</string>
     <string name="web_address">Web: www.android.pontes.ro</string>
     <string name="app_credits2">Ștefan Halus created the images: cards, dice, icons</string>
     <string name="app_credits_translation">Translated into English by Emanuel Boboiu</string>
-    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nAdina Odobașa,\nCornel Todericiu,\nIoan Țichir</string>
+    <string name="app_credits3">Beta testers:\nAdela Cetinoiu,\nGrigore Frișan,\nCornel Todericiu,\nIoan Țichir</string>
 
     <!-- Help -->
     <string name="open_help_online">Help</string>
@@ -311,7 +312,7 @@
     <string name="cf_win">Congrats! You won this game!</string>
     <string name="cf_lose">Sorry, you lost this game…</string>
     <string name="cf_draw">This game was a draw…</string>
-    <string name="statistics_for_connectfour">You played %1$s grids since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per grid is $%5$s.</string>
+    <string name="statistics_for_connectfour">You played %1$s grids since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per grid is $%5$s.</string>
     <string name="mnu_difficulty_level">Difficulty</string>
     <string name="cf_choose_level">Choose difficulty level</string>
     <string name="cf_easy">Easy</string>
@@ -381,7 +382,7 @@
     <!-- An array with bathroom status: -->
     <string-array name="bath_status_array">
         <item>No action is required in bathroom</item>
-        <item>You must use the double-u because you drank alot.</item>
+        <item>You must use the double-u because you drank a lot.</item>
         <item>Please wash your hands!</item>
         <item>Your hands are wet, don\'t forget to use the hand drier.</item>
     </string-array>
@@ -432,7 +433,7 @@
     <string name="sm_you_won">Congrats! You won $%1$s!</string>
     <string name="sm_dealer_won">Sorry! You lost $%1$s!</string>
     <string name="sm_status">Slot Machine status</string>
-    <string name="statistics_for_slot_machine">You shook the cylinders %1$s times since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per shook is $%5$s.</string>
+    <string name="statistics_for_slot_machine">You shook the cylinders %1$s times since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per shook is $%5$s.</string>
     <string name="sm_cylinder_face">Face</string>
     <!-- A string which says in English version: "Face 5" for instance -->
     <string name="sm_cylinder_face_extended">%1$s %2$s</string>
@@ -448,7 +449,7 @@
     <string name="dealers_ls_score">Dealer: %1$s</string>
     <string name="ls_new_round">New round! %1$s starts…</string>
     <string name="ls_status">Scopa status</string>
-    <string name="statistics_for_la_scopa">You played %1$s Scopa games since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current ballance for this session is $%4$s.\nThe average ballance per game is $%5$s.</string>
+    <string name="statistics_for_la_scopa">You played %1$s Scopa games since last pause.\nYou won $%2$s and you lost $%3$s.\nYour current balance for this session is $%4$s.\nThe average balance per game is $%5$s.</string>
     <string name="ls_mnu_limit_score">Limit score for victory</string>
     <string name="ls_set_limit_score">Choose the limit score for victory:</string>
     <string name="ls_change_limit_score_not_allowed">You cannot change the limit score for victory while the game is in progress.</string>
@@ -511,7 +512,7 @@
 
     <!-- Strings for permissions and others: -->
     <string name="information">Information</string>
-    <string name="info_when_permission_accounts_not_granted">This package works well without any permisions granted.\nWe need that permission only to know your Google Id, this way some of your activities can be remembered by this app.\nWe don\'t show anywhere publicly your Google Id.\nIf you don\'t want to have a history of your activities, or the possibility to save money in a virtual bank account, or other information about your work in this application, next time you can choose not to be asked anymore about this permission.\nYou can also give manually the permission in Application Manager, if your needs gets changed in future.</string>
+    <string name="info_when_permission_accounts_not_granted">This package works well without any permissions granted.\nWe need that permission only to know your Google Id, this way some of your activities can be remembered by this app.\nWe don\'t show anywhere publicly your Google Id.\nIf you don\'t want to have a history of your activities, or the possibility to save money in a virtual bank account, or other information about your work in this application, next time you can choose not to be asked anymore about this permission.\nYou can also give manually the permission in Application Manager, if your needs gets changed in future.</string>
     <string name="no_account_name_detected_because_permission">We don\'t know your Google Id, this way we cannot post on the server information about your activity.\nSometime ago you didn\'t accepted to give us the permission to read your Google account name.\nIf you want to view in future your results and other personal information, please go in Application Manager, this App, and turn on requested permissions.\nWe don\'t show publicly your Google Id.\nYou can also use this application without turning on the necessary permission for reading Google account name.</string>
 
 </resources>
