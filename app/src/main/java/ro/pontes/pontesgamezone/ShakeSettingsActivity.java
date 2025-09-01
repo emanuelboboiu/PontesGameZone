@@ -40,59 +40,36 @@ public class ShakeSettingsActivity extends Activity {
 
     // Let's see what happens when a check box is clicked in on shake settings:
     public void onCheckboxClicked(View view) {
-        // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
-        Settings set = new Settings(getApplicationContext()); // to save
-        // changes.
+        Settings set = new Settings(getApplicationContext());
 
-        // Check which check box was clicked
-        switch (view.getId()) {
-            case R.id.cbtOnshakeToggle:
-                MainActivity.isShake = checked;
-                set.saveBooleanSettings("isShake", MainActivity.isShake);
-                break;
-        } // end switch.
-    } // end the function called when the check box was clicked.
+        int viewId = view.getId();
 
-    // Now for magnitude choosing method, radio buttons:
+        if (viewId == R.id.cbtOnshakeToggle) {
+            MainActivity.isShake = checked;
+            set.saveBooleanSettings("isShake", MainActivity.isShake);
+        }
+    } // end onCheckboxClicked() method.
+
     public void onRadioButtonClicked(View view) {
-        // Is the button now checked?
         boolean checked = ((RadioButton) view).isChecked();
+        int viewId = view.getId();
 
-        // Check which radio button was clicked:
-        switch (view.getId()) {
-            case R.id.rbRadio1:
-                if (checked) {
-                    MainActivity.onshakeMagnitude = aMagnitudes[1];
-                }
-                break;
-            case R.id.rbRadio2:
-                if (checked) {
-                    MainActivity.onshakeMagnitude = aMagnitudes[2];
-                }
-                break;
-            case R.id.rbRadio3:
-                if (checked) {
-                    MainActivity.onshakeMagnitude = aMagnitudes[3];
-                }
-                break;
-            case R.id.rbRadio4:
-                if (checked) {
-                    MainActivity.onshakeMagnitude = aMagnitudes[4];
-                }
-                break;
-            case R.id.rbRadio5:
-                if (checked) {
-                    MainActivity.onshakeMagnitude = aMagnitudes[5];
-                }
-                break;
-        } // } // end switch.
+        if (viewId == R.id.rbRadio1 && checked) {
+            MainActivity.onshakeMagnitude = aMagnitudes[1];
+        } else if (viewId == R.id.rbRadio2 && checked) {
+            MainActivity.onshakeMagnitude = aMagnitudes[2];
+        } else if (viewId == R.id.rbRadio3 && checked) {
+            MainActivity.onshakeMagnitude = aMagnitudes[3];
+        } else if (viewId == R.id.rbRadio4 && checked) {
+            MainActivity.onshakeMagnitude = aMagnitudes[4];
+        } else if (viewId == R.id.rbRadio5 && checked) {
+            MainActivity.onshakeMagnitude = aMagnitudes[5];
+        }
 
-        // Save now the setting:
-        Settings set = new Settings(getApplicationContext()); // we need it for
-        // saving with
-        // SharedPreferences.
+        // Save the setting
+        Settings set = new Settings(getApplicationContext());
         set.saveFloatSettings("onshakeMagnitude", MainActivity.onshakeMagnitude);
     } // end onRadioButtonClicked.
 

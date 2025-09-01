@@ -626,29 +626,22 @@ public class CardsWarActivity extends Activity {
 
     // A method to check and uncheck war specific sounds:
     public void onCheckboxClicked(View view) {
-        // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
         Settings set = new Settings(this); // to save changes.
 
-        // Check which check box was clicked
-        switch (view.getId()) {
-            case R.id.cbtWarSounds:
-                MainActivity.isWarSounds = checked;
-                set.saveBooleanSettings("isWarSounds", MainActivity.isWarSounds);
-                // Set also the value of the object deck variable isDeckSound:
-                // Only if deck is already an object:
-                if (deck != null) {
-                    deck.isDeckSounds = !MainActivity.isWarSounds; // if war sounds
-                    // is true, deck
-                    // sounds is
-                    // false and
-                    // vice_versa.
-                } // end if deck is not null.
+        int viewId = view.getId();
 
-                break;
+        if (viewId == R.id.cbtWarSounds) {
+            MainActivity.isWarSounds = checked;
+            set.saveBooleanSettings("isWarSounds", MainActivity.isWarSounds);
 
-        } // end switch.
+            // Set also the value of the object deck variable isDeckSounds:
+            // Only if deck is already an object:
+            if (deck != null) {
+                deck.isDeckSounds = !MainActivity.isWarSounds; // if war sounds is true, deck sounds is false and vice versa.
+            }
+        }
     } // end enable or disable war sounds in this game.
 
 } // end CardsWarActivity.

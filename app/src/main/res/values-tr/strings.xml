@@ -2,7 +2,7 @@
 <resources>
 
     <!-- The main screen of the game: -->
-   <string name="app_name">Pontes GameZone</string>
+    <string name="app_name">Pontes GameZone</string>
     <string name="welcome_message">Pontes GameZone\'a Hoşgeldiniz!</string>
     <string name="registered_message">%1$s olarak kaydedildi</string>
     <string name="nickname">Takma Adın %1$s</string>
@@ -161,7 +161,7 @@
     <string name="language_english">İngilizce (Sağlayan Giulia Guerra)</string>
     <string name="language_italian">Italyanca (Sağlayan Giulia Guerra)</string>
     <string name="language_romanian">Rumence (Sağlayan Cristian Csetnek)</string>
-<string name="language_turkish">Türkçe (Sağlayan Erişilebilir Android Türkiye Ekibi)</string>
+    <string name="language_turkish">Türkçe (Sağlayan Erişilebilir Android Türkiye Ekibi)</string>
 
     <!-- On shake settings activity -->
     <string name="title_activity_shake_settings">Sallama ayarları</string>
@@ -275,9 +275,9 @@
 
     <!-- About dialog: -->
     <string name="about">Hakkında</string>
-    <string name="app_version">Pontes GameZone, sürüm 2.3</string>
+    <string name="app_version">Pontes GameZone, sürüm 2.5</string>
     <string name="app_release_date">Sürüm 1.0 yayınlanma tarihi: 16 Şubat 2015 Pazartesi</string>
-    <string name="app_last_update">Son Güncellenme: 17 Şubat 2023 Cumartesi</string>
+    <string name="app_last_update">Son Güncellenme: 1 Eylül 2025 Pazartesi</string>
     <string name="app_creator">Emanuel Boboiu (Manu) tarafından geliştirildi</string>
     <string name="phone_number">Telefon: +40740203043</string>
     <string name="email_address">E-posta: android@pontes.ro</string>

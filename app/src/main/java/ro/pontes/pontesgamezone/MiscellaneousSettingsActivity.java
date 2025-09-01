@@ -26,23 +26,19 @@ public class MiscellaneousSettingsActivity extends Activity {
 
     // Let's see what happens when a check box is clicked in audio settings:
     public void onCheckboxClicked(View view) {
-        // Is the view now checked?
         boolean checked = ((CheckBox) view).isChecked();
 
         Settings set = new Settings(this); // to save changes.
 
-        // Check which check box was clicked
-        switch (view.getId()) {
-            case R.id.cbtKeepScreenAwake:
-                MainActivity.isWakeLock = checked;
-                set.saveBooleanSettings("isWakeLock", MainActivity.isWakeLock);
-                break;
-            case R.id.cbtIsVibration:
-                MainActivity.isVibration = checked;
-                set.saveBooleanSettings("isVibration", MainActivity.isVibration);
-                break;
+        int viewId = view.getId();
 
-        } // end switch.
+        if (viewId == R.id.cbtKeepScreenAwake) {
+            MainActivity.isWakeLock = checked;
+            set.saveBooleanSettings("isWakeLock", MainActivity.isWakeLock);
+        } else if (viewId == R.id.cbtIsVibration) {
+            MainActivity.isVibration = checked;
+            set.saveBooleanSettings("isVibration", MainActivity.isVibration);
+        }
     } // end method for OnChecked settings.
 
 } // end Miscellaneous settings class.

@@ -442,29 +442,22 @@ public class MainActivity extends Activity {
     // A method to open a game depending of the item chosen in spinner:
     public void startAGame(View view) {
         int chosen = view.getId();
-        switch (chosen) {
-            case R.id.tvGame1:
-                startBlackJackGame();
-                break;
-            case R.id.tvGame2:
-                startPokerGame();
-                break;
-            case R.id.tvGame3:
-                startCardsWarGame();
-                break;
-            case R.id.tvGame4:
-                startWhoIsGreaterGame();
-                break;
-            case R.id.tvGame5:
-                startConnectFourGame();
-                break;
-            case R.id.tvGame6:
-                startSlotMachineGame();
-                break;
-            case R.id.tvGame7:
-                startScopaGame();
-                break;
-        } // end switch.
+
+        if (chosen == R.id.tvGame1) {
+            startBlackJackGame();
+        } else if (chosen == R.id.tvGame2) {
+            startPokerGame();
+        } else if (chosen == R.id.tvGame3) {
+            startCardsWarGame();
+        } else if (chosen == R.id.tvGame4) {
+            startWhoIsGreaterGame();
+        } else if (chosen == R.id.tvGame5) {
+            startConnectFourGame();
+        } else if (chosen == R.id.tvGame6) {
+            startSlotMachineGame();
+        } else if (chosen == R.id.tvGame7) {
+            startScopaGame();
+        }
     } // end openAGame() method.
 
     private void setLastVisit() {
